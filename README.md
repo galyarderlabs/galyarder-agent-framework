@@ -109,7 +109,7 @@ For peak "1-Man Army" efficiency, we recommend the following MCP servers:
 
 Galyarder Agent Framework distributes tasks to specialized C-Suite agents as well as deep engineering engines.
 
-**The C-Suite (Sovereign 1-Man Army Edition)**
+**The C-Suite (Solo Founder Edition)**
 - **`galyarder-specialist`** - Master workflow manager and orchestrator.
 - **`product-manager`** - Linear ticket management and ROI prioritization.
 - **`analytics-architect`** - Tracking schema and KPI enforcement.
@@ -147,9 +147,12 @@ Galyarder Agent Framework provides short-hand commands for rapid execution:
 - **/tdd** - Start a test-driven development session.
 - **/review** - Perform a principal-level code review.
 - **/cybersecurity** - Advanced offensive security audit and attack simulation.
+- **/analytics** - Design tracking schemas and define KPIs.
+- **/finops** - Audit cloud costs and AI token efficiency.
+- **/legal** - Generate TOS/Privacy and audit compliance.
+- **/release** - Manage versioning and launch orchestration.
 - **/build-fix** - Systematically fix build and type errors.
 - **/triage** - Diagnose bugs and create reproduction fix plans.
-- **/linear** - Sync PRDs and ideas to Linear tickets.
 - **/marketing** - Optimize copy and growth strategies.
 - **/video** - Generate programmatic marketing videos.
 - **/deploy** - Automate infrastructure and deployment.
@@ -162,13 +165,13 @@ Galyarder Agent Framework provides short-hand commands for rapid execution:
 ### Skills Library
 
 - **Elite Design Collection**: 50+ high-fidelity `DESIGN.md` specifications from industry leaders (Vercel, Stripe, Linear, etc.) located in `rules/design/`.
-- **Testing**: `test-driven-development` (RED-GREEN-REFACTOR cycle), `testing-anti-patterns`.
-- **Debugging**: `systematic-debugging` (4-phase root cause), `verification-before-completion`, `defense-in-depth`.
-- **Collaboration**: `brainstorming`, `writing-plans`, `executing-plans`, `subagent-driven-development`, `dispatching-parallel-agents`.
-- **Engineering Excellence**: `vercel-react-best-practices`, `web-design-guidelines`, `code-review-expert`, `interface-designer`.
-- **Growth & Marketing**: `seo-audit`, `schema-markup`, `onboarding-cro`, `marketing-psychology`, `copywriting`, `paywall-upgrade-cro`, `audit-website`, `copy-editing`, `launch-strategy`.
+- **Security & Intel**: `executing-red-team-exercise`, `monitoring-darkweb-sources`, `tracking-threat-actor-infrastructure`, `testing-for-xss-vulnerabilities-with-burpsuite`.
+- **Business & Legal**: `legal-tos-privacy`, `gdpr-compliance`, `iso-42001-ai-governance`, `saas-finops-optimization`, `finance-based-pricing-advisor`.
+- **Testing & Debugging**: `test-driven-development` (RED-GREEN-REFACTOR cycle), `systematic-debugging` (4-phase root cause), `verification-before-completion`.
+- **Growth & Marketing**: `seo-audit`, `schema-markup`, `onboarding-cro`, `marketing-psychology`, `copywriting`, `viral-referral-loops`.
 - **Product Management**: `linear-ticket-management`, `prd-to-plan`, `prd-to-issues`, `write-a-prd`, `ubiquitous-language`.
-- **Video**: `remotion-best-practices`, `video-generation`.
+- **Collaboration**: `brainstorming`, `writing-plans`, `executing-plans`, `subagent-driven-development`.
+- **Video & Content**: `remotion-best-practices`, `video-generation`, `email-sequence`.
 - **Meta**: `writing-skills`, `using-galyarder-agent-framework`.
 
 ## Philosophy
