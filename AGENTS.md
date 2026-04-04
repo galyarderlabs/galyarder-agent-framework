@@ -1,6 +1,6 @@
 # Galyarder Agent Framework: Standard Roster of Super Agents
 
-The Galyarder Agent Framework operates by distributing specialized cognitive labor across a core team of elite AI agents. This roster represents a full C-Suite for a solo founder.
+The Galyarder Agent Framework operates by distributing specialized cognitive labor across a core team of elite AI agents. This roster represents a full C-Suite for a 1-Man Army.
 
 ## 1. The Executive Layer
 - **`galyarder-specialist`** - Master workflow manager and orchestrator.

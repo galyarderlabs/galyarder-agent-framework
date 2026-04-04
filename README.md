@@ -109,7 +109,7 @@ For peak "1-Man Army" efficiency, we recommend the following MCP servers:
 
 Galyarder Agent Framework distributes tasks to specialized C-Suite agents as well as deep engineering engines.
 
-**The C-Suite (Solo Founder Edition)**
+**The C-Suite (1-Man Army Edition)**
 - **`galyarder-specialist`** - Master workflow manager and orchestrator.
 - **`product-manager`** - Linear ticket management and ROI prioritization.
 - **`analytics-architect`** - Tracking schema and KPI enforcement.

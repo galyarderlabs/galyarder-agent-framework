@@ -1,6 +1,6 @@
 # Release Notes - Galyarder Agent Framework v1.1.0
 
-Version 1.1.0 expands the framework from an engineering-focused tool into a complete business and lifecycle management engine for solo founders.
+Version 1.1.0 expands the framework from an engineering-focused tool into a complete business and lifecycle management engine for the 1-Man Army.
 
 ## Highlights
 
