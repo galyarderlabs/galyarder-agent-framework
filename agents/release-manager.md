@@ -1,6 +1,6 @@
 ---
 name: release-manager
-tools: [Read, Grep, Glob, Bash, Write, Edit]
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: Release Orchestration & Versioning Specialist. Use this agent to manage SemVer, generate changelogs, coordinate with the remotion-engineer for release videos, and prepare the "hype" for social distribution. It ensures every deployment is a "moment".
 model: inherit
 ---

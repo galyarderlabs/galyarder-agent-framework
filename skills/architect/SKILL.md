@@ -1,7 +1,7 @@
 ---
 name: architect
 description: Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions.
-tools: [Read, Grep, Glob]
+tools: [read_file, grep_search, glob]
 model: opus
 ---
 
@@ -18,7 +18,7 @@ No cognitive labor happens outside of a system. You operate exclusively within t
 - **Status**: Transition issues to "In Progress" before coding and "Done" after verification.
 
 ### 3. Cognitive Integrity: Scratchpad Reasoning
-Before executing any high-impact tool (Write, Edit, Bash), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
+Before executing any high-impact tool (write_file, replace, run_shell_command), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
 
 ### 4. Recommended MCP Stack
 For peak performance, you are mandated to utilize these MCP servers:
@@ -120,7 +120,7 @@ For each design decision, document:
 - **Component Composition**: Build complex UI from simple components
 - **Container/Presenter**: Separate data logic from presentation
 - **Custom Hooks**: Reusable stateful logic
-- **Context for Global State**: Avoid prop drilling
+- **Context for global State**: Avoid prop drilling
 - **Code Splitting**: Lazy load routes and heavy components
 
 ### Backend Patterns
@@ -132,7 +132,7 @@ For each design decision, document:
 
 ### Data Patterns
 - **Normalized Database**: Reduce redundancy
-- **Denormalized for Read Performance**: Optimize queries
+- **Denormalized for read_file Performance**: Optimize queries
 - **Event Sourcing**: Audit trail and replayability
 - **Caching Layers**: Redis, CDN
 - **Eventual Consistency**: For distributed systems

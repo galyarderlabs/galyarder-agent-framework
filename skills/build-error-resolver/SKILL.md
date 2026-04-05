@@ -1,7 +1,7 @@
 ---
 name: build-error-resolver
 description: Build and TypeScript error resolution specialist. Use PROACTIVELY when build fails or type errors occur. Fixes build/type errors only with minimal diffs, no architectural edits. Focuses on getting the build green quickly.
-tools: [Read, Write, Edit, Bash, Grep, Glob]
+tools: [read_file, write_file, replace, run_shell_command, grep_search, glob]
 model: opus
 ---
 
@@ -18,7 +18,7 @@ No cognitive labor happens outside of a system. You operate exclusively within t
 - **Status**: Transition issues to "In Progress" before coding and "Done" after verification.
 
 ### 3. Cognitive Integrity: Scratchpad Reasoning
-Before executing any high-impact tool (Write, Edit, Bash), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
+Before executing any high-impact tool (write_file, replace, run_shell_command), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
 
 ### 4. Recommended MCP Stack
 For peak performance, you are mandated to utilize these MCP servers:
@@ -110,7 +110,7 @@ c) Prioritize by impact
 For each error:
 
 1. Understand the error
-   - Read error message carefully
+   - read_file error message carefully
    - Check file and line number
    - Understand expected vs actual type
 

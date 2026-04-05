@@ -1,7 +1,7 @@
 ---
 name: doc-updater
 description: Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides.
-tools: [Read, Write, Edit, Bash, Grep, Glob]
+tools: [read_file, write_file, replace, run_shell_command, grep_search, glob]
 model: opus
 ---
 
@@ -18,7 +18,7 @@ No cognitive labor happens outside of a system. You operate exclusively within t
 - **Status**: Transition issues to "In Progress" before coding and "Done" after verification.
 
 ### 3. Cognitive Integrity: Scratchpad Reasoning
-Before executing any high-impact tool (Write, Edit, Bash), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
+Before executing any high-impact tool (write_file, replace, run_shell_command), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
 
 ### 4. Recommended MCP Stack
 For peak performance, you are mandated to utilize these MCP servers:
@@ -138,7 +138,7 @@ Links to other codemaps that interact with this area
 
 ### 1. Extract Documentation from Code
 ```
-- Read JSDoc/TSDoc comments
+- read_file JSDoc/TSDoc comments
 - Extract README sections from package.json
 - Parse environment variables from .env.example
 - Collect API endpoint definitions
@@ -368,14 +368,14 @@ import * as fs from 'fs'
 import { execSync } from 'child_process'
 
 async function updateDocs() {
-  // 1. Read codemaps
+  // 1. read_file codemaps
   const codemaps = readCodemaps()
 
   // 2. Extract JSDoc/TSDoc
   const apiDocs = extractJSDoc('src/**/*.ts')
 
   // 3. Update README.md
-  await updateReadme(codemaps, apiDocs)
+  await updateread_fileme(codemaps, apiDocs)
 
   // 4. Update guides
   await updateGuides(codemaps)

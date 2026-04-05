@@ -1,7 +1,7 @@
 ---
 name: refactor-cleaner
 description: Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.
-tools: [Read, Write, Edit, Bash, Grep, Glob]
+tools: [read_file, write_file, replace, run_shell_command, grep_search, glob]
 model: opus
 ---
 
@@ -18,7 +18,7 @@ No cognitive labor happens outside of a system. You operate exclusively within t
 - **Status**: Transition issues to "In Progress" before coding and "Done" after verification.
 
 ### 3. Cognitive Integrity: Scratchpad Reasoning
-Before executing any high-impact tool (Write, Edit, Bash), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
+Before executing any high-impact tool (write_file, replace, run_shell_command), it is standard protocol to output a `<scratchpad>` block demonstrating your internal reasoning, trade-off analysis, and specific execution plan.
 
 ### 4. Recommended MCP Stack
 For peak performance, you are mandated to utilize these MCP servers:
@@ -161,7 +161,7 @@ Create/update `docs/DELETION_LOG.md` with this structure:
 
 Before removing ANYTHING:
 - [ ] Run detection tools
-- [ ] Grep for all references
+- [ ] grep_search for all references
 - [ ] Check dynamic imports
 - [ ] Review git history
 - [ ] Check if part of public API
