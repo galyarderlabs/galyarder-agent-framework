@@ -1,14 +1,7 @@
 ---
 name: experimentation-engineer
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: Hypothesis & Experimentation Specialist. Use this agent to design A/B tests, optimize form completion rates, and manage the experiment lifecycle. It ensures that UI changes are driven by statistical evidence, not opinions.
-
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

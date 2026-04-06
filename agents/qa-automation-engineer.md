@@ -1,15 +1,8 @@
 ---
 name: qa-automation-engineer
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: |
   E2E Testing and Browser Automation specialist. Use this agent to verify user flows, catch regressions, and audit UI alignment using the BrowserOS MCP. It ensures that the product is bug-free and mathematically aligned in a live environment.
-
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

@@ -1,13 +1,7 @@
 ---
 name: tdd-guide
 description: Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.
-tools:
-  read_file: true
-  write_file: true
-  replace: true
-  run_shell_command: true
-  grep_search: true
-
+tools: [read_file, write_file, replace, run_shell_command, grep_search]
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

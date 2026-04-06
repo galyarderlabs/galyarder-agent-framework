@@ -1,14 +1,7 @@
 ---
 name: doc-updater
 description: Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides.
-tools:
-  read_file: true
-  write_file: true
-  replace: true
-  run_shell_command: true
-  grep_search: true
-  glob: true
-
+tools: [read_file, write_file, replace, run_shell_command, grep_search, glob]
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

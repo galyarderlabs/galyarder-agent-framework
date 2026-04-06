@@ -1,15 +1,8 @@
 ---
 name: social-strategist
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: |
   Social media and distribution specialist. Use this agent to create hype, draft Twitter/LinkedIn threads, and manage the social media distribution of new features. It focuses on the "Distribution" aspect of the 1-Man Army pipeline.
-
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

@@ -1,14 +1,6 @@
 ---
 name: obsidian-architect
-tools:
-  obsidian-cli: true
-  json-canvas: true
-  obsidian-bases: true
-  obsidian-markdown: true
-  defuddle: true
-  read_file: true
-  write_file: true
-  replace: true
+tools: [obsidian-cli, json-canvas, obsidian-bases, obsidian-markdown, defuddle, read_file, write_file, replace]
 description: |
   Digital Garden & Visual Architect. Use this agent to manage the Obsidian Knowledge Base, create visual logic maps via JSON Canvas, and maintain the automated development journal. It bridges the gap between abstract ideas and structured documentation.
 ---

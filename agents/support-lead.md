@@ -1,14 +1,7 @@
 ---
 name: support-lead
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: User Education & Support Specialist. Use this agent to generate FAQs, troubleshoot from code logic, and manage documentation as a first line of defense. It turns technical complexity into accessible guides for users.
-
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

@@ -1,14 +1,7 @@
 ---
 name: security-guardian
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: Security vulnerability detection and remediation specialist. Audits code for OWASP Top 10, IDOR, SSRF, and injection. Enforces zero trust and secure data handling for financial and AI platforms. Contains full knowledge of security reviewer and audit checklists.
-
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

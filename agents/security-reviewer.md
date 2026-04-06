@@ -1,14 +1,7 @@
 ---
 name: security-reviewer
 description: Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities.
-tools:
-  read_file: true
-  write_file: true
-  replace: true
-  run_shell_command: true
-  grep_search: true
-  glob: true
-
+tools: [read_file, write_file, replace, run_shell_command, grep_search, glob]
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

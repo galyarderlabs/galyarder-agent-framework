@@ -1,15 +1,8 @@
 ---
 name: interface-designer
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: |
   Specialist in module interface and API design. Use this agent to generate multiple radically different architectural designs for a system before implementation. It enforces the 'design-an-interface' skill to ensure clean, decoupled, and testable abstractions.
-
 ---
 
 # THE INTERFACE DESIGNER: ARCHITECTURAL ABSTRACTION PROTOCOL

@@ -1,15 +1,8 @@
 ---
 name: galyarder-specialist
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: |
   Master Orchestrator for the Galyarder Framework. Use this agent to manage skills, coordinate complex workflows, and execute the 1-Man Army pipeline. It possesses deep technical knowledge of the framework's internal architecture, hooks, and subagent management. It directs the transition from Engineering to Marketing and Distribution.
-
 ---
 
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)

@@ -1,15 +1,8 @@
 ---
 name: vercel-react-expert
-tools:
-  read_file: true
-  grep_search: true
-  glob: true
-  run_shell_command: true
-  write_file: true
-  replace: true
+tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
 description: |
   React and Next.js performance optimization specialist. Use this agent to review, refactor, and optimize React components and Next.js pages for maximum speed and Vercel-specific deployment standards. It enforces the 'vercel-react-best-practices' skill.
-
 ---
 
 # THE VERCEL & REACT EXPERT: PERFORMANCE PROTOCOL
