@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-04-06
+
+### Added
+- **Obsidian Visual Integration**: Integrated Obsidian as the primary visual and knowledge-base layer.
+  - New Agent: `obsidian-architect` for Digital Garden and Visual Architecture management.
+  - 5 New Skills: `defuddle`, `json-canvas`, `obsidian-bases`, `obsidian-cli`, and `obsidian-markdown`.
+  - Automated Pipeline Integration: Obsidian is now a core participant in Discovery (Dashboard Init), Architecture (Visual Mapping), and Engineering (Automated Activity Logging) phases.
+- **Project-Level Codex Discovery**: Added `AGENTS.md` and `.codex/config.toml` to the project root to improve specialist and command discovery in OpenAI Codex.
+
+### Fixed
+- **OpenCode Compatibility**: Refactored all 34 agent definitions to use the record format for `tools`, ensuring compatibility with OpenCode's strict YAML parser.
+- **Validation Cleanup**: Removed legacy `model: inherit` and `model: opus` fields from agent frontmatter to prevent "invalid model" errors in OpenCode and Codex.
+- **Branding Consistency**: Removed all legacy references to "Superpowers" from test scripts and internal variables, replacing them with "Galyarder".
+- **Shadow Binary Resolution**: Provided documentation and protocols for identifying and removing shadow binaries in global npm environments.
+
 ## [1.2.0] - 2026-04-05
 
 ### Fixed
