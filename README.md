@@ -175,6 +175,7 @@ invocation model.
 - **Elite Design Collection**: 50+ high-fidelity `DESIGN.md` specifications from industry leaders (Vercel, Stripe, Linear, etc.) located in `rules/design/`.
 - **Security & Intel**: `executing-red-team-exercise`, `monitoring-darkweb-sources`, `tracking-threat-actor-infrastructure`, `testing-for-xss-vulnerabilities-with-burpsuite`.
 - **Business & Legal**: `legal-tos-privacy`, `gdpr-compliance`, `iso-42001-ai-governance`, `saas-finops-optimization`, `finance-based-pricing-advisor`.
+- **Founder & Fundraising**: `founder-context`, `pitch-deck`, `investor-research`, `fundraising-email`, `data-room`, `board-update`, `accelerator-application`, `market-research`, `lead-scoring`, `founder-thought-leadership`.
 - **Testing & Debugging**: `test-driven-development` (RED-GREEN-REFACTOR cycle), `systematic-debugging` (4-phase root cause), `verification-before-completion`.
 - **Growth & Marketing**: `seo-audit`, `schema-markup`, `onboarding-cro`, `marketing-psychology`, `copywriting`, `viral-referral-loops`.
 - **Product Management**: `linear-ticket-management`, `prd-to-plan`, `prd-to-issues`, `write-a-prd`, `ubiquitous-language`.

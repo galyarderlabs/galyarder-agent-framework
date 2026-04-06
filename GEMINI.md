@@ -4,6 +4,7 @@ This repository exposes three layers to Gemini:
 - `./agents/` for role definitions
 - `./skills/` for workflow and domain capability
 - `./commands/` for extension commands
+- founder-oriented workflows now include fundraising, investor ops, accelerator applications, market research, and founder-brand systems through the dedicated skill set and `fundraising-operator` role
 
 When Gemini loads this extension:
 - treat `agents/*.md` as the authoritative role definitions
