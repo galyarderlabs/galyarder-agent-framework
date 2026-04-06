@@ -5,7 +5,13 @@ description: Use when completing tasks, implementing major features, or before m
 
 # Requesting Code Review
 
-Dispatch galyarder-agent-framework:code-reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation — never your session's history. This keeps the reviewer focused on the work product, not your thought process, and preserves your own context for continued work.
+Dispatch a code-reviewer subagent to catch issues before they cascade. On hosts
+with named agent dispatch, use `galyarder-agent-framework:code-reviewer`
+directly. On hosts without named agent dispatch, use the platform's native
+subagent mechanism with the reviewer prompt/template. The reviewer gets
+precisely crafted context for evaluation — never your session's history. This
+keeps the reviewer focused on the work product, not your thought process, and
+preserves your own context for continued work.
 
 **Core principle:** Review early, review often.
 
@@ -31,7 +37,12 @@ HEAD_SHA=$(git rev-parse HEAD)
 
 **2. Dispatch code-reviewer subagent:**
 
-Use Task tool with galyarder-agent-framework:code-reviewer type, fill template at `code-reviewer.md`
+Use the host's subagent mechanism and fill the template at
+`requesting-code-review/code-reviewer.md`.
+
+- Hosts with named agent dispatch: use `galyarder-agent-framework:code-reviewer`
+- Hosts without named agent dispatch: read the template, fill placeholders, and
+  dispatch a native subagent with that content
 
 **Placeholders:**
 - `{WHAT_WAS_IMPLEMENTED}` - What you just built
@@ -56,7 +67,7 @@ You: Let me request code review before proceeding.
 BASE_SHA=$(git log --oneline | grep "Task 1" | head -1 | awk '{print $1}')
 HEAD_SHA=$(git rev-parse HEAD)
 
-[Dispatch galyarder-agent-framework:code-reviewer subagent]
+[Dispatch code-reviewer subagent using the host's native mechanism]
   WHAT_WAS_IMPLEMENTED: Verification and repair functions for conversation index
   PLAN_OR_REQUIREMENTS: Task 2 from docs/galyarder-agent-framework/plans/deployment-plan.md
   BASE_SHA: a7981ec

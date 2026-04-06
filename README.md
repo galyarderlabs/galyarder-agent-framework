@@ -16,11 +16,11 @@ Once it's teased a spec out of the conversation, it shows it to you in chunks sh
 
 After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. 
 
-Next up, once you say "go", it launches a *subagent-driven-development* process, having agents work through each engineering task, inspecting and reviewing their work, and continuing forward. It's not uncommon for Claude to be able to work autonomously for a couple hours at a time without deviating from the plan you put together.
+Next up, once you say "go", it launches a *subagent-driven-development* process, routing each engineering task through the host's available delegation model while preserving the same review and orchestration workflow. On some hosts this appears as named agent dispatch; on others it is implemented through native subagents using Galyarder role prompts. It's not uncommon for Claude to be able to work autonomously for a couple hours at a time without deviating from the plan you put together.
 
 Finally, Galyarder Agent Framework shifts into **Marketing Mode**, triggering skills for SEO, CRO, and Remotion (Video) to ensure what you built actually achieves market fit.
 
-There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Galyarder Agent Framework.
+There's a bunch more to it, but that's the core of the system. The workflow philosophy stays consistent across hosts, while runtime mechanics such as installation, command invocation, and subagent dispatch vary by platform. Once installed correctly for your host, your coding agent can follow the same Galyarder workflow.
 
 ## Sponsorship
 
@@ -32,7 +32,7 @@ Thanks!
 
 ## Installation
 
-Galyarder is a multi-platform plugin system. Installation varies by platform:
+Galyarder is a multi-platform agent framework with host-specific installation and runtime adapters. Installation varies by platform:
 
 ### Claude Code / Copilot CLI
 
@@ -162,6 +162,11 @@ Galyarder Agent Framework provides short-hand commands for rapid execution:
 - **/docs** - Update project documentation and codemaps.
 - **/e2e** - Generate and run end-to-end user journey tests.
 - **/clean** - Remove dead code and refactor for maintainability.
+
+Command UX depends on the host. Some platforms expose these as native slash
+commands or plugin commands, while others map them through host-specific config
+or prompting conventions. Check the platform-specific install docs for the exact
+invocation model.
 
 ### Skills Library
 

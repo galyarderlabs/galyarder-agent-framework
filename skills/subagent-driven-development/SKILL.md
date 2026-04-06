@@ -123,6 +123,20 @@ Implementer subagents report one of four statuses. Handle each appropriately:
 - `./spec-reviewer-prompt.md` - Dispatch spec compliance reviewer subagent
 - `./code-quality-reviewer-prompt.md` - Dispatch code quality reviewer subagent
 
+## Platform Adaptation
+
+This skill is written in cross-platform terms.
+
+- Hosts with named agent dispatch can call the named agent directly.
+- Hosts without named agent dispatch must translate agent names into native
+  subagent calls using either `agents/*.md` role files or the local prompt
+  templates listed above.
+- On Codex specifically, follow
+  `using-galyarder-agent-framework/references/codex-tools.md`:
+  `Task` means `spawn_agent`, `TodoWrite` means `update_plan`, and named agent
+  references are implemented by spawning a native Codex agent with the filled
+  role prompt.
+
 ## Example Workflow
 
 ```

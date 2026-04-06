@@ -7,8 +7,10 @@ Use this template when dispatching a code quality reviewer subagent.
 **Only dispatch after spec compliance review passes.**
 
 ```
-Task tool (galyarder-agent-framework:code-reviewer):
-  Use template at requesting-code-review/code-reviewer.md
+Dispatch code-reviewer subagent:
+  On hosts with named agent dispatch, use `galyarder-agent-framework:code-reviewer`
+  On hosts without named agent dispatch, use the native subagent mechanism with
+  the filled template at requesting-code-review/code-reviewer.md
 
   WHAT_WAS_IMPLEMENTED: [from implementer's report]
   PLAN_OR_REQUIREMENTS: Task N from [plan-file]

@@ -64,6 +64,33 @@ Skills are discovered automatically. Codex activates them when:
 - The task matches a skill's description
 - The `using-galyarder-agent-framework` skill directs Codex to use one
 
+## Subagents and Agent Roles
+
+Codex and Galyarder work together in two layers:
+
+- `skills/` are discovered natively by Codex
+- `agents/*.md` are role definitions, not a native Codex agent registry
+
+When a skill says to dispatch a named agent such as
+`galyarder-agent-framework:code-reviewer`, read that as a cross-platform workflow
+instruction:
+
+1. On hosts with named agent dispatch, use the named agent directly.
+2. On Codex, read the relevant `agents/*.md` file or local prompt template.
+3. Spawn a native Codex subagent with those instructions using `spawn_agent`.
+
+In other words: Codex runs native subagents, while Galyarder supplies the role
+prompt those subagents should follow.
+
+This adaptation layer translates runtime mechanics only. It does not weaken or
+rewrite the framework's core agent constitution. The strict workflow,
+expectations, and foundations defined in `agents/*.md` remain authoritative; the
+Codex adapter is responsible only for mapping those roles onto Codex-native
+subagent capabilities.
+
+For the exact Codex mapping, see
+[`skills/using-galyarder-agent-framework/references/codex-tools.md`](../skills/using-galyarder-agent-framework/references/codex-tools.md).
+
 ### Personal Skills
 
 Create your own skills in `~/.agents/skills/`:

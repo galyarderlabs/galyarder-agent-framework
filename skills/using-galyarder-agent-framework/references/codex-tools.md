@@ -6,7 +6,7 @@ Skills use Claude Code tool names. When you encounter these in a skill, use your
 |-----------------|------------------|
 | `Task` tool (dispatch subagent) | `spawn_agent` (see [Named agent dispatch](#named-agent-dispatch)) |
 | Multiple `Task` calls (parallel) | Multiple `spawn_agent` calls |
-| Task returns result | `wait` |
+| Task returns result | `wait_agent` |
 | Task completes automatically | `close_agent` to free slot |
 | `TodoWrite` (task tracking) | `update_plan` |
 | `Skill` tool (invoke a skill) | Skills load natively — just follow the instructions |
@@ -22,7 +22,7 @@ Add to your Codex config (`~/.codex/config.toml`):
 multi_agent = true
 ```
 
-This enables `spawn_agent`, `wait`, and `close_agent` for skills like `dispatching-parallel-agents` and `subagent-driven-development`.
+This enables `spawn_agent`, `wait_agent`, and `close_agent` for skills like `dispatching-parallel-agents` and `subagent-driven-development`.
 
 ## Named agent dispatch
 
@@ -42,6 +42,26 @@ When a skill says to dispatch a named agent type:
 |-------------------|------------------|
 | `Task tool (galyarder-agent-framework:code-reviewer)` | `spawn_agent(agent_type="worker", message=...)` with `code-reviewer.md` content |
 | `Task tool (general-purpose)` with inline prompt | `spawn_agent(message=...)` with the same prompt |
+
+## Cross-platform dispatch rule
+
+Write skills so the workflow is portable:
+
+1. If the host supports named agent dispatch, use the named agent directly.
+2. If the host does not support named agents, treat `agents/*.md` as role prompt
+   sources and dispatch a native subagent with those instructions.
+3. If the skill includes a local prompt template, prefer that template over a
+   generic agent file because it already captures task-specific placeholders.
+
+For Codex specifically, this means:
+- `agents/*.md` are not a runtime registry
+- they are role definitions used to construct `spawn_agent(...)` messages
+- the spawned runtime agent is still one of Codex's built-in agent types
+
+This is an adapter layer, not a policy rewrite. Keep the strict workflow and
+expectations defined by the framework's agent and skill content intact. The
+Codex-specific responsibility is to translate dispatch and tool mechanics into
+Codex-native operations without softening the underlying protocol.
 
 ### Message framing
 
