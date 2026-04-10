@@ -1,7 +1,7 @@
 {
   "name": "galyarder-framework",
-  "version": "1.3.5",
-  "description": "The ultimate 1-Man Army framework for high-rigor engineering and business growth",
+  "version": "1.4.0",
+  "description": "Digital Company Operating System for Solo Founders. Agentic development framework with 100+ execution-grade skills.",
   "type": "module",
   "main": ".opencode/plugins/galyarder-framework.js",
   "author": "Galyarder Labs",

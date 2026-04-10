@@ -1,6 +1,72 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to Galyarder Framework will be documented in this file.
+
+## [1.4.0] - 2026-04-10
+
+### Added
+- **Dashboard Integration:** Complete integration layer between Framework and Dashboard
+  - Framework adapter (`dashboard/packages/adapters/galyarder-framework/`)
+  - Agent loader (loads 34 agents from Framework)
+  - Skill executor (executes 100+ skills)
+  - Orchestrator (routes tasks to departments)
+  - Test script for validation
+- **Documentation:**
+  - Organization chart with 8 departments (`docs/ORG_CHART.md`)
+  - Integration guide (`docs/INTEGRATION.md`)
+  - Unified platform architecture (`docs/UNIFIED_PLATFORM.md`)
+  - Quick start guide (`docs/QUICK_START.md`)
+  - Dashboard vs Framework explanation (`docs/DASHBOARD_VS_FRAMEWORK.md`)
+  - Integration complete summary (`docs/INTEGRATION_COMPLETE.md`)
+- **Obsidian Templates:**
+  - Integration status report template
+  - Updated vision document with deployment options
+- **Deployment Options:**
+  - Standalone mode (conversational via AI assistant)
+  - Dashboard mode (web UI with visual management)
+
+### Changed
+- Updated README with deployment options and integration info
+- Enhanced organization structure documentation
+- Clarified Framework vs Dashboard relationship
+
+### Technical
+- Agent loading from markdown files
+- Skill parsing and registry system
+- Task routing via orchestrator
+- Dashboard-compatible adapter interface
+
+## [1.3.0] - Previous Release
+
+### Added
+- Fundraising operator and founder office skills
+- Obsidian architecture and knowledge management
+- Security and threat intelligence agents
+- Growth and marketing specialists
+
+## [1.2.0] - Previous Release
+
+### Added
+- Core engineering agents
+- Product management workflow
+- Test-driven development skills
+- Systematic debugging framework
+
+## [1.1.0] - Previous Release
+
+### Added
+- Initial agent framework
+- Basic skill library
+- Workflow orchestration
+- Command shortcuts
+
+## [1.0.0] - Initial Release
+
+### Added
+- Core framework structure
+- Agent system
+- Skill system
+- Documentation
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).

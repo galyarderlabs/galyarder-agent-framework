@@ -1,9 +1,10 @@
 {
   "name": "galyarder-framework",
   "description": "Galyarder Framework: The ultimate 1-Man Army framework for high-rigor engineering and business growth",
-  "version": "1.3.5",
+  "version": "1.4.0",
   "contextFileName": "GEMINI.md",
   "commands": "./commands/",
-  "skills": "./skills/",
-  "agents": "./agents/"
+  "personas": "./personas/",
+  "agents": "./agents/",
+  "skills": "./skills/"
 }

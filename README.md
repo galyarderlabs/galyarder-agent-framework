@@ -2,13 +2,18 @@
   <img src="public/logo.png" width="200" alt="Galyarder Framework Logo">
 </p>
 
-# Galyarder Framework
+# GALYARDER FRAMEWORK (v1.4.0)
 
-The ultimate 1-Man Army framework powered by 100+ elite agent skills.
+**Digital Company Operating System for Solo Founders**
 
-Galyarder Framework is a high-fidelity cognitive layer designed to transform standard AI coding assistants into a multi-disciplinary, autonomous workforce. It unifies elite software engineering, behavioral marketing psychology, and strategic product orchestration into a single, cohesive system.
+Galyarder Framework transforms AI coding assistants into a fully structured, autonomous workforce. It provides **34 specialized agents** and **100+ execution-grade skills** across the full product lifecycle — from fundraising and product strategy to engineering, security, growth, and legal compliance.
 
-Built for the **1-Man Army** (Solo Founder), Galyarder enforces a strict lifecycle that ensures what you build is mathematically sound, production-ready, and optimized for market success.
+**Two Ways to Use:**
+
+1. **Standalone** - Install in Claude Code, Cursor, or Gemini. Chat with your digital company.
+2. **With Dashboard** - Visual web platform for managing multiple companies, agents, and tasks.
+
+Built for the **1-Man Army** - one founder with the leverage of an entire company.
 
 ## How it works
 
@@ -107,6 +112,39 @@ For peak "1-Man Army" efficiency, we recommend the following MCP servers:
 
 ## What's Inside
 
+### Two Deployment Options
+
+**Option 1: Standalone (Chat-Based)**
+- Install Framework in AI assistant (Claude Code, Cursor, Gemini)
+- Chat directly with galyarder-specialist
+- Agents execute through conversation
+- Tasks tracked in Linear (optional)
+- Reports in Obsidian (optional)
+
+**Option 2: With Dashboard (Web-Based)**
+- Visual web UI for company management
+- Hire agents from Framework library
+- Monitor execution in real-time
+- Database-backed persistence
+- Multi-company support
+- See [Integration Guide](docs/INTEGRATION.md) and [Quick Start](docs/QUICK_START.md)
+
+### Organization Structure
+
+Galyarder Framework operates as a **digital company** with clear departments and reporting lines:
+
+- **Executive:** galyarder-specialist (CEO/Orchestrator)
+- **Founder Office:** fundraising-operator (Capital & investor relations)
+- **Product:** product-manager, planner (Requirements & roadmap)
+- **Engineering:** super-architect, elite-developer, qa-automation-engineer (Implementation & quality)
+- **Security:** security-guardian, perseus, cyber-intel (Threat analysis & pentesting)
+- **Growth:** growth-strategist, conversion-engineer, retention-specialist (Acquisition & retention)
+- **Operations:** devops-engineer, release-manager (Infrastructure & deployment)
+- **Legal/Finance:** legal-counsel, finops-manager (Compliance & cost optimization)
+- **Knowledge:** obsidian-architect (Documentation & memory)
+
+See [Organization Chart](docs/ORG_CHART.md) for full structure.
+
 ### Agents
 
 Galyarder Framework distributes tasks to specialized C-Suite agents as well as deep engineering engines.
@@ -200,6 +238,24 @@ Skills live directly in this repository. To contribute:
 4. Submit a PR.
 
 See `skills/writing-skills/SKILL.md` for the complete guide.
+
+## Dashboard Integration
+
+The Framework can be integrated with the Dashboard web platform for visual management:
+
+- **Dashboard Location:** `dashboard/` subdirectory
+- **Adapter:** `dashboard/packages/adapters/galyarder-framework/`
+- **Setup Guide:** [docs/QUICK_START.md](docs/QUICK_START.md)
+- **Architecture:** [docs/UNIFIED_PLATFORM.md](docs/UNIFIED_PLATFORM.md)
+
+The Dashboard provides:
+- Web UI for company management
+- Visual org chart
+- Task monitoring
+- Cost tracking
+- Multi-company support
+
+Framework works standalone OR with Dashboard. Your choice.
 
 ## Updating
 
