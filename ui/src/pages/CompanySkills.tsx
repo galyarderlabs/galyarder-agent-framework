@@ -46,7 +46,7 @@ import {
   Github,
   Link2,
   ExternalLink,
-  Galyarder,
+  Paperclip,
   Pencil,
   Plus,
   RefreshCw,

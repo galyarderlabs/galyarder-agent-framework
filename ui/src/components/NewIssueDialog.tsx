@@ -44,7 +44,7 @@ import {
   AlertTriangle,
   Tag,
   Calendar,
-  Galyarder,
+  Paperclip,
   FileText,
   Loader2,
   ListTree,

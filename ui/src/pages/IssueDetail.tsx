@@ -68,7 +68,7 @@ import {
   ListTree,
   MessageSquare,
   MoreHorizontal,
-  Galyarder,
+  Paperclip,
   Repeat,
   SlidersHorizontal,
   Trash2,
