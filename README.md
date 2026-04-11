@@ -4,11 +4,9 @@
 
 # GALYARDER FRAMEWORK
 
-**Digital Company Operating System for Solo Founders**
+**Agentic Skills & Agent Framework for AI Assistants**
 
-Galyarder Framework transforms AI coding assistants into a fully structured, autonomous workforce. It provides **35 specialized agents** and **132 execution-grade skills** across the full product lifecycle — from fundraising and product strategy to engineering, security, growth, and legal compliance.
-
-**Install in your AI coding assistant. Chat with your digital company.**
+Galyarder Framework provides **35 specialized agents** and **132 production-ready skills** for AI assistants. Install in Claude Code, Cursor, Gemini, Codex, or any agentic tool and get a full workforce of specialized agents covering engineering, security, growth, legal, and more.
 
 Built for the **1-Man Army** - one founder with the leverage of an entire company.
 
