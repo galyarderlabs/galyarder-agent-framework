@@ -14,6 +14,8 @@
 
 <p align="center">Built for the <strong>1-Man Army</strong> — one founder with the leverage of an entire company.</p>
 
+---
+
 ## How it works
 
 It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. 
@@ -100,14 +102,12 @@ Fetch and follow instructions from https://raw.githubusercontent.com/galyarderla
 
 For peak "1-Man Army" efficiency, we recommend the following MCP servers:
 
-- **[[RTK (Rust Token Killer)](https://github.com/rtk-ai/rtk)]**: Mandatory proxy for all shell commands to save 60-90% tokens.
+- **[[RTK](https://github.com/rtk-ai/rtk)]**: Mandatory proxy for all shell commands to save 60-90% tokens.
 - **[[Linear](https://linear.app/docs/mcp)]**: For real-time project management and issue tracking.
 - **[[Stitch](https://stitch.withgoogle.com/docs/mcp/setup)]**: For rapid UI generation and design token management.
 - **[[BrowserOS](https://docs.browseros.com/features/use-with-claude-code)]**: For automated browser testing and external service integration.
 - **[[Context7](https://context7.com/docs/resources/all-clients)]**: For up-to-date documentation and API references.
 - **[[Sequential Thinking](https://mcpservers.org/servers/modelcontextprotocol/sequentialthinking)]**: For deconstructing complex architectural problems.
-- **[[Neon](https://github.com/neondatabase/mcp-server-neon)] / [[Supabase](https://supabase.com/docs/guides/getting-started/mcp)]**: For serverless database management.
-- **[[PostHog](https://posthog.com/docs/model-context-protocol)]**: For product analytics and event tracking.
 
 ## What's Inside
 
