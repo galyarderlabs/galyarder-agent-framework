@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo.png" width="200" alt="Galyarder Framework Logo">
+  <img src="public/header.jpg" width="900" alt="Galyarder Framework">
 </p>
 
 # GALYARDER FRAMEWORK
