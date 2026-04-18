@@ -21,8 +21,8 @@
 Galyarder Framework is the underlying **Logic Engine** designed to power the next generation of autonomous entities. It provides the "brain" for AI agents running on local servers, VPS, or distributed cloud infrastructure.
 
 ### The Galyarder Triad:
-1.  **[Galyarder Agent](https://galyarderlabs.app/agent)**: The **Entity**. Digital personas with recursive long-term memory, stable visual identity, and universal presence (Telegram, Discord, WhatsApp).
-2.  **[Galyarder HQ](https://galyarderlabs.app/hq)**: The **Control Plane**. A master governance layer for orchestrating swarms, monitoring mission queues, and maintaining operational control.
+1.  **[Galyarder Agent](https://github.com/galyarderlabs/galyarder-agent)**: The **Entity**. Digital personas with recursive long-term memory, stable visual identity, and universal presence (Telegram, Discord, WhatsApp).
+2.  **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane**. A master governance layer for orchestrating swarms, monitoring mission queues, and maintaining operational control.
 3.  **Galyarder Framework**: The **Intelligence**. A suite of 40+ specialized logic engines and 130+ elite-level SOPs that execute complex missions with deterministic precision.
 
 ---
