@@ -8,17 +8,17 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 DOCS_DIR = REPO_ROOT / "docs"
 
-# Global icons for auto-discovered domains
+# Global icons for auto-discovered domains (MkDocs Material syntax: :material-icon-name:)
 ICONS = {
-    "executive": "material/account-tie",
-    "engineering": "material/hammer-wrench",
-    "growth": "material/trending-up",
-    "security": "material/shield-lock",
-    "product": "material/package-variant-closed",
-    "infrastructure": "material/server",
-    "finance": "material/scale-balance",
-    "knowledge": "material/brain",
-    "default": "material/folder-zip"
+    "executive": "material-account-tie",
+    "engineering": "material-hammer-wrench",
+    "growth": "material-trending-up",
+    "security": "material-shield-lock",
+    "product": "material-package-variant-closed",
+    "infrastructure": "material-server",
+    "finance": "material-scale-balance",
+    "knowledge": "material-brain",
+    "default": "material-folder-zip"
 }
 
 def prettify(name):
@@ -82,9 +82,7 @@ class Asset:
         self.description = self.description.replace('"', "'").strip()
 
     def generate_page(self, icon, label):
-        # Format icon correctly for MkDocs Material (:material-name:)
-        mk_icon = f":{icon.replace('/', '-')}:"
-        
+        mk_icon = f":{icon}:"
         return f"""---
 title: "{self.title} | Galyarder Framework"
 description: "{self.description}"
@@ -100,13 +98,19 @@ description: "{self.description}"
 """
 
 def generate():
-    print("🚀 De-slopping Documentation Portal...")
+    print("🚀 Executing Professional Portal Synchronization...")
     
     # Clean output directories
     for d in ["agents", "skills", "commands", "design"]:
         target = DOCS_DIR / d
         if target.exists(): shutil.rmtree(target)
         target.mkdir(parents=True, exist_ok=True)
+
+    # 0. Sync Core Files
+    for f in REPO_ROOT.glob("*.md"):
+        if f.name in ["README.md", "README_GOOD.md", "README_CURRENT.md"]: continue
+        print(f"[*] Syncing: {f.name}")
+        shutil.copy(f, DOCS_DIR / f.name)
 
     # Discovery
     silos = {}
@@ -171,8 +175,7 @@ def generate():
         
         for silo_name in sorted(inventory[category].keys()):
             info = silos[silo_name]
-            mk_icon = f":{info['icon'].replace('/', '-')}:"
-            idx_content += f"## {mk_icon} {silo_name}\n\n"
+            idx_content += f"## :{info['icon']}: {silo_name} Silo\n\n"
             idx_content += '<div class="grid cards" markdown>\n\n'
             for title, link, desc in sorted(inventory[category][silo_name]):
                 idx_content += f"-   **[{title}]({link})**\n\n    ---\n\n    {desc}\n\n"
@@ -181,7 +184,7 @@ def generate():
         with open(DOCS_DIR / category / "index.md", "w", encoding="utf-8") as f:
             f.write(idx_content)
 
-    # Special Case: Design Systems
+    # Special Case: Design System Grid
     design_idx = "# Design System Specifications\n\nElite UI specifications to enforce aesthetic law.\n\n"
     design_idx += '<div class="grid cards" markdown>\n\n'
     design_src = REPO_ROOT / "Growth" / "design"
@@ -193,7 +196,7 @@ def generate():
     design_idx += "</div>"
     with open(DOCS_DIR / "design/index.md", "w", encoding="utf-8") as f: f.write(design_idx)
 
-    print("Success: Documentation portal de-slopped and verified.")
+    print("Success: Professional Portal Synchronization complete.")
 
 if __name__ == "__main__":
     generate()

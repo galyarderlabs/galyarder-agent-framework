@@ -6,9 +6,11 @@
 
 ## Humans 3.0: Autonomous Goal Integration
 
-Galyarder Framework is the **Mission Logic Engine** designed to power high-scale digital empires. It bridges the gap between high-level strategic intent and ground-level deterministic execution across 8 specialized command silos.
+Galyarder Framework is the **Mission Logic Engine** designed to power high-scale digital enterprises. It bridges the gap between high-level strategic intent and ground-level deterministic execution across 8 specialized command silos.
 
 ### Global Command Architecture
+
+The framework operates as a self-evolving neural network where intent is distilled, architected, and executed with zero-trust rigor.
 
 ```mermaid
 graph TD
@@ -38,20 +40,22 @@ Every operation within the framework enforces a non-negotiable sequence of high-
 | Protocol | Category | Tool | Mandatory Action |
 | :--- | :--- | :--- | :--- |
 | **Traceability** | Alignment | **Linear** | Project-scoped ticket lock before labor. |
-| **Cognition** | Deconstruction | **Think MCP** | 8-phase logic mapping via `sequentialthinking`. |
+| **Cognition** | Deconstruction | **Thinking MCP** | 8-phase logic mapping via `sequentialthinking`. |
 | **Validation** | Engineering | **Context7** | Real-time fetch of official API documentation. |
 | **Execution** | Efficiency | **RTK Proxy** | Surgical, token-efficient implementation. |
 | **Persistence** | Memory | **Obsidian** | Durable departmental reporting. |
 
 ---
 
-## Command Silos
+## High-Integrity Command Silos
+
+Explore the specialized workforce and tactical playbooks of the Galyarder Digital Enterprise.
 
 <div class="grid cards" markdown>
 
 -   :material-account-tie: **Executive**
     ---
-    Strategic hegemony and master orchestration protocols.
+    Strategic oversight and master orchestration protocols.
     [Enter Command Silo](agents/index.md)
 
 -   :material-hammer-wrench: **Engineering**

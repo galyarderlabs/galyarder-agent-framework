@@ -2,7 +2,7 @@
 
 Discover the high-integrity workforce and protocols designed for autonomous orchestration.
 
-## :material-folder-zip: Engineering
+## :material-folder-zip: Engineering Silo
 
 <div class="grid cards" markdown>
 
@@ -62,7 +62,7 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
 </div>
 
-## :material-folder-zip: Executive
+## :material-folder-zip: Executive Silo
 
 <div class="grid cards" markdown>
 
@@ -146,7 +146,7 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
 </div>
 
-## :material-folder-zip: Growth
+## :material-folder-zip: Growth Silo
 
 <div class="grid cards" markdown>
 
@@ -272,7 +272,7 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
 </div>
 
-## :material-folder-zip: Knowledge
+## :material-folder-zip: Knowledge Silo
 
 <div class="grid cards" markdown>
 
@@ -308,7 +308,7 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
 </div>
 
-## :material-folder-zip: Legal-Finance
+## :material-folder-zip: Legal-Finance Silo
 
 <div class="grid cards" markdown>
 
@@ -386,7 +386,7 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
 </div>
 
-## :material-folder-zip: Product
+## :material-folder-zip: Product Silo
 
 <div class="grid cards" markdown>
 
@@ -428,7 +428,7 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
 </div>
 
-## :material-folder-zip: Security
+## :material-folder-zip: Security Silo
 
 <div class="grid cards" markdown>
 
