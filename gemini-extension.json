@@ -1,14 +1,16 @@
 {
   "name": "galyarder-framework",
-  "description": "Galyarder Framework: Advanced Digital Company Orchestration",
+  "description": "Galyarder Framework: Advanced Digital Company OS",
   "version": "1.7.0",
   "contextFileName": "GEMINI.md",
-  "commands": "./commands/",
-  "personas": "./personas/",
-  "agents": "./agents/",
-  "skills": [
-    "./skills/",
-    "./design/",
-    "./marketing-skill/"
+  "departments": [
+    "./Executive/",
+    "./Engineering/",
+    "./Growth/",
+    "./Security/",
+    "./Product/",
+    "./Infrastructure/",
+    "./Legal-Finance/",
+    "./Knowledge/"
   ]
 }

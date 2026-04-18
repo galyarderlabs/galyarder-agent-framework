@@ -1,6 +1,0 @@
-{
-  "name": "core-agents",
-  "description": "40 specialized operational agents for Galyarder Framework.",
-  "version": "1.7.0",
-  "agents": "./"
-}

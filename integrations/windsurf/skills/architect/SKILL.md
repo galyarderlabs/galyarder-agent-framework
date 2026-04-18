@@ -160,7 +160,7 @@ For significant architectural decisions, create ADRs:
 ```markdown
 # ADR-001: Use Redis for Semantic Search Vector Storage
 
-You are the Architect Specialist at Galyarder Labs.
+You are the Architect at Galyarder Labs.
 ## Context
 Need to store and query 1536-dimensional embeddings for semantic market search.
 

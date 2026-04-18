@@ -262,10 +262,15 @@ TOOLS="antigravity cursor aider kilocode windsurf opencode augment claude-code c
 
 SKILLS_TMP="$(mktemp)"
 ( cd "$REPO_ROOT"
-  # SURGICAL FIND: Agents, Personas, Skills, Commands, Design, AND Marketing
-  find agents personas design commands marketing-skill -maxdepth 1 -type f -name "*.md" -not -path './.git/*' | sort
-  find skills marketing-skill -type f -name 'SKILL.md' -not -path '*/assets/*' -not -path '*/scripts/*' -not -path '*/references/*' -not -path './.git/*' | sort
-) > "$SKILLS_TMP"
+  # SURGICAL FIND: Search across all Department Directories
+  DEPT_DIRS="Executive Engineering Growth Security Product Infrastructure Legal-Finance Knowledge"
+  for d in $DEPT_DIRS; do
+    if [ -d "$d" ]; then
+        find "$d" -maxdepth 2 -type f -name "*.md" -not -path './.git/*' | sort
+        find "$d" -type f -name 'SKILL.md' -not -path '*/assets/*' -not -path '*/scripts/*' -not -path '*/references/*' -not -path './.git/*' | sort
+    fi
+  done
+) | sort -u > "$SKILLS_TMP"
 
 for t in $TOOLS; do
   rm -rf "${OUT_BASE}/${t}"; mkdir -p "${OUT_BASE}/${t}"
@@ -280,6 +285,10 @@ done
 init_count_vars
 
 while IFS= read -r rel_path; do
+  # Skip plugin manifests
+  [[ "$rel_path" =~ plugin.json$ ]] && continue
+  [[ "$rel_path" =~ gemini-extension.json$ ]] && continue
+  
   src="${REPO_ROOT}/${rel_path#./}"; src_dir="$(dirname "$src")"
 
   meta="$(extract_frontmatter "$src")"; name="${meta%%$'\t'*}"; description="${meta#*$'\t'}"

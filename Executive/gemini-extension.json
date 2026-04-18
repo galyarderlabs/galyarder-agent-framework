@@ -1,0 +1,10 @@
+{
+  "name": "galyarder-executive",
+  "description": "Executive Department for Galyarder Framework.",
+  "version": "1.7.0",
+  "personas": "./personas/",
+  "agents": "./agents/",
+  "skills": [
+    "./skills/"
+  ]
+}

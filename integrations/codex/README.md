@@ -4,7 +4,7 @@ This directory contains converted Galyarder Framework assets for **OpenAI Codex*
 
 ## Included Assets
 
-- **259** assets.
+- **199** assets.
 
 ## Format
 

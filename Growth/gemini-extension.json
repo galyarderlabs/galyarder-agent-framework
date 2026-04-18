@@ -1,0 +1,11 @@
+{
+  "name": "galyarder-growth",
+  "description": "Growth Department for Galyarder Framework.",
+  "version": "1.7.0",
+  "agents": "./agents/",
+  "skills": [
+    "./skills/",
+    "./design/"
+  ],
+  "commands": "./commands/"
+}

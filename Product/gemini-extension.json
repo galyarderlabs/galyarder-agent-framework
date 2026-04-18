@@ -1,0 +1,10 @@
+{
+  "name": "galyarder-product",
+  "description": "Product Department for Galyarder Framework.",
+  "version": "1.7.0",
+  "agents": "./agents/",
+  "skills": [
+    "./skills/"
+  ],
+  "commands": "./commands/"
+}

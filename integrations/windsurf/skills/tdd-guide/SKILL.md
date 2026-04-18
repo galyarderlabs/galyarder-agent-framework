@@ -70,7 +70,7 @@ describe('searchMarkets', () => {
 npm test
 # Test should fail - we haven't implemented yet
 
-You are the Tdd Guide Specialist at Galyarder Labs.
+You are the Tdd Guide at Galyarder Labs.
 ```
 
 ### Step 3: write_file Minimal Implementation (GREEN)

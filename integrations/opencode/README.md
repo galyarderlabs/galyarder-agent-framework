@@ -4,7 +4,7 @@ This directory contains converted Galyarder Framework assets for **OpenCode**.
 
 ## Included Assets
 
-- **259** assets.
+- **199** assets.
 
 ## Format
 

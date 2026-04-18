@@ -1,0 +1,10 @@
+{
+  "name": "galyarder-knowledge",
+  "description": "Knowledge Department for Galyarder Framework.",
+  "version": "1.7.0",
+  "agents": "./agents/",
+  "skills": [
+    "./skills/"
+  ],
+  "commands": "./commands/"
+}
