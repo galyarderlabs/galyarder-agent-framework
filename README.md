@@ -69,7 +69,15 @@ Install the full framework directly from the repository:
 gemini extensions install https://github.com/galyarderlabs/galyarder-framework
 ```
 
-### 3. OpenCode / Windsurf (Native Plugins)
+### 3. OpenAI Codex (Direct Instructions)
+
+Tell Codex:
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.codex/INSTALL.md
+```
+
+### 4. OpenCode / Windsurf (Native Plugins)
 
 Install as a native plugin for OpenCode or Windsurf:
 
@@ -81,7 +89,7 @@ Install as a native plugin for OpenCode or Windsurf:
 ./scripts/install.sh --tool windsurf
 ```
 
-### 4. Cross-Platform Engine (Cursor, Aider, OpenClaw, Hermes)
+### 5. Cross-Platform Engine (Cursor, Aider, OpenClaw, Hermes)
 
 For local/VPS deployments or tools without a central marketplace, use the conversion engine:
 
