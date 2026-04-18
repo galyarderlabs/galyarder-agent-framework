@@ -10,10 +10,6 @@
   Implementing <strong>Autonomous Goal Integration (AGI)</strong> to power self-evolving digital entities with institutional-grade intelligence.
 </p>
 
-<p align="center">
-  <strong>Documentation: <a href="https://galyarderlabs.github.io/galyarder-framework/">galyarderlabs.github.io/galyarder-framework</a></strong>
-</p>
-
 <p align="center">Built for the <strong>1-Man Army</strong> — one founder with the leverage of an entire company.</p>
 
 ---
