@@ -1,13 +1,13 @@
 ---
 title: "Technical Skills Skills  Agent Skills & Codex Plugins"
-description: "141 technical skills skills  high-integrity technical skills for TDD, SEO, CRO, and digital company orchestration. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+description: "113 technical skills skills  high-integrity technical skills for TDD, SEO, CRO, and digital company orchestration. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
 ---
 
 <div class="domain-header" markdown>
 
 #  Technical Skills
 
-<p class="domain-count">141 skills in this domain</p>
+<p class="domain-count">113 skills in this domain</p>
 
 </div>
 
@@ -16,12 +16,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 </div>
 
 <div class="grid cards" markdown>
-
--   **[Ab Test Setup](ab-test-setup.md)**
-
-    ---
-
-    You are the Ab Test Setup Specialist at Galyarder Labs.
 
 -   **[Accelerator Application](accelerator-application.md)**
 
@@ -89,12 +83,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Build Error Resolver Specialist at Galyarder Labs.
 
--   **[Step 1  Attribution: understand which channels drive conversions](campaign-analytics.md)**
-
-    ---
-
-    You are the Campaign Analytics Specialist at Galyarder Labs.
-
 -   **[Analyze an IAM policy for privilege escalation paths](cloud-security.md)**
 
     ---
@@ -113,24 +101,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     code-reviewer
 
--   **[[competitor].yaml](competitor-alternatives.md)**
-
-    ---
-
-    You are the Competitor Alternatives Specialist at Galyarder Labs.
-
--   **[Content Creator](content-creator.md)**
-
-    ---
-
-    You are the Content Creator Specialist at Galyarder Labs.
-
--   **[Content Strategy](content-strategy.md)**
-
-    ---
-
-    You are the Content Strategy Specialist at Galyarder Labs.
-
 -   **[Contract And Proposal Writer](contract-and-proposal-writer.md)**
 
     ---
@@ -142,24 +112,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
     ---
 
     You are the Contract Review Specialist at Galyarder Labs.
-
--   **[Conversion Engineer](conversion-engineer.md)**
-
-    ---
-
-    You are the Conversion Engineer Specialist at Galyarder Labs.
-
--   **[Copy Editing](copy-editing.md)**
-
-    ---
-
-    You are the Copy Editing Specialist at Galyarder Labs.
-
--   **[Copywriting](copywriting.md)**
-
-    ---
-
-    You are the Copywriting Specialist at Galyarder Labs.
 
 -   **[Cyber Intel](cyber-intel.md)**
 
@@ -215,12 +167,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Elite Developer Specialist at Galyarder Labs.
 
--   **[Email Marketing Bible](email-marketing-bible.md)**
-
-    ---
-
-    You are the Email Marketing Bible Specialist at Galyarder Labs.
-
 -   **[Eradicating Malware From Infected Systems](eradicating-malware-from-infected-systems.md)**
 
     ---
@@ -256,12 +202,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
     ---
 
     You are the Executing Red Team Exercise Specialist at Galyarder Labs.
-
--   **[Experimentation Engineer](experimentation-engineer.md)**
-
-    ---
-
-    You are the Experimentation Engineer Specialist at Galyarder Labs.
 
 -   **[Finance Based Pricing Advisor](finance-based-pricing-advisor.md)**
 
@@ -329,18 +269,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Generating Threat Intelligence Reports Specialist at Galyarder Labs.
 
--   **[Growth Engineer](growth-engineer.md)**
-
-    ---
-
-    You are the Growth Engineer Specialist at Galyarder Labs.
-
--   **[THE GROWTH STRATEGIST: CMO PROTOCOL](growth-strategist.md)**
-
-    ---
-
-    You are the Growth Strategist Specialist at Galyarder Labs.
-
 -   **[Intercepting Mobile Traffic With Burpsuite](intercepting-mobile-traffic-with-burpsuite.md)**
 
     ---
@@ -377,18 +305,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Json Canvas Specialist at Galyarder Labs.
 
--   **[Launch Strategy](launch-strategy.md)**
-
-    ---
-
-    You are the Launch Strategy Specialist at Galyarder Labs.
-
--   **[Lead Scoring](lead-scoring.md)**
-
-    ---
-
-    You are the Lead Scoring Specialist at Galyarder Labs.
-
 -   **[Legal Advisor](legal-advisor.md)**
 
     ---
@@ -412,30 +328,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
     ---
 
     You are the Mapping Mitre Attack Techniques Specialist at Galyarder Labs.
-
--   **[Market Research](market-research.md)**
-
-    ---
-
-    You are the Market Research Specialist at Galyarder Labs.
-
--   **[Marketing Demand Acquisition](marketing-demand-acquisition.md)**
-
-    ---
-
-    You are the Marketing Demand Acquisition Specialist at Galyarder Labs.
-
--   **[Marketing Ideas](marketing-ideas.md)**
-
-    ---
-
-    You are the Marketing Ideas Specialist at Galyarder Labs.
-
--   **[Marketing Psychology](marketing-psychology.md)**
-
-    ---
-
-    You are the Marketing Psychology Specialist at Galyarder Labs.
 
 -   **[Monitoring Darkweb Sources](monitoring-darkweb-sources.md)**
 
@@ -461,29 +353,11 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Obsidian Markdown Specialist at Galyarder Labs.
 
--   **[Onboarding Cro](onboarding-cro.md)**
-
-    ---
-
-    You are the Onboarding Cro Specialist at Galyarder Labs.
-
 -   **[Open Source License Skill](open-source-license.md)**
 
     ---
 
     You are the Open Source License Specialist at Galyarder Labs.
-
--   **[Page Cro](page-cro.md)**
-
-    ---
-
-    You are the Page Cro Specialist at Galyarder Labs.
-
--   **[Paywall Upgrade Cro](paywall-upgrade-cro.md)**
-
-    ---
-
-    You are the Paywall Upgrade Cro Specialist at Galyarder Labs.
 
 -   **[Perseus](perseus.md)**
 
@@ -551,12 +425,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Profiling Threat Actor Groups Specialist at Galyarder Labs.
 
--   **[Programmatic SEO](programmatic-seo.md)**
-
-    ---
-
-    You are the Programmatic Seo Specialist at Galyarder Labs.
-
 -   **[Qa Automation Engineer](qa-automation-engineer.md)**
 
     ---
@@ -587,12 +455,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Refactor Cleaner Specialist at Galyarder Labs.
 
--   **[Referral Program](referral-program.md)**
-
-    ---
-
-    You are the Referral Program Specialist at Galyarder Labs.
-
 -   **[Release Manager](release-manager.md)**
 
     ---
@@ -616,18 +478,6 @@ description: "141 technical skills skills  high-integrity technical skills for T
     ---
 
     You are the Requesting Code Review Specialist at Galyarder Labs.
-
--   **[Retention Specialist](retention-specialist.md)**
-
-    ---
-
-    You are the Retention Specialist Specialist at Galyarder Labs.
-
--   **[Revenue Architect](revenue-architect.md)**
-
-    ---
-
-    You are the Revenue Architect Specialist at Galyarder Labs.
 
 -   **[Reverse Engineering Malware With Ghidra](reverse-engineering-malware-with-ghidra.md)**
 
@@ -665,29 +515,11 @@ description: "141 technical skills skills  high-integrity technical skills for T
 
     You are the Security Reviewer Specialist at Galyarder Labs.
 
--   **[Seo Audit](seo-audit.md)**
-
-    ---
-
-    You are the Seo Audit Specialist at Galyarder Labs.
-
 -   **[Signup Flow Cro](signup-flow-cro.md)**
 
     ---
 
     You are the Signup Flow Cro Specialist at Galyarder Labs.
-
--   **[Social Content](social-content.md)**
-
-    ---
-
-    You are the Social Content Specialist at Galyarder Labs.
-
--   **[Social Strategist](social-strategist.md)**
-
-    ---
-
-    You are the Social Strategist Specialist at Galyarder Labs.
 
 -   **[Subagent Driven Development](subagent-driven-development.md)**
 

@@ -12,6 +12,7 @@ DOCS_DIR = os.path.join(REPO_ROOT, "docs")
 DOMAINS = {
     "skills": ("Technical Skills", 1, "", "master-skills"),
     "design": ("Design Systems", 2, "", "design-skills"),
+    "marketing-skill": ("Growth & Marketing", 3, "", "marketing-skills"),
 }
 
 # Skills to skip (nested assets, samples, etc.)
@@ -158,6 +159,7 @@ DOMAIN_SEO_SUFFIX = {
 DOMAIN_SEO_CONTEXT = {
     "skills": "high-integrity technical skills for TDD, SEO, CRO, and digital company orchestration",
     "design": "high-fidelity design system specifications from industry leaders like Stripe, Vercel, and Apple",
+    "marketing-skill": "growth engineering and marketing skills for market dominance",
 }
 
 
@@ -454,16 +456,10 @@ description: "{skill_count} {domain_name.lower()} skills  {domain_seo_ctx}. Work
 
     # Agent domain mapping for display
     AGENT_DOMAINS = {
-        "business-growth": ("Business & Growth", ""),
-        "c-level": ("C-Level Advisory", ""),
-        "engineering-team": ("Engineering - Core", ""),
-        "engineering": ("Engineering - POWERFUL", ""),
-        "finance": ("Finance", ""),
-        "marketing": ("Marketing", ""),
-        "product": ("Product", ""),
-        "project-management": ("Project Management", ""),
-        "ra-qm-team": ("Regulatory & Quality", ""),
-    }
+    "skills": ("Technical Skills", 1, "", "master-skills"),
+    "design": ("Design Systems", 2, "", "design-skills"),
+    "marketing-skill": ("Growth & Marketing", 3, "", "marketing-skills"),
+}
 
     def process_agent(base_dir, agent_file, domain_label, domain_icon):
         nonlocal agent_count, agent_entries

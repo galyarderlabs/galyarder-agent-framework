@@ -8,6 +8,7 @@
   "agents": "./agents/",
   "skills": [
     "./skills/",
-    "./design/"
+    "./design/",
+    "./marketing-skill/"
   ]
 }

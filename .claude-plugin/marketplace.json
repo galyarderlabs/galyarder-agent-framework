@@ -46,14 +46,25 @@
       "category": "design"
     },
     {
-      "name": "master-skills",
-      "source": "./skills",
-      "description": "132 production-ready skills for TDD, SEO, CRO, FinOps, Legal, and advanced technical orchestration.",
+      "name": "marketing-skills",
+      "source": "./marketing-skill",
+      "description": "28 growth and marketing skills covering SEO, CRO, content strategy, and viral referral loops.",
       "version": "1.7.0",
       "author": {
         "name": "Galyarder Labs"
       },
-      "keywords": ["skills", "tdd", "seo", "cro", "finops", "legal", "security"],
+      "keywords": ["marketing", "growth", "seo", "cro", "sales", "copywriting"],
+      "category": "growth"
+    },
+    {
+      "name": "master-skills",
+      "source": "./skills",
+      "description": "100+ production-ready technical skills for TDD, FinOps, Legal, and advanced technical orchestration.",
+      "version": "1.7.0",
+      "author": {
+        "name": "Galyarder Labs"
+      },
+      "keywords": ["skills", "tdd", "finops", "legal", "security"],
       "category": "engineering"
     }
   ]

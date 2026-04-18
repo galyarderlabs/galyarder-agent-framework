@@ -62,24 +62,6 @@ yaml_quote() {
   printf '"%s"' "$value"
 }
 
-get_skipped() {
-  local t="$1"
-  case "$t" in
-    antigravity) echo "$skipped_antigravity" ;;
-    cursor) echo "$skipped_cursor" ;;
-    aider) echo "$skipped_aider" ;;
-    kilocode) echo "$skipped_kilocode" ;;
-    windsurf) echo "$skipped_windsurf" ;;
-    opencode) echo "$skipped_opencode" ;;
-    augment) echo "$skipped_augment" ;;
-    claude-code) echo "$skipped_claudecode" ;;
-    codex) echo "$skipped_codex" ;;
-    gemini) echo "$skipped_gemini" ;;
-    openclaw) echo "$skipped_openclaw" ;;
-    hermes) echo "$skipped_hermes" ;;
-  esac
-}
-
 init_count_vars() {
   converted_antigravity=0; converted_cursor=0; converted_aider=0; converted_kilocode=0
   converted_windsurf=0; converted_opencode=0; converted_augment=0; converted_claudecode=0
@@ -280,10 +262,9 @@ TOOLS="antigravity cursor aider kilocode windsurf opencode augment claude-code c
 
 SKILLS_TMP="$(mktemp)"
 ( cd "$REPO_ROOT"
-  # SURGICAL FIND: Agents, Personas, Skills, Commands, AND Design System Specs
-  # We use recursive find for skills to handle nested structures while skipping internal assets
-  find agents personas design commands -maxdepth 1 -type f -name "*.md" -not -path './.git/*' | sort
-  find skills -type f -name 'SKILL.md' -not -path '*/assets/*' -not -path '*/scripts/*' -not -path '*/references/*' -not -path './.git/*' | sort
+  # SURGICAL FIND: Agents, Personas, Skills, Commands, Design, AND Marketing
+  find agents personas design commands marketing-skill -maxdepth 1 -type f -name "*.md" -not -path './.git/*' | sort
+  find skills marketing-skill -type f -name 'SKILL.md' -not -path '*/assets/*' -not -path '*/scripts/*' -not -path '*/references/*' -not -path './.git/*' | sort
 ) > "$SKILLS_TMP"
 
 for t in $TOOLS; do
@@ -313,7 +294,7 @@ while IFS= read -r rel_path; do
     continue
   fi
 
-  # SAFE FILENAME GENERATION (Remove invalid chars for all filesystems)
+  # SAFE FILENAME GENERATION
   safe_name=$(echo "$name" | sed 's/[^a-zA-Z0-9_ -]//g' | tr ' ' '-')
   body_tmp="$(mktemp)"; extract_body "$src" > "$body_tmp"
 
