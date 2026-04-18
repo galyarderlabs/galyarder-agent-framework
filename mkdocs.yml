@@ -1,6 +1,6 @@
 site_name: Galyarder Framework
 site_url: https://galyarderlabs.github.io/galyarder-framework/
-site_description: "Humans 3.0 Protocol: Advanced Agentic Orchestration for the 1-Man Army. Implementing Autonomous Goal Integration (AGI)."
+site_description: "Humans 3.0 Protocol: Advanced Agentic Orchestration for the 1-Man Army."
 site_author: Galyarder Labs
 
 theme:
@@ -32,23 +32,16 @@ theme:
     - search.share
     - content.code.copy
     - toc.follow
-    - content.tabs.link
   icon:
     logo: material/robot-industrial
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 nav:
   - Welcome: index.md
   - Organization: ORG_CHART.md
   - Workflow: WORKFLOW.md
-  - Departments:
-      - Executive: Executive/
-      - Engineering: Engineering/
-      - Growth: Growth/
-      - Security: Security/
-      - Product: Product/
-      - Infrastructure: Infrastructure/
-      - Legal-Finance: Legal-Finance/
-      - Knowledge: Knowledge/
   - Inventory:
       - Agents: agents/index.md
       - Skills: skills/index.md
@@ -60,7 +53,11 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:

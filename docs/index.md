@@ -1,4 +1,4 @@
-# Galyarder Framework: Advanced Agentic OS
+# Galyarder Framework: Institutional-Grade Agentic OS
 
 <p align="center">
   <img src="assets/header.jpg" width="800" alt="Galyarder Framework">
@@ -6,7 +6,7 @@
 
 ## Humans 3.0: Autonomous Goal Integration
 
-Galyarder Framework is the underlying **Logic Engine** and **Autonomous Workforce** designed to power the next generation of agentic entities. It provides the "brain" for autonomous assistants running locally, on VPS, or across distributed infrastructure.
+Galyarder Framework is the **Mission Logic Engine** designed to power high-scale digital empires. It bridges the gap between high-level strategic intent and ground-level deterministic execution across 8 specialized command silos.
 
 ### Global Command Architecture
 
@@ -31,13 +31,27 @@ graph TD
     Security --> Pers[perseus]
 ```
 
-### Institutional Departments
+### The 1-Man Army Strategic Loop
+
+Every operation within the framework enforces a non-negotiable sequence of high-fidelity protocols to eliminate biological human error and ensure institutional-grade output.
+
+| Protocol | Category | Tool | Mandatory Action |
+| :--- | :--- | :--- | :--- |
+| **Traceability** | Alignment | **Linear** | Project-scoped ticket lock before labor. |
+| **Cognition** | Deconstruction | **Think MCP** | 8-phase logic mapping via `sequentialthinking`. |
+| **Validation** | Engineering | **Context7** | Real-time fetch of official API documentation. |
+| **Execution** | Efficiency | **RTK Proxy** | Surgical, token-efficient implementation. |
+| **Persistence** | Memory | **Obsidian** | Durable departmental reporting. |
+
+---
+
+## Command Silos
 
 <div class="grid cards" markdown>
 
 -   :material-account-tie: **Executive**
     ---
-    Strategic oversight and master orchestration protocols.
+    Strategic hegemony and master orchestration protocols.
     [Enter Command Silo](agents/index.md)
 
 -   :material-hammer-wrench: **Engineering**
@@ -56,16 +70,6 @@ graph TD
     [Enter Command Silo](skills/index.md)
 
 </div>
-
-## The 1-Man Army Global Protocols
-
-To ensure institutional-grade output, every agent and skill within the framework enforces the following non-negotiable sequence:
-
-1.  **Thinking MCP**: Mandatory structured reasoning via `sequentialthinking` before any tool call.
-2.  **Official Documentation**: Real-time documentation fetch via `context7` to ensure 100% technical accuracy.
-3.  **Traceability**: Every task must be linked to a project-scoped **Linear** ticket.
-4.  **Token Economy**: Mandatory use of the `rtk` proxy to minimize computational overhead.
-5.  **Persistence**: Every mission concludes with a durable markdown artifact in **Obsidian**.
 
 ---
 © 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
