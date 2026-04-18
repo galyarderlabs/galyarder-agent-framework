@@ -69,12 +69,16 @@ Install the full framework directly from the repository:
 gemini extensions install https://github.com/galyarderlabs/galyarder-framework
 ```
 
-### 3. OpenAI Codex (Direct Instructions)
+### 3. OpenCode / Windsurf (Native Plugins)
 
-Tell Codex:
+Install as a native plugin for OpenCode or Windsurf:
 
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.codex/INSTALL.md
+```bash
+# OpenCode
+./scripts/install.sh --tool opencode
+
+# Windsurf
+./scripts/install.sh --tool windsurf
 ```
 
 ### 4. Cross-Platform Engine (Cursor, Aider, OpenClaw, Hermes)
@@ -86,8 +90,17 @@ For local/VPS deployments or tools without a central marketplace, use the conver
 ./scripts/scaffold-company.sh
 
 # 2. Convert and install for your specific tool
-./scripts/install.sh --tool <cursor|aider|windsurf|openclaw|hermes|antigravity>
+./scripts/install.sh --tool <cursor|aider|openclaw|hermes|antigravity>
 ```
+
+---
+
+## Philosophy
+
+- **Test-Driven Development** — Logic is irrelevant until verified.
+- **Context Economy** — RTK proxy is mandatory for all operations to minimize token consumption.
+- **Math Over Magic** — Base decisions on data, ROI, and psychological leverage.
+- **Code to Market** — Development is a liability until it achieves market fit.
 
 ---
 
