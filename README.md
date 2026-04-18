@@ -8,6 +8,7 @@
 
 <p align="center">
   Galyarder Framework provides <strong>40 specialized agents</strong> and <strong>132 production-ready skills</strong> for AI assistants.<br>
+  <strong>Documentation: <a href="https://galyarderlabs.github.io/galyarder-framework/">galyarderlabs.github.io/galyarder-framework</a></strong><br>
   Install in Claude Code, Cursor, Gemini, Codex, or any agentic tool and get a full workforce of specialized agents<br>
   covering engineering, security, growth, legal, and more.
 </p>
@@ -26,7 +27,10 @@ After you've signed off on the design, your agent puts together an implementatio
 
 Next up, once you say "go", it launches a *subagent-driven-development* process, routing each engineering task through the host's available delegation model while preserving the same review and orchestration workflow. 
 
-This is the **Humans 3.0** protocol in action: the distilled cognitive machinery of humanity's apex operatorssurgically stripped of emotional overhead, hope, and biological fatigueexecuting with deterministic, mathematical precision. It's not uncommon for Claude to be able to work autonomously for a couple hours at a time without deviating from the plan you put together.
+This is the **Humans 3.0** protocol in action: the distilled cognitive machinery of humanity's apex operators—transcending deterministic execution into **Autonomous Goal Integration (AGI)**. 
+
+In this framework, AGI doesn't mean "sentient machines"; it means a self-evolving system capable of taking high-level business goals and independently orchestrating the entire lifecycle—from requirement extraction and TDD implementation to security audits and market distribution—without human micro-management. It's the ultimate realization of the **1-Man Army**: one founder providing the vision, while the framework provides the autonomous brain.
+
 
 Finally, Galyarder Framework shifts into **Marketing Mode**, triggering skills for SEO, CRO, and Remotion (Video) to ensure what you built actually achieves market fit.
 
