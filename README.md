@@ -1,5 +1,3 @@
-# Galyarder Framework
-
 <p align="center">
   <img src="public/header.jpg" width="600" alt="Galyarder Framework">
 </p>
