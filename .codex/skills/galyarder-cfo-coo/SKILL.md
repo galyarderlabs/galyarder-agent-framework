@@ -1,0 +1,1 @@
+/home/galyarder/projects/galyarder-framework/personas/galyarder-cfo-coo.md

@@ -17,18 +17,18 @@ A simple todo list application built with Svelte. Supports creating, completing,
 ## User Interface
 
 ```
-┌─────────────────────────────────────────┐
-│  Svelte Todos                           │
-├─────────────────────────────────────────┤
-│  [________________________] [Add]       │
-├─────────────────────────────────────────┤
-│  [ ] Buy groceries                  [x] │
-│  [✓] Walk the dog                   [x] │
-│  [ ] Write code                     [x] │
-├─────────────────────────────────────────┤
-│  2 items left                           │
-│  [All] [Active] [Completed]  [Clear ✓]  │
-└─────────────────────────────────────────┘
+
+  Svelte Todos                           
+
+  [________________________] [Add]       
+
+  [ ] Buy groceries                  [x] 
+  [] Walk the dog                   [x] 
+  [ ] Write code                     [x] 
+
+  2 items left                           
+  [All] [Active] [Completed]  [Clear ]  
+
 ```
 
 ## Components

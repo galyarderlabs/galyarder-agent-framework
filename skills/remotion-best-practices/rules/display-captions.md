@@ -124,3 +124,6 @@ const CaptionPage: React.FC<{page: TikTokPage}> = ({page}) => {
   );
 };
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

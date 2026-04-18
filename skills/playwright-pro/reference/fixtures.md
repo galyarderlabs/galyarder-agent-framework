@@ -119,3 +119,6 @@ export default defineConfig({
 | Reusable page helpers | Custom fixture returning page |
 | Test data cleanup | Fixture teardown (after `use()`) |
 | Config values | Simple value fixture |
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

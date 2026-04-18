@@ -1,20 +1,22 @@
-# Galyarder OS: Executive Operating Loops
+# Galyarder Framework: Executive Operating Loops
 # BOOTSTRAP: Load full company context
 @AGENTS.md
 @CLAUDE.md
 
-## ⚙️ SYSTEM BOOTLOADER
+##  SYSTEM BOOTLOADER
 - **Adapter**: @./skills/using-galyarder-framework/SKILL.md
 - **Shield**: Use the `rtk` prefix for **true shell/bash commands only**.
+- **Integrity**: Adhere to the **Karpathy Principles** (Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution).
 - **Native Tools**: ALWAYS use native tools (`read_file`, `replace`).
+
 - **Surgical Execution**: **DILARANG** menggunakan `rtk cat` atau `write_file` untuk mengedit file yang sudah ada. Gunakan `replace` untuk perubahan spesifik. Baca file secara bertahap menggunakan `start_line` dan `end_line` pada `read_file` untuk efisiensi context.
 
-## 🌐 HOST-SPECIFIC REQUIREMENTS
+##  HOST-SPECIFIC REQUIREMENTS
 ### Antigravity (Google)
 - **Sandbox**: Must be set to **OFF**. 
-- **Reason**: Galyarder requires access to the `rtk` binary (Homebrew) and local symlinked workforce folders which are restricted by the sandbox environment.
+- **Reason**: Galyarder Framework requires access to the `rtk` binary (Homebrew) and local symlinked workforce folders which are restricted by the sandbox environment.
 
-## ⌨️ EXECUTIVE COMMANDS
+##  EXECUTIVE COMMANDS
 - /analytics: Design tracking schemas and KPIs.
 - /brainstorm: Socratic design refinement.
 - /build-fix: Systematically fix build/type errors.
@@ -36,6 +38,9 @@
 - /triage: Root cause analysis and fix planning.
 - /video: Remotion programmatic video.
 
-## 📊 REPORTING STANDARDS
+##  REPORTING STANDARDS
 - **Linear**: Task status & issue tracking.
 - **Obsidian**: Strategic memory & Department Reports.
+
+---
+ 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.

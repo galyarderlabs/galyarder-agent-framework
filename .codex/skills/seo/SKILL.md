@@ -1,0 +1,1 @@
+/home/galyarder/projects/galyarder-framework/commands/seo.md

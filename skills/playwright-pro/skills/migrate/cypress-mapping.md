@@ -1,4 +1,4 @@
-# Cypress → Playwright Mapping
+# Cypress  Playwright Mapping
 
 ## Commands
 
@@ -14,7 +14,7 @@
 | `cy.eq(n)` | `locator.nth(n)` | |
 | `cy.parent()` | `locator.locator('..')` | Or restructure with better locators |
 | `cy.children()` | `locator.locator('> *')` | |
-| `cy.siblings()` | Not direct — restructure test | Use parent + filter |
+| `cy.siblings()` | Not direct  restructure test | Use parent + filter |
 
 ## Actions
 
@@ -77,3 +77,6 @@
 | `video: true` | `use.video: 'on'` |
 | `screenshotOnRunFailure` | `use.screenshot: 'only-on-failure'` |
 | `retries: { runMode: 2 }` | `retries: 2` |
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

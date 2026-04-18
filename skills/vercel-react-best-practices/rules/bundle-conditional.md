@@ -29,3 +29,6 @@ function AnimationPlayer({ enabled, setEnabled }: { enabled: boolean; setEnabled
 ```
 
 The `typeof window !== 'undefined'` check prevents bundling this module for SSR, optimizing server bundle size and build speed.
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

@@ -11,7 +11,7 @@ Get Framework + Dashboard working together in 5 minutes.
 ## Step 1: Install Dependencies
 
 ```bash
-cd /home/galyarder/projects/galyarder-framework/dashboard
+cd /home/galyarder/projects/dashboard
 pnpm install
 ```
 
@@ -24,27 +24,27 @@ node test.js
 
 Expected output:
 ```
-🚀 Testing Galyarder Framework Adapter
+ Testing Galyarder Framework Adapter
 
-📋 Test 1: Load single agent
-✅ Loaded agent: galyarder-specialist
+ Test 1: Load single agent
+ Loaded agent: galyarder-specialist
    Role: CEO / orchestrator
    Department: Executive
    Skills: brainstorming, prd-to-plan, prd-to-issues...
 
-📋 Test 2: Load all agents
-✅ Loaded 34 agents
+ Test 2: Load all agents
+ Loaded 34 agents
    - galyarder-specialist (Executive)
    - product-manager (Product)
    ...
 
-✨ All tests complete!
+ All tests complete!
 ```
 
 ## Step 3: Start Dashboard
 
 ```bash
-cd /home/galyarder/projects/galyarder-framework/dashboard
+cd /home/galyarder/projects/dashboard
 pnpm dev
 ```
 
@@ -68,6 +68,14 @@ curl -X POST http://localhost:3100/api/companies \
     "name": "My Startup",
     "goal": "Build $1M MRR SaaS in 6 months"
   }'
+```
+
+## Step 5: Initialize Digital Headquarters
+
+Initialize the hierarchical folder structure in your workspace:
+
+```bash
+bash scripts/scaffold-company.sh
 ```
 
 ## Step 5: Hire Your First Agent
@@ -99,7 +107,7 @@ curl -X POST http://localhost:3100/api/companies/{companyId}/agents \
   }'
 ```
 
-## Step 6: Assign a Task
+## Step 7: Assign a Task
 
 ### Via Web UI:
 
@@ -172,7 +180,7 @@ Dashboard shows:
 
 Make sure you're in the dashboard directory:
 ```bash
-cd /home/galyarder/projects/galyarder-framework/dashboard
+cd /home/galyarder/projects/dashboard
 ```
 
 ### Can't load agents
@@ -200,21 +208,21 @@ pnpm install
 
 ```
 You (Founder)
-  ↓
+  
 Dashboard Web UI
-  ↓
+  
 Dashboard API
-  ↓
+  
 Framework Adapter
-  ↓
+  
 Framework Agents + Skills
-  ↓
+  
 Runtime (Claude/Cursor/etc.)
 ```
 
 ## Key Files
 
-- `dashboard/packages/adapters/galyarder-framework/` - Adapter code
+- `dashboard/packages/adapters/` - Adapter code
 - `agents/` - Agent definitions
 - `skills/` - Skill library
 - `docs/ORG_CHART.md` - Organization structure
@@ -225,20 +233,20 @@ Runtime (Claude/Cursor/etc.)
 Issues? Check:
 - `docs/INTEGRATION.md` - Integration guide
 - `docs/DASHBOARD_VS_FRAMEWORK.md` - Concept explanation
-- `dashboard/packages/adapters/galyarder-framework/README.md` - Adapter docs
+- `dashboard/packages/adapters/README.md` - Adapter docs
 
 ## Next Steps
 
-1. ✅ Basic integration working
-2. ⏳ Add Linear sync
-3. ⏳ Add Obsidian reports
-4. ⏳ Add cost tracking
-5. ⏳ Add org chart visualization
-6. ⏳ Add multi-company support
+1.  Basic integration working
+2.  Add Linear sync
+3.  Add Obsidian reports
+4.  Add cost tracking
+5.  Add org chart visualization
+6.  Add multi-company support
 
 ---
 
-**You now have a unified platform with web UI!** 🎉
+**You now have a unified platform with web UI!** 
 
 Framework provides the brains (agents + skills).
 Dashboard provides the body (UI + orchestration).

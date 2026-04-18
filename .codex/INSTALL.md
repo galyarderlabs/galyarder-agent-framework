@@ -16,7 +16,7 @@ Enable galyarder-framework skills in Codex via native skill discovery. Just clon
 2. **Create the skills symlink:**
    ```bash
    mkdir -p ~/.agents/skills
-   ln -s ~/.codex/galyarder-framework/skills ~/.agents/skills/galyarder-framework
+   ln -s ~/.codex/skills ~/.agents/skills/galyarder-framework
    ```
 
    **Windows (PowerShell):**
@@ -36,9 +36,9 @@ If you installed galyarder-framework before native skill discovery, you need to:
    cd ~/.codex/galyarder-framework && git pull
    ```
 
-2. **Create the skills symlink** (step 2 above) — this is the new discovery mechanism.
+2. **Create the skills symlink** (step 2 above)  this is the new discovery mechanism.
 
-3. **Remove the old bootstrap block** from `~/.codex/AGENTS.md` — any block referencing `galyarder-framework-codex bootstrap` is no longer needed.
+3. **Remove the old bootstrap block** from `~/.codex/AGENTS.md`  any block referencing `galyarder-framework-codex bootstrap` is no longer needed.
 
 4. **Restart Codex.**
 

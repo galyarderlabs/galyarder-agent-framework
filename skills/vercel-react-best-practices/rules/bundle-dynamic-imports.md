@@ -33,3 +33,6 @@ function CodePanel({ code }: { code: string }) {
   return <MonacoEditor value={code} />
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

@@ -36,3 +36,6 @@ const UserAvatar = memo(function UserAvatar({ onClick = NOOP }: { onClick?: () =
 // Used without optional onClick
 <UserAvatar />
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

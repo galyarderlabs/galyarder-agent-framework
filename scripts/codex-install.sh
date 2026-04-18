@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Codex Installation Script for Claude Skills Library
+# Codex Installation Script for Galyarder Framework Library
 #
 # Installs skills from this repository to your local Codex skills directory.
 # Follows symlinks to copy actual skill contents.
@@ -280,7 +280,7 @@ main() {
     # Banner
     echo ""
     echo "========================================"
-    echo "  Claude Skills - Codex Installer"
+    echo "  Galyarder Framework - Codex Installer"
     echo "========================================"
     echo ""
 

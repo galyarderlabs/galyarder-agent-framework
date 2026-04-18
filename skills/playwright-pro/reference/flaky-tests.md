@@ -27,7 +27,7 @@ npx playwright test --fully-parallel --workers=4 --repeat-each=5
 
 ## Quick Fixes
 
-**Timing → Add proper waits:**
+**Timing  Add proper waits:**
 ```typescript
 // Wait for specific response
 const response = page.waitForResponse('**/api/data');
@@ -36,17 +36,17 @@ await response;
 await expect(page.getByTestId('results')).toBeVisible();
 ```
 
-**Isolation → Unique test data:**
+**Isolation  Unique test data:**
 ```typescript
 const uniqueEmail = `test-${Date.now()}@example.com`;
 ```
 
-**Environment → Explicit viewport:**
+**Environment  Explicit viewport:**
 ```typescript
 test.use({ viewport: { width: 1280, height: 720 } });
 ```
 
-**Infrastructure → CI-safe config:**
+**Infrastructure  CI-safe config:**
 ```typescript
 export default defineConfig({
   retries: process.env.CI ? 2 : 0,
@@ -54,3 +54,6 @@ export default defineConfig({
   timeout: process.env.CI ? 60_000 : 30_000,
 });
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

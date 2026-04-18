@@ -1,0 +1,16 @@
+{
+  "name": "galyarder-framework",
+  "description": "Advanced Digital Company Orchestration for Gemini CLI.",
+  "version": "1.7.0",
+  "author": {
+    "name": "Galyarder Labs",
+    "email": "hello@galyarderlabs.app"
+  },
+  "homepage": "https://github.com/galyarderlabs/galyarder-framework",
+  "repository": "https://github.com/galyarderlabs/galyarder-framework",
+  "contextFileName": "GEMINI.md",
+  "commands": "./commands/",
+  "personas": "./personas/",
+  "agents": "./agents/",
+  "skills": ["./skills/", "./design/"]
+}

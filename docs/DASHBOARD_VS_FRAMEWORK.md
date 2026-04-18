@@ -15,12 +15,12 @@ A digital company that works FOR you through AI assistants.
 
 ### How It Works
 ```
-You → Chat with Claude/Cursor
-  ↓
+You  Chat with Claude/Cursor
+  
 galyarder-specialist routes work
-  ↓
+  
 Department agents execute
-  ↓
+  
 Results back to you
 ```
 
@@ -34,7 +34,7 @@ Results back to you
 - MCP servers (RTK, Stitch, etc.)
 
 ### Status
-✅ **Working today**
+ **Working today**
 - 34 agents ready
 - 100+ skills ready
 - Install and use immediately
@@ -49,11 +49,11 @@ A web app for managing MULTIPLE agent companies at scale.
 ### How It Works
 ```
 Dashboard UI
-  ↓
+  
 Manages 20+ agent instances
-  ↓
+  
 Each instance = separate company
-  ↓
+  
 Monitor all from one place
 ```
 
@@ -64,7 +64,7 @@ Monitor all from one place
 - Complex setup
 
 ### Status
-⚠️ **In development**
+ **In development**
 - Server code exists
 - UI exists
 - Integration incomplete
@@ -90,16 +90,16 @@ Dashboard = Optional monitoring layer
 ## Which One Do You Need?
 
 ### Use Framework If:
-- ✅ You're a solo founder
-- ✅ You want digital employees
-- ✅ You use Claude/Cursor
-- ✅ You want it working today
+-  You're a solo founder
+-  You want digital employees
+-  You use Claude/Cursor
+-  You want it working today
 
 ### Use Dashboard If:
-- ⚠️ You manage 20+ agent instances
-- ⚠️ You need multi-company orchestration
-- ⚠️ You want centralized monitoring
-- ⚠️ You're okay with complex setup
+-  You manage 20+ agent instances
+-  You need multi-company orchestration
+-  You want centralized monitoring
+-  You're okay with complex setup
 
 ---
 
@@ -110,10 +110,10 @@ Framework works standalone. Dashboard not needed.
 
 ### Future (Optional)
 ```
-Framework → Dashboard API (reporting)
-  ↓
+Framework  Dashboard API (reporting)
+  
 Dashboard shows metrics
-  ↓
+  
 Monitor multiple Framework instances
 ```
 
@@ -136,10 +136,10 @@ Framework works perfectly standalone through AI assistants.
 ## Next Steps
 
 ### For Framework (Your Project)
-1. ✅ Formalize org structure (done - see docs/ORG_CHART.md)
-2. ⏳ Add Linear integration
-3. ⏳ Add Obsidian automation
-4. ⏳ Improve agent orchestration
+1.  Formalize org structure (done - see docs/ORG_CHART.md)
+2.  Add Linear integration
+3.  Add Obsidian automation
+4.  Improve agent orchestration
 
 ### For Dashboard (Ignore for Now)
 - Let that project develop separately

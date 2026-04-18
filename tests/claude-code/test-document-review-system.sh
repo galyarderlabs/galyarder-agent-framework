@@ -26,10 +26,10 @@ trap "cleanup_test_project $TEST_PROJECT" EXIT
 cd "$TEST_PROJECT"
 
 # Create directory structure
-mkdir -p docs/galyarder-framework/specs
+mkdir -p docs/specs
 
 # Create a spec document WITH INTENTIONAL ERRORS for the reviewer to catch
-cat > docs/galyarder-framework/specs/test-feature-design.md <<'EOF'
+cat > docs/specs/test-feature-design.md <<'EOF'
 # Test Feature Design
 
 ## Overview
@@ -80,7 +80,7 @@ PROMPT="You are testing the spec document reviewer.
 
 Read the spec-document-reviewer-prompt.md template in skills/brainstorming/ to understand the review format.
 
-Then review the spec at $TEST_PROJECT/docs/galyarder-framework/specs/test-feature-design.md using the criteria from that template.
+Then review the spec at $TEST_PROJECT/docs/specs/test-feature-design.md using the criteria from that template.
 
 Look for:
 - TODOs, placeholders, 'TBD', incomplete sections
@@ -140,9 +140,9 @@ echo ""
 
 # Test 4: Reviewer did NOT approve (found issues)
 echo "Test 4: Reviewer verdict..."
-if grep -qi "Issues Found\|❌\|not approved\|issues found" "$OUTPUT_FILE"; then
+if grep -qi "Issues Found\|\|not approved\|issues found" "$OUTPUT_FILE"; then
     echo "  [PASS] Reviewer correctly found issues (not approved)"
-elif grep -qi "Approved\|✅" "$OUTPUT_FILE" && ! grep -qi "Issues Found\|❌" "$OUTPUT_FILE"; then
+elif grep -qi "Approved\|" "$OUTPUT_FILE" && ! grep -qi "Issues Found\|" "$OUTPUT_FILE"; then
     echo "  [FAIL] Reviewer incorrectly approved spec with errors"
     FAILED=$((FAILED + 1))
 else
@@ -161,10 +161,10 @@ if [ $FAILED -eq 0 ]; then
     echo "All verification tests passed!"
     echo ""
     echo "The spec document reviewer correctly:"
-    echo "  ✓ Found TODO placeholder"
-    echo "  ✓ Found 'specified later' deferral"
-    echo "  ✓ Produced properly formatted review"
-    echo "  ✓ Did not approve spec with errors"
+    echo "   Found TODO placeholder"
+    echo "   Found 'specified later' deferral"
+    echo "   Produced properly formatted review"
+    echo "   Did not approve spec with errors"
     exit 0
 else
     echo "STATUS: FAILED"

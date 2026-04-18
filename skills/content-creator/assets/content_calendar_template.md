@@ -97,3 +97,6 @@
 - Asset Library: [Link]
 - Analytics Dashboard: [Link]
 - Team Calendar: [Link]
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

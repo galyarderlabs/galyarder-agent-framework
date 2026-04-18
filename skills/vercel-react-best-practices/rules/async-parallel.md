@@ -1,7 +1,7 @@
 ---
 title: Promise.all() for Independent Operations
 impact: CRITICAL
-impactDescription: 2-10× improvement
+impactDescription: 2-10 improvement
 tags: async, parallelization, promises, waterfalls
 ---
 
@@ -26,3 +26,6 @@ const [user, posts, comments] = await Promise.all([
   fetchComments()
 ])
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

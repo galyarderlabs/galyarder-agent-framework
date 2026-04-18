@@ -60,10 +60,10 @@ echo "=== Results ==="
 # Match either "skill":"skillname" or "skill":"namespace:skillname"
 SKILL_PATTERN='"skill":"([^"]*:)?'"${SKILL_NAME}"'"'
 if grep -q '"name":"Skill"' "$LOG_FILE" && grep -qE "$SKILL_PATTERN" "$LOG_FILE"; then
-    echo "✅ PASS: Skill '$SKILL_NAME' was triggered"
+    echo " PASS: Skill '$SKILL_NAME' was triggered"
     TRIGGERED=true
 else
-    echo "❌ FAIL: Skill '$SKILL_NAME' was NOT triggered"
+    echo " FAIL: Skill '$SKILL_NAME' was NOT triggered"
     TRIGGERED=false
 fi
 

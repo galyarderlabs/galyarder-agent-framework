@@ -104,3 +104,6 @@ Sequences can be nested for complex timing:
   </Sequence>
 </Sequence>
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

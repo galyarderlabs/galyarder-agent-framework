@@ -46,7 +46,7 @@ use skill tool to list skills
 ### Loading a Skill
 
 ```
-use skill tool to load galyarder-framework/brainstorming
+use skill tool to load brainstorming
 ```
 
 ### Personal Skills
@@ -99,10 +99,10 @@ The plugin does two things:
 
 Skills written for Claude Code are automatically adapted for OpenCode:
 
-- `TodoWrite` → `todowrite`
-- `Task` with subagents → OpenCode's `@mention` system
-- `Skill` tool → OpenCode's native `skill` tool
-- File operations → Native OpenCode tools
+- `TodoWrite`  `todowrite`
+- `Task` with subagents  OpenCode's `@mention` system
+- `Skill` tool  OpenCode's native `skill` tool
+- File operations  Native OpenCode tools
 
 ## Troubleshooting
 
@@ -125,6 +125,6 @@ Skills written for Claude Code are automatically adapted for OpenCode:
 
 ## Getting Help
 
-- Report issues: https://github.com/galyarderlabs/galyarder-framework/issues
+- Report issues: https://github.com/galyarderlabs/issues
 - Main documentation: https://github.com/galyarderlabs/galyarder-framework
 - OpenCode docs: https://opencode.ai/docs/

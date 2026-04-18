@@ -27,7 +27,7 @@ for skill in "${SKILLS[@]}"; do
     prompt_file="$PROMPTS_DIR/${skill}.txt"
 
     if [ ! -f "$prompt_file" ]; then
-        echo "⚠️  SKIP: No prompt file for $skill"
+        echo "  SKIP: No prompt file for $skill"
         continue
     fi
 
@@ -35,10 +35,10 @@ for skill in "${SKILLS[@]}"; do
 
     if "$SCRIPT_DIR/run-test.sh" "$skill" "$prompt_file" 3 2>&1 | tee /tmp/skill-test-$skill.log; then
         PASSED=$((PASSED + 1))
-        RESULTS+=("✅ $skill")
+        RESULTS+=(" $skill")
     else
         FAILED=$((FAILED + 1))
-        RESULTS+=("❌ $skill")
+        RESULTS+=(" $skill")
     fi
 
     echo ""

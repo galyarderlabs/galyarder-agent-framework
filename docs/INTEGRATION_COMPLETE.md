@@ -1,8 +1,8 @@
 # Integration Complete: Framework + Dashboard
 
-## ✅ What Was Built
+##  What Was Built
 
-### 1. Framework Adapter (`dashboard/packages/adapters/galyarder-framework/`)
+### 1. Framework Adapter (`dashboard/packages/adapters/`)
 
 **Core Components:**
 - `index.ts` - Main adapter interface
@@ -13,7 +13,7 @@
 - `README.md` - Documentation
 
 **What It Does:**
-- Bridges Dashboard ↔ Framework
+- Bridges Dashboard  Framework
 - Loads 34 agents from `../../agents/`
 - Loads 100+ skills from `../../skills/`
 - Routes tasks to appropriate departments
@@ -33,42 +33,42 @@
 
 ---
 
-## 🎯 How It Works
+##  How It Works
 
 ### Architecture
 
 ```
-┌─────────────────────────────────────┐
-│     DASHBOARD WEB UI                │
-│  - Create companies                 │
-│  - Hire agents                      │
-│  - Assign tasks                     │
-│  - Monitor progress                 │
-└──────────────┬──────────────────────┘
-               │
-               ↓
-┌─────────────────────────────────────┐
-│     DASHBOARD API (Node.js)         │
-│  - Company management               │
-│  - Agent registry                   │
-│  - Task tracking                    │
-│  - Heartbeat scheduler              │
-└──────────────┬──────────────────────┘
-               │
-               ↓
-┌─────────────────────────────────────┐
-│  FRAMEWORK ADAPTER                  │
-│  - Load agents (34 agents)          │
-│  - Load skills (100+ skills)        │
-│  - Route via orchestrator           │
-│  - Execute via runtime              │
-└──────────────┬──────────────────────┘
-               │
-        ┌──────┼──────┐
-        ↓      ↓      ↓
-    ┌───────┬───────┬───────┐
-    │Claude │Cursor │Codex  │
-    └───────┴───────┴───────┘
+
+     DASHBOARD WEB UI                
+  - Create companies                 
+  - Hire agents                      
+  - Assign tasks                     
+  - Monitor progress                 
+
+               
+               
+
+     DASHBOARD API (Node.js)         
+  - Company management               
+  - Agent registry                   
+  - Task tracking                    
+  - Heartbeat scheduler              
+
+               
+               
+
+  FRAMEWORK ADAPTER                  
+  - Load agents (34 agents)          
+  - Load skills (100+ skills)        
+  - Route via orchestrator           
+  - Execute via runtime              
+
+               
+        
+                    
+    
+    Claude Cursor Codex  
+    
 ```
 
 ### User Flow
@@ -110,9 +110,9 @@
 
 ---
 
-## 📋 What's Working
+##  What's Working
 
-### ✅ Implemented
+###  Implemented
 
 1. **Agent Loading**
    - Parse agent .md files
@@ -143,7 +143,7 @@
    - Integration guide
    - Concept explanations
 
-### ⏳ TODO (Next Steps)
+###  TODO (Next Steps)
 
 1. **Runtime Integration**
    - Connect to actual Claude/Cursor adapters
@@ -156,8 +156,8 @@
    - Budget enforcement
 
 3. **Linear Integration**
-   - Sync tasks ↔ Linear issues
-   - Agent → Linear user mapping
+   - Sync tasks  Linear issues
+   - Agent  Linear user mapping
    - Status synchronization
 
 4. **Obsidian Reports**
@@ -173,7 +173,7 @@
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### Quick Start
 
@@ -219,7 +219,7 @@ See `docs/QUICK_START.md` for full guide.
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 ### 1. Concepts Are Same
 
@@ -260,34 +260,34 @@ Together = **Complete platform**
 
 ---
 
-## 📊 Project Status
+##  Project Status
 
 ### Framework (Your Work)
-- ✅ 34 agents defined
-- ✅ 100+ skills implemented
-- ✅ Workflow documented
-- ✅ Commands created
-- ✅ Design rules collected
+-  34 agents defined
+-  100+ skills implemented
+-  Workflow documented
+-  Commands created
+-  Design rules collected
 
 ### Dashboard (Separate Project)
-- ✅ Web UI built
-- ✅ API implemented
-- ✅ Database schema ready
-- ✅ Adapter system exists
-- ⏳ Agent execution incomplete
+-  Web UI built
+-  API implemented
+-  Database schema ready
+-  Adapter system exists
+-  Agent execution incomplete
 
 ### Integration (Just Built)
-- ✅ Adapter created
-- ✅ Agent loader working
-- ✅ Skill loader working
-- ✅ Orchestrator implemented
-- ✅ Documentation complete
-- ⏳ Runtime connection needed
-- ⏳ UI components needed
+-  Adapter created
+-  Agent loader working
+-  Skill loader working
+-  Orchestrator implemented
+-  Documentation complete
+-  Runtime connection needed
+-  UI components needed
 
 ---
 
-## 🎯 Next Actions
+##  Next Actions
 
 ### Immediate (This Week)
 
@@ -343,15 +343,15 @@ Together = **Complete platform**
 
 ---
 
-## 🏆 Achievement Unlocked
+##  Achievement Unlocked
 
 **You now have:**
 
-✅ Framework with 34 agents + 100+ skills
-✅ Dashboard with web UI + database
-✅ Adapter connecting them
-✅ Complete documentation
-✅ Clear roadmap
+ Framework with 34 agents + 100+ skills
+ Dashboard with web UI + database
+ Adapter connecting them
+ Complete documentation
+ Clear roadmap
 
 **What this means:**
 
@@ -363,13 +363,13 @@ Together = **Complete platform**
 
 ---
 
-## 📚 Key Files
+##  Key Files
 
 ### Integration
-- `dashboard/packages/adapters/galyarder-framework/src/index.ts`
-- `dashboard/packages/adapters/galyarder-framework/src/agent-loader.ts`
-- `dashboard/packages/adapters/galyarder-framework/src/skill-executor.ts`
-- `dashboard/packages/adapters/galyarder-framework/src/orchestrator.ts`
+- `dashboard/packages/adapters/src/index.ts`
+- `dashboard/packages/adapters/src/agent-loader.ts`
+- `dashboard/packages/adapters/src/skill-executor.ts`
+- `dashboard/packages/adapters/src/orchestrator.ts`
 
 ### Documentation
 - `docs/ORG_CHART.md`
@@ -392,7 +392,7 @@ Together = **Complete platform**
 
 ---
 
-## 🎉 Summary
+##  Summary
 
 **Integration complete!**
 
@@ -408,4 +408,4 @@ Next: Test it, connect runtime, build UI components.
 
 ---
 
-Built with ❤️ for the 1-Man Army.
+Built with  for the 1-Man Army.

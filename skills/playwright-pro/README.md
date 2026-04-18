@@ -2,13 +2,13 @@
 
 > Production-grade Playwright testing toolkit for AI coding agents.
 
-Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserStack — all from your AI agent.
+Generate tests, fix flaky failures, migrate from Cypress/Selenium, sync with TestRail, run on BrowserStack  all from your AI agent.
 
 ## Install
 
 ```bash
 # Claude Code plugin
-claude plugin install pw@claude-skills
+claude plugin install pw@Galyarder Framework
 
 # Or load directly
 claude --plugin-dir ./engineering-team/playwright-pro
@@ -18,13 +18,13 @@ claude --plugin-dir ./engineering-team/playwright-pro
 
 | Command | What it does |
 |---|---|
-| `/pw:init` | Set up Playwright in your project — detects framework, generates config, CI, first test |
+| `/pw:init` | Set up Playwright in your project  detects framework, generates config, CI, first test |
 | `/pw:generate <spec>` | Generate tests from a user story, URL, or component name |
 | `/pw:review` | Review existing tests for anti-patterns and coverage gaps |
 | `/pw:fix <test>` | Diagnose and fix a failing or flaky test |
 | `/pw:migrate` | Migrate from Cypress or Selenium to Playwright |
 | `/pw:coverage` | Analyze what's tested vs. what's missing |
-| `/pw:testrail` | Sync with TestRail — read cases, push results, create runs |
+| `/pw:testrail` | Sync with TestRail  read cases, push results, create runs |
 | `/pw:browserstack` | Run tests on BrowserStack, pull cross-browser reports |
 | `/pw:report` | Generate a test report in your preferred format |
 
@@ -34,7 +34,7 @@ claude --plugin-dir ./engineering-team/playwright-pro
 # In Claude Code:
 /pw:init                              # Set up Playwright
 /pw:generate "user can log in"        # Generate your first test
-# Tests are auto-validated by hooks — no extra steps
+# Tests are auto-validated by hooks  no extra steps
 ```
 
 ## What's Inside
@@ -45,9 +45,9 @@ Slash commands that turn natural language into production-ready Playwright tests
 
 ### 3 Specialized Agents
 
-- **test-architect** — Plans test strategy for complex applications
-- **test-debugger** — Diagnoses flaky tests using a systematic taxonomy
-- **migration-planner** — Creates file-by-file migration plans from Cypress/Selenium
+- **test-architect**  Plans test strategy for complex applications
+- **test-debugger**  Diagnoses flaky tests using a systematic taxonomy
+- **migration-planner**  Creates file-by-file migration plans from Cypress/Selenium
 
 ### 55 Test Templates
 
@@ -69,8 +69,8 @@ Ready-to-use, parametrizable templates covering:
 
 ### 2 MCP Integrations
 
-- **TestRail** — Read test cases, create runs, push pass/fail results
-- **BrowserStack** — Trigger cross-browser runs, pull session reports with video/screenshots
+- **TestRail**  Read test cases, create runs, push pass/fail results
+- **BrowserStack**  Trigger cross-browser runs, pull session reports with video/screenshots
 
 ### Smart Hooks
 
@@ -105,7 +105,7 @@ Then use `/pw:browserstack` to run tests across browsers.
 
 | Agent | How |
 |---|---|
-| **Claude Code** | Full plugin — slash commands, MCP tools, hooks, agents |
+| **Claude Code** | Full plugin  slash commands, MCP tools, hooks, agents |
 | **Codex CLI** | Copy `CLAUDE.md` to your project root as `AGENTS.md` |
 | **OpenClaw** | Use as a skill with `SKILL.md` entry point |
 
@@ -131,3 +131,6 @@ Based on battle-tested patterns from production test suites. Includes curated gu
 ## License
 
 MIT
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

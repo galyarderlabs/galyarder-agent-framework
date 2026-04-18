@@ -27,3 +27,6 @@ function Sidebar() {
   return <nav className={isMobile ? 'mobile' : 'desktop'} />
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

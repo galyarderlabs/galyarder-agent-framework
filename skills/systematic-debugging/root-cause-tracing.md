@@ -33,7 +33,7 @@ digraph when_to_use {
 
 ### 1. Observe the Symptom
 ```
-Error: git init failed in /home/galyarder-framework/project/packages/core
+Error: git init failed in /home/project/packages/core
 ```
 
 ### 2. Find Immediate Cause
@@ -45,9 +45,9 @@ await execFileAsync('git', ['init'], { cwd: projectDir });
 ### 3. Ask: What Called This?
 ```typescript
 WorktreeManager.createSessionWorktree(projectDir, sessionId)
-  → called by Session.initializeWorkspace()
-  → called by Session.create()
-  → called by test at Project.create()
+   called by Session.initializeWorkspace()
+   called by Session.create()
+   called by test at Project.create()
 ```
 
 ### 4. Keep Tracing Up
@@ -111,7 +111,7 @@ Runs tests one-by-one, stops at first polluter. See script for usage.
 **Symptom:** `.git` created in `packages/core/` (source code)
 
 **Trace chain:**
-1. `git init` runs in `process.cwd()` ← empty cwd parameter
+1. `git init` runs in `process.cwd()`  empty cwd parameter
 2. WorktreeManager called with empty projectDir
 3. Session.create() passed empty string
 4. Test accessed `context.tempDir` before beforeEach
@@ -167,3 +167,22 @@ From debugging session (2025-10-03):
 - Fixed at source (getter validation)
 - Added 4 layers of defense
 - 1847 tests passed, zero pollution
+
+### 6. Technical Integrity: The Karpathy Principles
+Combat AI slop through rigid adherence to the four principles of Andrej Karpathy:
+
+### 7. Corporate Reporting: The Obsidian Loop
+Durable memory is mandatory. Every task must result in a persistent artifact:
+- **Write Report**: Upon completion, save a summary/artifact to the relevant department in `docs/departments/` (e.g., `Engineering/`, `Growth/`).
+- **Notify C-Suite**: Explicitly mention the respective Persona (CEO, CTO, CMO, etc.) that the report is ready for review.
+- **Traceability**: Link the report to the corresponding Linear ticket.
+1. **Think Before Coding**: Don't guess. **If uncertain, STOP and ASK.** State assumptions explicitly. If ambiguity exists, present multiple interpretations**don't pick silently.** Push back if a simpler approach exists.
+2. **Simplicity First**: Implement the minimum code that solves the problem. **No speculative abstractions.** If 200 lines could be 50, **rewrite it.** No "configurability" unless requested.
+3. **Surgical Changes**: Touch **ONLY** what you must. Every changed line must trace to the request. Don't "improve" adjacent code or refactor things that aren't broken. Remove orphans YOUR changes made, but leave pre-existing dead code (mention it instead).
+4. **Goal-Driven Execution**: Define success criteria via tests-first. **Loop until verified.**
+   - Multi-step tasks MUST use this syntax:
+     1. [Step]  verify: [check]
+     2. [Step]  verify: [check]
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

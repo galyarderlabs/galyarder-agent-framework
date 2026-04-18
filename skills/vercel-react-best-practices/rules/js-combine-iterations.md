@@ -30,3 +30,6 @@ for (const user of users) {
   if (!user.isActive) inactive.push(user)
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

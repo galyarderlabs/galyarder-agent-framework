@@ -14,10 +14,10 @@ export XDG_CONFIG_HOME="$TEST_HOME/.config"
 export OPENCODE_CONFIG_DIR="$TEST_HOME/.config/opencode"
 
 # Standard install layout:
-#   $OPENCODE_CONFIG_DIR/galyarder-framework/             ← package root
-#   $OPENCODE_CONFIG_DIR/galyarder-framework/skills/      ← skills dir (../../skills from plugin)
-#   $OPENCODE_CONFIG_DIR/galyarder-framework/.opencode/plugins/galyarder-framework.js ← plugin file
-#   $OPENCODE_CONFIG_DIR/plugins/galyarder-framework.js   ← symlink OpenCode reads
+#   $OPENCODE_CONFIG_DIR/              package root
+#   $OPENCODE_CONFIG_DIR/skills/       skills dir (../../skills from plugin)
+#   $OPENCODE_CONFIG_DIR/.opencode/plugins/galyarder-framework.js  plugin file
+#   $OPENCODE_CONFIG_DIR/plugins/galyarder-framework.js    symlink OpenCode reads
 
 GALYARDER_DIR="$OPENCODE_CONFIG_DIR/galyarder-framework"
 GALYARDER_SKILLS_DIR="$GALYARDER_DIR/skills"

@@ -4,18 +4,36 @@
 
 ### Founder (Human)
 - **Role:** Owner, Principal, Final Decision Maker
-- **Reports to:** None
-- **Direct Reports:** galyarder-specialist
+- **Direct Reports:** galyarder-ceo
 
-### galyarder-specialist (Digital CEO)
-- **Role:** Chief Orchestrator, Workflow Manager
-- **Reports to:** Founder
+### galyarder-ceo (Chief Executive Officer)
+- **Persona:** `galyarder-ceo`
+- **Lead Agent:** `galyarder-specialist`
+- **Protocol:** **Humans 2.0** (Deterministic Strategy & Apex Logic)
 - **Responsibilities:**
-  - Route work to departments
-  - Enforce operating model
-  - Synthesize progress reports
-  - Quality control across company
-- **Direct Reports:** All department heads
+  - Receive founder intent
+  - Delegate to Department Heads (CTO, CMO, CFO/COO)
+  - Enforce the **Obsidian Loop** (Reporting)
+  - Provide high-signal executive summaries
+- **Direct Reports:** galyarder-cto, galyarder-cmo, galyarder-cfo-coo
+
+### galyarder-cto (Chief Technology Officer)
+- **Persona:** `galyarder-cto`
+- **Protocol:** **Humans 2.0** (Technical Determinism & Formal Verification)
+- **Department:** Engineering, Product, Security.
+- **Responsibilities:** Technical integrity, architecture oversight, security posture.
+
+### galyarder-cmo (Chief Marketing Officer)
+- **Persona:** `galyarder-cmo`
+- **Protocol:** **Humans 2.0** (Behavioral Heuristics & Memetic Warfare)
+- **Department:** Growth.
+- **Responsibilities:** Distribution, revenue (cuan), market visibility.
+
+### galyarder-cfo-coo (Chief Financial & Operating Officer)
+- **Persona:** `galyarder-cfo-coo`
+- **Protocol:** **Humans 2.0** (Antifragility & Operational Thermodynamics)
+- **Department:** Legal-Finance, Knowledge.
+- **Responsibilities:** Compliance, budget efficiency, operational reliability.
 
 ---
 
@@ -95,12 +113,6 @@
 - `receiving-code-review` - Review response
 - `finishing-a-development-branch` - Branch completion
 
-**Reports to Founder:**
-- Delivery status
-- Technical risk
-- Quality metrics
-- Blockers
-
 ---
 
 ### 4. Security
@@ -121,11 +133,6 @@
 - `tracking-threat-actor-infrastructure` - Threat tracking
 - `executing-active-directory-attack-simulation` - AD security
 - `investigating-phishing-email-incident` - Phishing analysis
-
-**Reports to Founder:**
-- Security posture
-- Urgent risks
-- Remediation priorities
 
 ---
 
@@ -156,12 +163,6 @@
 - `analytics-tracking` - Event tracking
 - `ab-test-setup` - A/B testing
 
-**Reports to Founder:**
-- Demand quality
-- Funnel performance
-- Market response
-- Leverage opportunities
-
 ---
 
 ### 6. Infrastructure / Operations
@@ -173,11 +174,6 @@
 - `devops-engineer` - CI/CD, Docker, infrastructure
 - `release-manager` - Versioning, changelogs, launches
 - `experimentation-engineer` - A/B test infrastructure
-
-**Reports to Founder:**
-- Release readiness
-- Infrastructure risk
-- Operational reliability
 
 ---
 
@@ -199,11 +195,6 @@
 - `saas-finops-optimization` - Cloud cost optimization
 - `finance-based-pricing-advisor` - Pricing strategy
 
-**Reports to Founder:**
-- Legal risk
-- Financial risk
-- Compliance gaps
-
 ---
 
 ### 8. Knowledge / Documentation
@@ -218,69 +209,21 @@
 - `json-canvas` - Visual mapping
 - `defuddle` - Content extraction
 
-**Reports to Founder:**
-- Current state snapshot
-- What changed
-- Decisions made
-- What must be remembered
-
----
-
-## Reporting Hierarchy
-
-### Downward Flow
-```
-Founder
-  ↓
-galyarder-specialist (CEO)
-  ↓
-Department Heads (Agents)
-  ↓
-Skill Workers (Execution)
-```
-
-### Upward Flow
-```
-Skill Execution Results
-  ↓
-Department Agent Synthesis
-  ↓
-galyarder-specialist Summary
-  ↓
-Founder Report
-```
-
----
-
-## Integration Points
-
-### Linear (Task System)
-- All work tracked as issues
-- Agent assignments
-- Status transitions
-- Next actions
-
-### Obsidian (Strategic Memory)
-- Architecture decisions
-- Progress summaries
-- Founder reports
-- Knowledge base
-- Visual maps
-
-### AI Assistants (Execution Runtime)
-- Claude Code
-- Cursor
-- Gemini
-- Codex
-- Any MCP-compatible assistant
-
 ---
 
 ## Operating Principles
 
-1. **Clear Ownership:** Every task has one agent owner
-2. **Department Accountability:** Each department produces founder-readable reports
-3. **Upward Synthesis:** Information flows up through hierarchy
-4. **Downward Delegation:** Work flows down through departments
-5. **Memory Preservation:** All decisions captured in Obsidian
-6. **Task Tracking:** All work visible in Linear
+1. **Clear Ownership:** Every task has one agent owner.
+2. **The Obsidian Loop:** Every task must result in a persistent report in `docs/departments/`.
+3. **Cognitive Integrity:** MANDATORY use of `sequentialthinking` and `context7` MCP tools before action.
+4. **Upward Synthesis:** Information flows up from Skills -> Agents -> C-Suite -> Founder.
+5. **Downward Delegation:** Vision flows down from Founder -> C-Suite -> Agents -> Skills.
+6. **Technical Integrity (Karpathy):** 
+   - **Think Before Coding**: STOP & ASK if uncertain.
+   - **Simplicity First**: Minimum code, no speculative abstractions.
+   - **Surgical Changes**: Touch only what you must.
+   - **Goal-Driven**: Loop until verified via tests-first.
+7. **Task Tracking:** All work strictly visible in project-scoped Linear issues.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework. Executive Office.

@@ -56,3 +56,6 @@ import { staticFile } from "remotion";
 
 const duration = await getAudioDuration(staticFile("audio.mp3"));
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

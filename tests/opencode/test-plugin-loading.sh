@@ -44,7 +44,7 @@ fi
 
 # Test 3: Check using-galyarder-framework skill exists (critical for bootstrap)
 echo "Test 3: Checking using-galyarder-framework skill (required for bootstrap)..."
-if [ -f "$GALYARDER_SKILLS_DIR/using-galyarder-framework/SKILL.md" ]; then
+if [ -f "$GALYARDER_SKILLS_DIR/using-SKILL.md" ]; then
     echo "  [PASS] using-galyarder-framework skill exists"
 else
     echo "  [FAIL] using-galyarder-framework skill not found (required for bootstrap)"
@@ -62,7 +62,7 @@ fi
 
 # Test 5: Verify bootstrap text does not reference a hardcoded skills path
 echo "Test 5: Checking bootstrap does not advertise a wrong skills path..."
-if grep -q 'configDir}/skills/galyarder-framework/' "$GALYARDER_PLUGIN_FILE"; then
+if grep -q 'configDir}/skills/' "$GALYARDER_PLUGIN_FILE"; then
     echo "  [FAIL] Plugin still references old configDir skills path"
     exit 1
 else

@@ -277,3 +277,6 @@ as described in this document against [ORGANIZATION NAME] assets.
 - [ ] Lessons learned session conducted
 - [ ] Evidence securely archived
 - [ ] Infrastructure decommissioned
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

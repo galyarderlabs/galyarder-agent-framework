@@ -48,3 +48,6 @@ function validateUsers(users: User[]) {
   return { valid: true }
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

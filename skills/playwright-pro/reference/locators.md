@@ -11,21 +11,21 @@ Use the first option that works:
 | 5 | `getByAltText('Company logo')` | Images with alt text |
 | 6 | `getByTitle('Close dialog')` | Elements with title attribute |
 | 7 | `getByTestId('checkout-summary')` | When no semantic option exists |
-| 8 | `page.locator('.legacy-widget')` | CSS/XPath — absolute last resort |
+| 8 | `page.locator('.legacy-widget')` | CSS/XPath  absolute last resort |
 
 ## Role Locator Cheat Sheet
 
 ```typescript
-// Buttons — <button>, <input type="submit">, [role="button"]
+// Buttons  <button>, <input type="submit">, [role="button"]
 page.getByRole('button', { name: 'Save changes' })
 
-// Links — <a href>
+// Links  <a href>
 page.getByRole('link', { name: 'View profile' })
 
-// Headings — h1-h6
+// Headings  h1-h6
 page.getByRole('heading', { name: 'Dashboard', level: 1 })
 
-// Text inputs — by label association
+// Text inputs  by label association
 page.getByRole('textbox', { name: 'Email' })
 
 // Checkboxes
@@ -34,7 +34,7 @@ page.getByRole('checkbox', { name: 'Remember me' })
 // Radio buttons
 page.getByRole('radio', { name: 'Monthly billing' })
 
-// Dropdowns — <select>
+// Dropdowns  <select>
 page.getByRole('combobox', { name: 'Country' })
 
 // Navigation
@@ -75,3 +75,6 @@ page.getByRole('listitem').nth(0)
 page.getByRole('listitem').first()
 page.getByRole('listitem').last()
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

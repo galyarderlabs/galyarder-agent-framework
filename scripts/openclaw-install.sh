@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install claude-skills into OpenClaw's workspace skills directory
+# Install galyarder-framework into OpenClaw's workspace skills directory
 # Usage: ./scripts/openclaw-install.sh [--dry-run]
 
 set -euo pipefail
@@ -29,7 +29,7 @@ while IFS= read -r skill_md; do
   else
     mkdir -p "$SKILLS_DIR"
     ln -sf "$skill_dir" "$target"
-    echo "  ✅ installed: $skill_name"
+    echo "   installed: $skill_name"
   fi
   installed=$((installed + 1))
 done < <(find "$REPO_DIR" -name "SKILL.md" -not -path "*/.git/*")

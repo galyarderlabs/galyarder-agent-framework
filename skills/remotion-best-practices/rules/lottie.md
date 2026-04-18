@@ -66,3 +66,5 @@ Lottie supports the `style` prop to allow styles and animations:
 return <Lottie animationData={animationData} style={{width: 400, height: 400}} />;
 ```
 
+---
+ 2026 Galyarder Labs. Galyarder Framework.

@@ -1,4 +1,4 @@
-# Galyarder Component Index
+# Galyarder Framework Component Index
 
 Complete inventory of all UI components. Update this file when adding new reusable components.
 
@@ -20,7 +20,7 @@ Complete inventory of all UI components. Update this file when adding new reusab
 
 Location: `ui/src/components/ui/`
 
-These are shadcn/ui base components. Do not modify directly — extend via composition.
+These are shadcn/ui base components. Do not modify directly  extend via composition.
 
 | Component | File | Key Props | Notes |
 |-----------|------|-----------|-------|
@@ -28,7 +28,7 @@ These are shadcn/ui base components. Do not modify directly — extend via compo
 | Card | `card.tsx` | CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter | Compound component. `py-6` default padding. |
 | Input | `input.tsx` | `disabled` | Standard text input. |
 | Badge | `badge.tsx` | `variant` (default, secondary, outline, destructive, ghost) | Generic label/tag. For status, use StatusBadge instead. |
-| Label | `label.tsx` | — | Form label, wraps Radix Label. |
+| Label | `label.tsx` |  | Form label, wraps Radix Label. |
 | Select | `select.tsx` | Trigger, Content, Item, etc. | Radix-based dropdown select. |
 | Separator | `separator.tsx` | `orientation` (horizontal, vertical) | Divider line. |
 | Checkbox | `checkbox.tsx` | `checked`, `onCheckedChange` | Radix checkbox with indicator. |
@@ -41,7 +41,7 @@ These are shadcn/ui base components. Do not modify directly — extend via compo
 | Popover | `popover.tsx` | PopoverTrigger, PopoverContent | Floating content panel. |
 | Tabs | `tabs.tsx` | `variant` (pill, line). TabsList, TabsTrigger, TabsContent | Tabbed navigation. Pill = default, line = underline style. |
 | Tooltip | `tooltip.tsx` | TooltipTrigger, TooltipContent | Hover tooltips. App is wrapped in TooltipProvider. |
-| ScrollArea | `scroll-area.tsx` | — | Custom scrollable container. |
+| ScrollArea | `scroll-area.tsx` |  | Custom scrollable container. |
 | Collapsible | `collapsible.tsx` | CollapsibleTrigger, CollapsibleContent | Expand/collapse sections. |
 | Skeleton | `skeleton.tsx` | className for sizing | Loading placeholder with shimmer. |
 | Sheet | `sheet.tsx` | SheetTrigger, SheetContent, SheetHeader, etc. | Side panel overlay. |
@@ -62,7 +62,7 @@ Location: `ui/src/components/`
 <StatusBadge status="in_progress" />
 ```
 
-Use for displaying status in properties panels, entity rows, and list views. Never hardcode status colors — always use this component.
+Use for displaying status in properties panels, entity rows, and list views. Never hardcode status colors  always use this component.
 
 ### StatusIcon
 
@@ -286,7 +286,7 @@ All follow the property row pattern: `text-xs text-muted-foreground` label on le
 
 ## Utilities & Hooks
 
-### cn() — Class Name Merger
+### cn()  Class Name Merger
 
 **File:** `ui/src/lib/utils.ts`
 **Usage:** Merges class names with clsx + tailwind-merge. Use in every component.

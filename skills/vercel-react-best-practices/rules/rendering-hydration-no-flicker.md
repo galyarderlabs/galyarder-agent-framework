@@ -80,3 +80,6 @@ function ThemeWrapper({ children }: { children: ReactNode }) {
 The inline script executes synchronously before showing the element, ensuring the DOM already has the correct value. No flickering, no hydration mismatch.
 
 This pattern is especially useful for theme toggles, user preferences, authentication states, and any client-only data that should render immediately without flashing default values.
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

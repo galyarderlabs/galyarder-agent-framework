@@ -42,10 +42,10 @@ export const GalyarderAgentFrameworkPlugin = async ({ client, directory }) => {
 
     const toolMapping = `**Tool Mapping for OpenCode:**
 When skills reference tools you don't have, substitute OpenCode equivalents:
-- \`TodoWrite\` → \`todowrite\`
-- \`Task\` tool with subagents → Use OpenCode's subagent system (@mention)
-- \`Skill\` tool → OpenCode's native \`skill\` tool
-- \`Read\`, \`Write\`, \`Edit\`, \`Bash\` → Your native tools`;
+- \`TodoWrite\`  \`todowrite\`
+- \`Task\` tool with subagents  Use OpenCode's subagent system (@mention)
+- \`Skill\` tool  OpenCode's native \`skill\` tool
+- \`Read\`, \`Write\`, \`Edit\`, \`Bash\`  Your native tools`;
 
     return `<EXTREMELY_IMPORTANT>
 You have galyarder-framework.

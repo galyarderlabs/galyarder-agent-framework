@@ -175,3 +175,6 @@
 ---
 
 *Report generated using Financial Analyst Skill - Forecast Builder*
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

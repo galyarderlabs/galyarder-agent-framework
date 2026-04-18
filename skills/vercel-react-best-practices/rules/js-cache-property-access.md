@@ -9,7 +9,7 @@ tags: javascript, loops, optimization, caching
 
 Cache object property lookups in hot paths.
 
-**Incorrect (3 lookups × N iterations):**
+**Incorrect (3 lookups  N iterations):**
 
 ```typescript
 for (let i = 0; i < arr.length; i++) {
@@ -26,3 +26,6 @@ for (let i = 0; i < len; i++) {
   process(value)
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

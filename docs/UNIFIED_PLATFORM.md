@@ -14,40 +14,40 @@
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────┐
-│         DASHBOARD WEB UI (Frontend)              │
-│  - Create companies                              │
-│  - Hire agents                                   │
-│  - Assign tasks                                  │
-│  - Monitor progress                              │
-│  - Control budgets                               │
-└─────────────────┬───────────────────────────────┘
-                  │
-                  ↓
-┌─────────────────────────────────────────────────┐
-│      DASHBOARD API (Backend - Node.js)           │
-│  - Company management                            │
-│  - Agent registry                                │
-│  - Task tracking                                 │
-│  - Heartbeat scheduler                           │
-│  - Cost tracking                                 │
-└─────────────────┬───────────────────────────────┘
-                  │
-        ┌─────────┼─────────┐
-        ↓         ↓         ↓
-   ┌────────┐ ┌────────┐ ┌────────┐
-   │Claude  │ │Cursor  │ │Codex   │
-   │Adapter │ │Adapter │ │Adapter │
-   └────┬───┘ └────┬───┘ └────┬───┘
-        │          │          │
-        └──────────┼──────────┘
-                   ↓
-        ┌──────────────────────┐
-        │  FRAMEWORK LAYER      │
-        │  - Agent definitions  │
-        │  - Skill library      │
-        │  - Orchestration      │
-        └──────────────────────┘
+
+         DASHBOARD WEB UI (Frontend)              
+  - Create companies                              
+  - Hire agents                                   
+  - Assign tasks                                  
+  - Monitor progress                              
+  - Control budgets                               
+
+                  
+                  
+
+      DASHBOARD API (Backend - Node.js)           
+  - Company management                            
+  - Agent registry                                
+  - Task tracking                                 
+  - Heartbeat scheduler                           
+  - Cost tracking                                 
+
+                  
+        
+                          
+     
+   Claude   Cursor   Codex   
+   Adapter  Adapter  Adapter 
+     
+                            
+        
+                   
+        
+          FRAMEWORK LAYER      
+          - Agent definitions  
+          - Skill library      
+          - Orchestration      
+        
 ```
 
 ---
@@ -58,20 +58,20 @@
 
 #### 1.1 Create Galyarder Framework Adapter
 ```bash
-dashboard/packages/adapters/galyarder-framework/
-├── src/
-│   ├── index.ts              # Adapter registration
-│   ├── agent-loader.ts       # Load Framework agents
-│   ├── skill-executor.ts     # Execute Framework skills
-│   └── orchestrator.ts       # galyarder-specialist logic
-├── package.json
-└── README.md
+dashboard/packages/adapters/
+ src/
+    index.ts              # Adapter registration
+    agent-loader.ts       # Load Framework agents
+    skill-executor.ts     # Execute Framework skills
+    orchestrator.ts       # galyarder-specialist logic
+ package.json
+ README.md
 ```
 
 **Key files:**
 
 ```typescript
-// dashboard/packages/adapters/galyarder-framework/src/index.ts
+// dashboard/packages/adapters/src/index.ts
 export const type = "galyarder_framework";
 export const label = "Galyarder Framework Agent";
 
@@ -271,7 +271,7 @@ async function routeTask(task: Task) {
 
 #### 4.1 Linear Sync
 ```typescript
-// Sync dashboard tasks ↔ Linear issues
+// Sync dashboard tasks  Linear issues
 
 async function syncToLinear(task: Task) {
   const issue = await linear.createIssue({
@@ -308,29 +308,29 @@ async function generateDepartmentReport(department: string) {
 ## File Structure After Integration
 
 ```
-galyarder-framework/
-├── agents/                    # Agent definitions (source of truth)
-├── skills/                    # Skill library (source of truth)
-├── commands/                  # Command shortcuts
-├── rules/                     # Design systems
-├── obsidian-templates/        # Report templates
-│
-├── dashboard/                 # Web platform
-│   ├── ui/                    # React frontend
-│   ├── server/                # Node.js API
-│   ├── packages/
-│   │   ├── adapters/
-│   │   │   ├── claude-local/
-│   │   │   ├── cursor-local/
-│   │   │   └── galyarder-framework/  # NEW: Framework adapter
-│   │   ├── galyarder-skills/         # NEW: Skill registry
-│   │   └── galyarder-agents/         # NEW: Agent loader
-│   └── ...
-│
-└── docs/
-    ├── ORG_CHART.md
-    ├── INTEGRATION.md
-    └── UNIFIED_PLATFORM.md   # This file
+
+ agents/                    # Agent definitions (source of truth)
+ skills/                    # Skill library (source of truth)
+ commands/                  # Command shortcuts
+ rules/                     # Design systems
+ obsidian-templates/        # Report templates
+
+ dashboard/                 # Web platform
+    ui/                    # React frontend
+    server/                # Node.js API
+    packages/
+       adapters/
+          claude-local/
+          cursor-local/
+            # NEW: Framework adapter
+       galyarder-skills/         # NEW: Skill registry
+       galyarder-agents/         # NEW: Agent loader
+    ...
+
+ docs/
+     ORG_CHART.md
+     INTEGRATION.md
+     UNIFIED_PLATFORM.md   # This file
 ```
 
 ---
@@ -339,8 +339,8 @@ galyarder-framework/
 
 ### Before (Separate):
 ```
-1. Chat with Claude → Use Framework
-2. Open dashboard → Manage agents manually
+1. Chat with Claude  Use Framework
+2. Open dashboard  Manage agents manually
 3. No connection between them
 ```
 
@@ -363,19 +363,19 @@ galyarder-framework/
 ## Benefits
 
 ### For Solo Founder:
-- ✅ Visual company management (web UI)
-- ✅ Pre-built agents (Framework library)
-- ✅ 100+ skills ready to use
-- ✅ Cost tracking and budgets
-- ✅ Progress monitoring
-- ✅ One unified platform
+-  Visual company management (web UI)
+-  Pre-built agents (Framework library)
+-  100+ skills ready to use
+-  Cost tracking and budgets
+-  Progress monitoring
+-  One unified platform
 
 ### Technical:
-- ✅ Framework agents = reusable templates
-- ✅ Skills = executable modules
-- ✅ Dashboard = orchestration platform
-- ✅ Adapters = runtime flexibility
-- ✅ Clean separation of concerns
+-  Framework agents = reusable templates
+-  Skills = executable modules
+-  Dashboard = orchestration platform
+-  Adapters = runtime flexibility
+-  Clean separation of concerns
 
 ---
 
@@ -401,22 +401,22 @@ galyarder-framework/
 ## Next Actions
 
 ### Immediate (This Week):
-1. ✅ Document integration architecture (this file)
-2. ⏳ Create galyarder-framework adapter skeleton
-3. ⏳ Build skill registry parser
-4. ⏳ Test: Hire one Framework agent in dashboard
+1.  Document integration architecture (this file)
+2.  Create galyarder-framework adapter skeleton
+3.  Build skill registry parser
+4.  Test: Hire one Framework agent in dashboard
 
 ### Short-term (This Month):
-5. ⏳ Import all Framework agents as templates
-6. ⏳ Implement galyarder-specialist orchestration
-7. ⏳ Build org chart UI
-8. ⏳ Add skill execution monitoring
+5.  Import all Framework agents as templates
+6.  Implement galyarder-specialist orchestration
+7.  Build org chart UI
+8.  Add skill execution monitoring
 
 ### Long-term (Next Quarter):
-9. ⏳ Linear integration
-10. ⏳ Obsidian report automation
-11. ⏳ Cost tracking per skill
-12. ⏳ Multi-company management
+9.  Linear integration
+10.  Obsidian report automation
+11.  Cost tracking per skill
+12.  Multi-company management
 
 ---
 

@@ -1,6 +1,6 @@
 @echo off
 REM
-REM Codex Installation Script for Claude Skills Library (Windows)
+REM Codex Installation Script for Galyarder Framework (Windows)
 REM
 REM Installs skills from this repository to your local Codex skills directory.
 REM Uses direct copy (no symlinks) for Windows compatibility.
@@ -17,27 +17,11 @@ REM
 
 setlocal enabledelayedexpansion
 
-REM Configuration
 set "CODEX_SKILLS_DIR=%USERPROFILE%\.codex\skills"
-set "SCRIPT_DIR=%~dp0"
-set "REPO_ROOT=%SCRIPT_DIR%.."
-set "CODEX_SKILLS_SRC=%REPO_ROOT%\.codex\skills"
-set "CODEX_INDEX=%REPO_ROOT%\.codex\skills-index.json"
+set "CODEX_SKILLS_SRC=%~dp0..\skills"
 
-REM Check for help
-if "%1"=="--help" goto :show_help
-if "%1"=="-h" goto :show_help
-
-REM Check prerequisites
-if not exist "%CODEX_SKILLS_SRC%" (
-    echo [ERROR] Codex skills directory not found: %CODEX_SKILLS_SRC%
-    echo [INFO] Run 'python scripts\sync-codex-skills.py' first to generate structure.
-    exit /b 1
-)
-
-REM Parse arguments
 set "MODE=all"
-set "TARGET="
+set "SKILL_NAME="
 
 :parse_args
 if "%1"=="" goto :run_mode
@@ -48,7 +32,11 @@ if "%1"=="--all" (
 )
 if "%1"=="--skill" (
     set "MODE=skill"
-    set "TARGET=%2"
+    set "SKILL_NAME=%2"
+    if "!SKILL_NAME!"=="" (
+        echo [ERROR] --skill option requires a skill name
+        goto :show_help
+    )
     shift
     shift
     goto :parse_args
@@ -64,7 +52,7 @@ goto :show_help
 :run_mode
 echo.
 echo ========================================
-echo   Claude Skills - Codex Installer
+echo   Galyarder Framework - Codex Installer
 echo   (Windows Version)
 echo ========================================
 echo.
@@ -85,60 +73,33 @@ for /d %%i in ("%CODEX_SKILLS_SRC%\*") do (
 goto :end
 
 :install_skill
-if "%TARGET%"=="" (
-    echo [ERROR] Skill name required
-    exit /b 1
+if not exist "%CODEX_SKILLS_SRC%\%SKILL_NAME%" (
+    echo [ERROR] Skill not found: %SKILL_NAME%
+    goto :end
 )
-
-set "SKILL_SRC=%CODEX_SKILLS_SRC%\%TARGET%"
-set "SKILL_DEST=%CODEX_SKILLS_DIR%\%TARGET%"
-
-if not exist "%SKILL_SRC%" (
-    echo [ERROR] Skill not found: %TARGET%
-    exit /b 1
+echo [INFO] Installing skill: %SKILL_NAME%...
+mkdir "%CODEX_SKILLS_DIR%\%SKILL_NAME%" 2>nul
+xcopy /E /Y /Y "%CODEX_SKILLS_SRC%\%SKILL_NAME%\*" "%CODEX_SKILLS_DIR%\%SKILL_NAME%\" >nul
+if errorlevel 1 (
+    echo [ERROR] Failed to install skill: %SKILL_NAME%
+) else (
+    echo [SUCCESS] Skill installed: %SKILL_NAME%
 )
-
-if not exist "%SKILL_SRC%\SKILL.md" (
-    echo [ERROR] Invalid skill (no SKILL.md): %TARGET%
-    exit /b 1
-)
-
-echo [INFO] Installing skill: %TARGET%
-
-REM Create destination directory
-if not exist "%CODEX_SKILLS_DIR%" mkdir "%CODEX_SKILLS_DIR%"
-
-REM Remove existing
-if exist "%SKILL_DEST%" rmdir /s /q "%SKILL_DEST%"
-
-REM Copy skill
-xcopy /e /i /q "%SKILL_SRC%" "%SKILL_DEST%"
-
-echo [SUCCESS] Installed: %TARGET%
 goto :end
 
 :install_all
-echo [INFO] Installing all skills to: %CODEX_SKILLS_DIR%
-echo.
-
-set "INSTALLED=0"
-set "FAILED=0"
-
-if not exist "%CODEX_SKILLS_DIR%" mkdir "%CODEX_SKILLS_DIR%"
+echo [INFO] Installing all skills...
+set /a INSTALLED=0
+set /a FAILED=0
 
 for /d %%i in ("%CODEX_SKILLS_SRC%\*") do (
     if exist "%%i\SKILL.md" (
-        set "SKILL_NAME=%%~ni"
-        set "SKILL_DEST=%CODEX_SKILLS_DIR%\%%~ni"
-
-        echo [INFO] Installing: %%~ni
-
-        if exist "!SKILL_DEST!" rmdir /s /q "!SKILL_DEST!"
-
-        xcopy /e /i /q "%%i" "!SKILL_DEST!" >nul
-
+        set "CUR_SKILL=%%~ni"
+        echo [INFO] Installing !CUR_SKILL!...
+        mkdir "%CODEX_SKILLS_DIR%\!CUR_SKILL!" 2>nul
+        xcopy /E /Y /Y "%%i\*" "%CODEX_SKILLS_DIR%\!CUR_SKILL!\" >nul
         if errorlevel 1 (
-            echo [ERROR] Failed to install: %%~ni
+            echo [ERROR] Failed to install !CUR_SKILL!
             set /a FAILED+=1
         ) else (
             set /a INSTALLED+=1
@@ -154,7 +115,7 @@ goto :end
 
 :show_help
 echo.
-echo Codex Installation Script for Claude Skills Library (Windows)
+echo Codex Installation Script for Galyarder Framework (Windows)
 echo.
 echo Usage:
 echo   scripts\codex-install.bat [--all ^| --skill ^<name^>]

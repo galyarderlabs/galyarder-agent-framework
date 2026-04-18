@@ -73,3 +73,6 @@ function SearchResults() {
 - **Interrupt handling**: New transitions automatically cancel pending ones
 
 Reference: [useTransition](https://react.dev/reference/react/useTransition)
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

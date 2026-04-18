@@ -1,0 +1,11 @@
+{
+  "name": "executive-personas",
+  "description": "High-fidelity C-Suite personas built on the Humans 2.0 protocol.",
+  "version": "1.7.0",
+  "author": {
+    "name": "Galyarder Labs",
+    "email": "hello@galyarderlabs.app"
+  },
+  "keywords": ["executive", "ceo", "cto", "cmo", "cfo", "orchestration"],
+  "personas": "./"
+}

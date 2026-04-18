@@ -66,3 +66,6 @@ import { staticFile } from "remotion";
 
 const dimensions = await getVideoDimensions(staticFile("video.mp4"));
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

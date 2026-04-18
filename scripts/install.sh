@@ -1,0 +1,99 @@
+#!/usr/bin/env bash
+# Usage:
+#   ./scripts/install.sh [--tool <name>] [--target <dir>] [--help]
+#
+# Tools: antigravity, cursor, aider, kilocode, windsurf, opencode, augment, all
+# Default: all
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+TOOL="all"
+TARGET_DIR=""
+
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+BLUE='\033[0;34m'
+NC='\033[0m'
+
+ok() { echo -e "${GREEN}[OK]${NC} $*"; }
+err() { echo -e "${RED}[ERR]${NC} $*" >&2; }
+info() { echo -e "${BLUE}[*]${NC} $*"; }
+
+usage() {
+  cat <<'USAGE'
+Usage:
+  ./scripts/install.sh [--tool <name>] [--target <dir>] [--help]
+
+Tools:
+  antigravity, cursor, aider, kilocode, windsurf, opencode, augment, all
+
+Defaults:
+  --tool all
+USAGE
+}
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --tool) TOOL="${2:-}"; shift 2 ;;
+    --target) TARGET_DIR="${2:-}"; shift 2 ;;
+    --help|-h) usage; exit 0 ;;
+    *) err "Unknown argument: $1"; usage; exit 1 ;;
+  esac
+done
+
+# 1. Run Conversion
+info "Running Galyarder Framework conversion engine..."
+"${SCRIPT_DIR}/convert.sh" --tool "$TOOL"
+
+TOOLS="antigravity cursor aider kilocode windsurf opencode augment claude-code codex gemini openclaw hermes"
+[[ "$TOOL" != "all" ]] && TOOLS="$TOOL"
+
+for t in $TOOLS; do
+    info "Installing for ${t}..."
+    SRC_DIR="${REPO_ROOT}/integrations/${t}"
+    
+    case "$t" in
+        antigravity)
+            DEST="${HOME}/.gemini/antigravity/skills"
+            mkdir -p "$DEST"
+            cp -R "${SRC_DIR}/"* "$DEST/"
+            ok "Linked skills to Antigravity global directory." ;;
+        cursor)
+            if [ -n "$TARGET_DIR" ]; then
+                mkdir -p "${TARGET_DIR}/.cursor/rules"
+                cp "${SRC_DIR}/rules/"*.mdc "${TARGET_DIR}/.cursor/rules/"
+                ok "Installed Cursor rules to ${TARGET_DIR}."
+            else
+                warn "No --target provided for Cursor. Rules available at integrations/cursor/rules/"
+            fi ;;
+        aider)
+            if [ -n "$TARGET_DIR" ]; then
+                cp "${SRC_DIR}/CONVENTIONS.md" "${TARGET_DIR}/"
+                ok "Installed Aider conventions to ${TARGET_DIR}."
+            else
+                warn "No --target provided for Aider. File available at integrations/aider/CONVENTIONS.md"
+            fi ;;
+        windsurf)
+            DEST="${HOME}/.windsurf/skills"
+            mkdir -p "$DEST"
+            cp -R "${SRC_DIR}/skills/"* "$DEST/"
+            ok "Installed Windsurf skills to ${DEST}." ;;
+        opencode)
+            DEST="${HOME}/.opencode/plugins"
+            mkdir -p "$DEST"
+            cp -R "${SRC_DIR}/skills/"* "$DEST/"
+            ok "Installed OpenCode skills to ${DEST}." ;;
+        claude-code)
+            DEST="${HOME}/.claude/agents"
+            mkdir -p "$DEST"
+            cp "${SRC_DIR}/"* "$DEST/" 2>/dev/null || true
+            ok "Installed Claude Code agents to ${DEST}." ;;
+        *)
+            info "Skipping automated system install for ${t}. Assets available in integrations/${t}/" ;;
+    esac
+done
+
+ok "Galyarder Framework installation process complete."

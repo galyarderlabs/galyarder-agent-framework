@@ -4,37 +4,37 @@
 
 ```
 Test is flaky
-│
-├── Fails locally with --repeat-each=20?
-│   ├── YES → TIMING / ASYNC
-│   │   ├── Missing await? → Add await
-│   │   ├── waitForTimeout? → Replace with assertion
-│   │   ├── Race condition? → Wait for specific event
-│   │   └── Animation? → Wait for animation end or disable
-│   │
-│   └── NO → Continue...
-│
-├── Passes alone, fails in suite?
-│   ├── YES → TEST ISOLATION
-│   │   ├── Shared variable? → Make per-test
-│   │   ├── Database state? → Reset per-test
-│   │   ├── localStorage? → Clear in beforeEach
-│   │   └── Cookie leak? → Use isolated contexts
-│   │
-│   └── NO → Continue...
-│
-├── Fails in CI, passes locally?
-│   ├── YES → ENVIRONMENT
-│   │   ├── Viewport? → Set explicit size
-│   │   ├── Fonts? → Use Docker locally
-│   │   ├── Timezone? → Use UTC everywhere
-│   │   └── Network? → Mock external services
-│   │
-│   └── NO → INFRASTRUCTURE
-│       ├── Browser crash? → Reduce workers
-│       ├── OOM? → Limit parallel tests
-│       ├── DNS? → Add retry config
-│       └── File system? → Use unique temp dirs
+
+ Fails locally with --repeat-each=20?
+    YES  TIMING / ASYNC
+       Missing await?  Add await
+       waitForTimeout?  Replace with assertion
+       Race condition?  Wait for specific event
+       Animation?  Wait for animation end or disable
+   
+    NO  Continue...
+
+ Passes alone, fails in suite?
+    YES  TEST ISOLATION
+       Shared variable?  Make per-test
+       Database state?  Reset per-test
+       localStorage?  Clear in beforeEach
+       Cookie leak?  Use isolated contexts
+   
+    NO  Continue...
+
+ Fails in CI, passes locally?
+    YES  ENVIRONMENT
+       Viewport?  Set explicit size
+       Fonts?  Use Docker locally
+       Timezone?  Use UTC everywhere
+       Network?  Mock external services
+   
+    NO  INFRASTRUCTURE
+        Browser crash?  Reduce workers
+        OOM?  Limit parallel tests
+        DNS?  Add retry config
+        File system?  Use unique temp dirs
 ```
 
 ## Common Fixes by Category
@@ -43,7 +43,7 @@ Test is flaky
 
 **Missing await:**
 ```typescript
-// BAD — race condition
+// BAD  race condition
 page.goto('/dashboard');
 expect(page.getByText('Welcome')).toBeVisible();
 
@@ -54,10 +54,10 @@ await expect(page.getByText('Welcome')).toBeVisible();
 
 **Clicking before visible:**
 ```typescript
-// BAD — element may not be ready
+// BAD  element may not be ready
 await page.getByRole('button', { name: 'Submit' }).click();
 
-// GOOD — ensure visible first
+// GOOD  ensure visible first
 const submitBtn = page.getByRole('button', { name: 'Submit' });
 await expect(submitBtn).toBeVisible();
 await submitBtn.click();
@@ -65,11 +65,11 @@ await submitBtn.click();
 
 **Race with network:**
 ```typescript
-// BAD — data might not be loaded
+// BAD  data might not be loaded
 await page.goto('/users');
 await expect(page.getByRole('table')).toBeVisible();
 
-// GOOD — wait for API response
+// GOOD  wait for API response
 const responsePromise = page.waitForResponse('**/api/users');
 await page.goto('/users');
 await responsePromise;
@@ -80,12 +80,12 @@ await expect(page.getByRole('table')).toBeVisible();
 
 **Shared state fix:**
 ```typescript
-// BAD — tests share userId
+// BAD  tests share userId
 let userId: string;
 test('create', async () => { userId = '123'; });
 test('read', async () => { /* uses userId */ });
 
-// GOOD — each test is independent
+// GOOD  each test is independent
 test('read user', async ({ request }) => {
   const response = await request.post('/api/users', { data: { name: 'Test' } });
   const { id } = await response.json();
@@ -113,7 +113,7 @@ test.use({ viewport: { width: 1280, height: 720 } });
 // BAD
 expect(dateText).toBe('March 5, 2026');
 
-// GOOD — timezone independent
+// GOOD  timezone independent
 expect(dateText).toMatch(/\d{1,2}\/\d{1,2}\/\d{4}/);
 ```
 
@@ -132,3 +132,6 @@ export default defineConfig({
 ```typescript
 test.setTimeout(60_000); // 60s for slow CI
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

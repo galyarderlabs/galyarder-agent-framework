@@ -56,3 +56,6 @@ function UserProfile() {
 Use lazy initialization when computing initial values from localStorage/sessionStorage, building data structures (indexes, maps), reading from the DOM, or performing heavy transformations.
 
 For simple primitives (`useState(0)`), direct references (`useState(props.value)`), or cheap literals (`useState({})`), the function form is unnecessary.
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

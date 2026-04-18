@@ -1,7 +1,7 @@
 ---
 name: design-guide
 description: >
-  Galyarder UI design system guide for building consistent, reusable frontend
+  Galyarder Framework UI design system guide for building consistent, reusable frontend
   components. Use when creating new UI components, modifying existing ones,
   adding pages or features to the frontend, styling UI elements, or when you
   need to understand the design language and conventions. Covers: component
@@ -11,9 +11,9 @@ description: >
   web-design-guidelines skill (for web best practices).
 ---
 
-# Galyarder Design Guide
+# Galyarder Framework Design Guide
 
-Galyarder's UI is a professional-grade control plane — dense, keyboard-driven, dark-themed by default. Every pixel earns its place.
+Galyarder Framework's UI is a professional-grade control plane  dense, keyboard-driven, dark-themed by default. Every pixel earns its place.
 
 **Always use with:** `frontend-design` (visual polish) and `web-design-guidelines` (web best practices).
 
@@ -25,7 +25,7 @@ Galyarder's UI is a professional-grade control plane — dense, keyboard-driven,
 - **Keyboard-first.** Global shortcuts (Cmd+K, C, [, ]). Power users rarely touch the mouse.
 - **Contextual, not modal.** Inline editing over dialog boxes. Dropdowns over page navigations.
 - **Dark theme default.** Neutral grays (OKLCH), not pure black. Accent colors for status/priority only. Text is the primary visual element.
-- **Component-driven.** Prefer reusable components that capture style conventions. Build at the right abstraction — not too granular, not too monolithic.
+- **Component-driven.** Prefer reusable components that capture style conventions. Build at the right abstraction  not too granular, not too monolithic.
 
 ---
 
@@ -69,11 +69,11 @@ Use semantic token names, never raw color values:
 
 Single `--radius` variable (0.625rem) with derived sizes:
 
-- `rounded-sm` — small inputs, pills
-- `rounded-md` — buttons, inputs, small components
-- `rounded-lg` — cards, dialogs
-- `rounded-xl` — card containers, large components
-- `rounded-full` — badges, avatars, status dots
+- `rounded-sm`  small inputs, pills
+- `rounded-md`  buttons, inputs, small components
+- `rounded-lg`  cards, dialogs
+- `rounded-xl`  card containers, large components
+- `rounded-full`  badges, avatars, status dots
 
 ### Shadows
 
@@ -83,7 +83,7 @@ Minimal shadows: `shadow-xs` (outline buttons), `shadow-sm` (cards). No heavy sh
 
 ## 4. Typography Scale
 
-Use these exact patterns — do not invent new ones:
+Use these exact patterns  do not invent new ones:
 
 | Pattern | Classes | Usage |
 |---------|---------|-------|
@@ -132,9 +132,9 @@ Inline colored dots: running (cyan, animate-pulse), active (green), paused (yell
 
 Three tiers:
 
-1. **shadcn/ui primitives** (`ui/src/components/ui/`) — Button, Card, Input, Badge, Dialog, Tabs, etc. Do not modify these directly; extend via composition.
-2. **Custom composites** (`ui/src/components/`) — StatusBadge, EntityRow, MetricCard, etc. These capture Galyarder-specific design language.
-3. **Page components** (`ui/src/pages/`) — Compose primitives and composites into full views.
+1. **shadcn/ui primitives** (`ui/src/components/ui/`)  Button, Card, Input, Badge, Dialog, Tabs, etc. Do not modify these directly; extend via composition.
+2. **Custom composites** (`ui/src/components/`)  StatusBadge, EntityRow, MetricCard, etc. These capture Galyarder Framework-specific design language.
+3. **Page components** (`ui/src/pages/`)  Compose primitives and composites into full views.
 
 **See [references/component-index.md](references/component-index.md) for the complete component inventory with usage guidance.**
 
@@ -247,7 +247,7 @@ Standard `<table>` with `text-xs`, header row with `bg-accent/20`, `font-mono` f
 
 ### Focus
 
-`focus-visible:ring-ring focus-visible:ring-[3px]` — standard Tailwind focus-visible ring.
+`focus-visible:ring-ring focus-visible:ring-[3px]`  standard Tailwind focus-visible ring.
 
 ### Disabled
 
@@ -255,7 +255,7 @@ Standard `<table>` with `text-xs`, header row with `bg-accent/20`, `font-mono` f
 
 ### Inline Editing
 
-Use `InlineEditor` component — click text to edit, Enter saves, Escape cancels.
+Use `InlineEditor` component  click text to edit, Enter saves, Escape cancels.
 
 ### Popover Selectors
 
@@ -268,11 +268,11 @@ StatusIcon and PriorityIcon use Radix Popover for inline selection. Follow this 
 Three-zone layout defined in `Layout.tsx`:
 
 ```
-┌──────────┬──────────────────────────────┬──────────────────────┐
-│ Sidebar  │  Breadcrumb bar              │                      │
-│ (w-60)   ├──────────────────────────────┤  Properties panel    │
-│          │  Main content (flex-1)       │  (w-80, optional)    │
-└──────────┴──────────────────────────────┴──────────────────────┘
+
+ Sidebar    Breadcrumb bar                                    
+ (w-60)     Properties panel    
+            Main content (flex-1)         (w-80, optional)    
+
 ```
 
 - Sidebar: `w-60`, collapsible, contains CompanySwitcher + SidebarSections
@@ -327,9 +327,9 @@ When you create a new reusable component:
 
 ## 12. File Conventions
 
-- **shadcn primitives:** `ui/src/components/ui/{component}.tsx` — lowercase, kebab-case
-- **Custom components:** `ui/src/components/{ComponentName}.tsx` — PascalCase
-- **Pages:** `ui/src/pages/{PageName}.tsx` — PascalCase
+- **shadcn primitives:** `ui/src/components/ui/{component}.tsx`  lowercase, kebab-case
+- **Custom components:** `ui/src/components/{ComponentName}.tsx`  PascalCase
+- **Pages:** `ui/src/pages/{PageName}.tsx`  PascalCase
 - **Utilities:** `ui/src/lib/{name}.ts`
 - **Hooks:** `ui/src/hooks/{useName}.ts`
 - **API modules:** `ui/src/api/{entity}.ts`
@@ -346,6 +346,6 @@ All components use `cn()` from `@/lib/utils` for className merging. All componen
 - Hardcoding status colors instead of using StatusBadge/StatusIcon
 - Building one-off styled elements when a reusable component exists
 - Adding components without updating the design guide page
-- Using `shadow-md` or heavier — keep shadows minimal (xs, sm only)
-- Using `rounded-2xl` or larger — max is `rounded-xl` (except `rounded-full` for pills)
-- Forgetting dark mode — always use semantic tokens, never hardcode light/dark values
+- Using `shadow-md` or heavier  keep shadows minimal (xs, sm only)
+- Using `rounded-2xl` or larger  max is `rounded-xl` (except `rounded-full` for pills)
+- Forgetting dark mode  always use semantic tokens, never hardcode light/dark values

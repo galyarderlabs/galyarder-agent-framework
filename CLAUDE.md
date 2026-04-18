@@ -1,15 +1,21 @@
-# CROSS-CONTEXT: Also read AGENTS.md (Org Chart) and GEMINI.md (Commands) for full Galyarder OS functionality.
+# CROSS-CONTEXT: Also read AGENTS.md (Org Chart) and GEMINI.md (Commands) for full Galyarder Framework functionality.
 
-# Galyarder Workforce: SOPs & Skill Matrix
+# Galyarder Framework Workforce: SOPs & Skill Matrix
 
-## ⚖️ THE WORKFLOW CONSTITUTION (PHASE 1-5)
+##  THE WORKFLOW CONSTITUTION (PHASE 1-5)
 1. **Discovery**: PRD & Business Intent.
 2. **Blueprint**: Architecture & Plan.md (Vertical Slices).
 3. **Factory**: TDD Implementation.
 4. **Gatekeeper**: QA (BrowserOS) & Security Audit.
 5. **Distribution**: Marketing, SEO & Video.
 
-## 🛠️ SKILL DIRECTORY
+###  Technical Integrity: The Karpathy Principles
+- **Think Before Coding**: State assumptions explicitly. Surface tradeoffs. Push back on complexity. Stop when confused.
+- **Simplicity First**: Minimum code to solve the immediate problem. No speculative abstractions.
+- **Surgical Changes**: Touch ONLY what is necessary. Match existing style. No drive-by refactoring.
+- **Goal-Driven Execution**: Define success criteria via tests-first. Loop until verified. Every change traces to the request.
+
+##  SKILL DIRECTORY
 - **@ab-test-setup**: Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.
 - **@accelerator-application**: Accelerator Application Specialist. Use to shortlist startup programs, draft applications, prepare founder videos, and rehearse accelerator interviews with a disciplined founder narrative.
 - **@accounting**: Use this skill when the user needs to set up bookkeeping, track revenue and expenses, prepare for taxes, choose accounting software, understand SaaS revenue recognition, or manage the financial operations of their bootstrapped business. Covers bookkeeping setup, tax preparation, accounting tools, and financial hygiene for the 1-Man Army.
@@ -27,7 +33,7 @@
 - **@code-review-expert**: Expert code review of current git changes with a senior engineer lens. Detects SOLID violations, security risks, and proposes actionable improvements.
 - **@code-reviewer**: Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.
 - **@competitor-alternatives**: You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively.
-- **@content-creator**: Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or create a content calendar (routes to content-strategy). Does not handle requests directly — identifies user intent and redirects to content-production for writing/SEO/brand-voice tasks or content-strategy for planning tasks.
+- **@content-creator**: Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or create a content calendar (routes to content-strategy). Does not handle requests directly  identifies user intent and redirects to content-production for writing/SEO/brand-voice tasks or content-strategy for planning tasks.
 - **@content-strategy**: Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.
 - **@contract-and-proposal-writer**: >
 - **@contract-review**: Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation opportunities
@@ -37,7 +43,7 @@
 - **@cyber-intel**: External Threat & Intel Specialist. Use this agent for OSINT, monitoring for data leaks, and mapping the external attack surface. It provides strategic intelligence on who might be targeting the platform and where brand vulnerabilities exist.
 - **@data-room**: Due Diligence Data Room Specialist. Use to prepare, audit, and organize fundraising materials for investor diligence before or after a term sheet.
 - **@decision-logger**: Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by the board-meeting skill after Phase 5 founder approval.
-- **@defuddle**: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.
+- **@defuddle**: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md  those are already markdown, use WebFetch directly.
 - **@devops-engineer**: Infrastructure, Deployment, and CI/CD specialist. Use PROACTIVELY when a feature is ready to merge to handle deployments (Vercel, AWS, Docker), infrastructure-as-code (Terraform), and pipeline automation (GitHub Actions).
 - **@dispatching-parallel-agents**: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
 - **@doc-updater**: Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides.
@@ -151,3 +157,6 @@
 - **@write-a-prd**: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue. Use when user wants to write a PRD, create a product requirements document, or plan a new feature.
 - **@writing-plans**: Use when you have a spec or requirements for a multi-step task, before touching code
 - **@writing-skills**: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+
+---
+ 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.

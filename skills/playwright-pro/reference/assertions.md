@@ -56,15 +56,15 @@ await expect(page).toHaveTitle(/Dashboard/);
 ## Anti-Patterns (Never Do This)
 
 ```typescript
-// BAD — no auto-retry
+// BAD  no auto-retry
 const text = await locator.textContent();
 expect(text).toBe('Hello');
 
-// BAD — snapshot in time, not reactive
+// BAD  snapshot in time, not reactive
 const isVisible = await locator.isVisible();
 expect(isVisible).toBe(true);
 
-// BAD — evaluating in page context
+// BAD  evaluating in page context
 const value = await page.evaluate(() =>
   document.querySelector('input')?.value
 );
@@ -87,3 +87,6 @@ await expect.soft(locator).toHaveText('Expected');
 await expect.soft(page).toHaveURL('/next');
 // Test continues even if above fail
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

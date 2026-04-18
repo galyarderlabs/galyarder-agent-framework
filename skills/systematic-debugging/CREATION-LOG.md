@@ -4,8 +4,8 @@ Reference example of extracting, structuring, and bulletproofing a critical skil
 
 ## Source Material
 
-Extracted debugging framework from `/home/galyarder-framework/.claude/CLAUDE.md`:
-- 4-phase systematic process (Investigation → Pattern Analysis → Hypothesis → Implementation)
+Extracted debugging framework from `/home/.claude/CLAUDE.md`:
+- 4-phase systematic process (Investigation  Pattern Analysis  Hypothesis  Implementation)
 - Core mandate: ALWAYS find root cause, NEVER fix symptoms
 - Rules designed to resist time pressure and rationalization
 
@@ -27,7 +27,7 @@ Extracted debugging framework from `/home/galyarder-framework/.claude/CLAUDE.md`
 1. **Rich when_to_use** - Included symptoms and anti-patterns
 2. **Type: technique** - Concrete process with steps
 3. **Keywords** - "root cause", "symptom", "workaround", "debugging", "investigation"
-4. **Flowchart** - Decision point for "fix failed" → re-analyze vs add more fixes
+4. **Flowchart** - Decision point for "fix failed"  re-analyze vs add more fixes
 5. **Phase-by-phase breakdown** - Scannable checklist format
 6. **Anti-patterns section** - What NOT to do (critical for this skill)
 
@@ -83,19 +83,19 @@ Created 4 validation tests following skills/meta/testing-skills-with-subagents:
 
 ### Enhancement 1: TDD Reference
 - Added link to skills/testing/test-driven-development
-- Note explaining TDD's "simplest code" ≠ debugging's "root cause"
+- Note explaining TDD's "simplest code"  debugging's "root cause"
 - Prevents confusion between methodologies
 
 ## Final Outcome
 
 Bulletproof skill that:
-- ✅ Clearly mandates root cause investigation
-- ✅ Resists time pressure rationalization
-- ✅ Provides concrete steps for each phase
-- ✅ Shows anti-patterns explicitly
-- ✅ Tested under multiple pressure scenarios
-- ✅ Clarifies relationship to TDD
-- ✅ Ready for use
+-  Clearly mandates root cause investigation
+-  Resists time pressure rationalization
+-  Provides concrete steps for each phase
+-  Shows anti-patterns explicitly
+-  Tested under multiple pressure scenarios
+-  Clarifies relationship to TDD
+-  Ready for use
 
 ## Key Insight
 
@@ -117,3 +117,6 @@ When encountering a bug:
 
 *Created: 2025-10-03*
 *Purpose: Reference example for skill extraction and bulletproofing*
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

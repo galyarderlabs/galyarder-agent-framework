@@ -227,3 +227,6 @@ try {
   console.error("Frame extraction was aborted or failed:", error);
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

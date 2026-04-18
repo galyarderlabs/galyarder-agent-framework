@@ -155,4 +155,4 @@ export function waitForEventMatch(
 // await waitForEventCount(threadManager, threadId, 'TOOL_RESULT', 2); // Wait for results
 // expect(toolResults.length).toBe(2); // Always succeeds
 //
-// Result: 60% pass rate → 100%, 40% faster execution
+// Result: 60% pass rate  100%, 40% faster execution

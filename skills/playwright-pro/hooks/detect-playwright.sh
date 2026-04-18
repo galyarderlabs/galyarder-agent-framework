@@ -20,4 +20,4 @@ fi
 # Count existing test files
 TEST_COUNT=$(find . -name "*.spec.ts" -o -name "*.spec.js" -o -name "*.test.ts" -o -name "*.test.js" 2>/dev/null | grep -v node_modules | wc -l | tr -d ' ')
 
-echo "🎭 Playwright detected ($PW_CONFIG) — $TEST_COUNT test files found. Use /pw: commands for testing workflows."
+echo " Playwright detected ($PW_CONFIG)  $TEST_COUNT test files found. Use /pw: commands for testing workflows."

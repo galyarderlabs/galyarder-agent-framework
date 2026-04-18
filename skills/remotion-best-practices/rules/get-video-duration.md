@@ -56,3 +56,6 @@ import { staticFile } from "remotion";
 
 const duration = await getVideoDuration(staticFile("video.mp4"));
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

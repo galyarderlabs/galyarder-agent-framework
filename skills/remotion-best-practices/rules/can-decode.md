@@ -73,3 +73,6 @@ export const canDecodeBlob = async (blob: Blob) => {
   // Same validation logic as above
 };
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

@@ -15,14 +15,14 @@ const assert = require('assert');
 const crypto = require('crypto');
 const path = require('path');
 
-// The module under test — will be the new zero-dep server file
+// The module under test  will be the new zero-dep server file
 const SERVER_PATH = path.join(__dirname, '../../skills/brainstorming/scripts/server.cjs');
 let ws;
 
 try {
   ws = require(SERVER_PATH);
 } catch (e) {
-  // Module doesn't exist yet (TDD — tests written before implementation)
+  // Module doesn't exist yet (TDD  tests written before implementation)
   console.error(`Cannot load ${SERVER_PATH}: ${e.message}`);
   console.error('This is expected if running tests before implementation.');
   process.exit(1);
@@ -138,7 +138,7 @@ function runTests() {
 
   test('server frames are never masked (per RFC 6455)', () => {
     const frame = ws.encodeFrame(ws.OPCODES.TEXT, Buffer.from('test'));
-    // Bit 7 of byte 1 is the mask bit — must be 0 for server frames
+    // Bit 7 of byte 1 is the mask bit  must be 0 for server frames
     assert.strictEqual(frame[1] & 0x80, 0);
   });
 

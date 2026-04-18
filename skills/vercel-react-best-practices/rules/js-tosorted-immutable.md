@@ -55,3 +55,6 @@ const sorted = [...items].sort((a, b) => a.value - b.value)
 - `.toReversed()` - immutable reverse
 - `.toSpliced()` - immutable splice
 - `.with()` - immutable element replacement
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

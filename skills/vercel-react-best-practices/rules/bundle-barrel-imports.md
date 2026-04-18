@@ -57,3 +57,6 @@ Direct imports provide 15-70% faster dev boot, 28% faster builds, 40% faster col
 Libraries commonly affected: `lucide-react`, `@mui/material`, `@mui/icons-material`, `@tabler/icons-react`, `react-icons`, `@headlessui/react`, `@radix-ui/react-*`, `lodash`, `ramda`, `date-fns`, `rxjs`, `react-use`.
 
 Reference: [How we optimized package imports in Next.js](https://vercel.com/blog/how-we-optimized-package-imports-in-next-js)
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

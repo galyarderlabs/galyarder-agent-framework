@@ -1,0 +1,1 @@
+/home/galyarder/projects/galyarder-framework/design/design-md-minimax.md

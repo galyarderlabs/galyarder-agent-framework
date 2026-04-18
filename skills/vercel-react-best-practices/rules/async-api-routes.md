@@ -1,7 +1,7 @@
 ---
 title: Prevent Waterfall Chains in API Routes
 impact: CRITICAL
-impactDescription: 2-10× improvement
+impactDescription: 2-10 improvement
 tags: api-routes, server-actions, waterfalls, parallelization
 ---
 
@@ -36,3 +36,6 @@ export async function GET(request: Request) {
 ```
 
 For operations with more complex dependency chains, use `better-all` to automatically maximize parallelism (see Dependency-Based Parallelization).
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

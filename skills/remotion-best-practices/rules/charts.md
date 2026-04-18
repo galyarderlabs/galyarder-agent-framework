@@ -56,3 +56,6 @@ const offset = interpolate(progress, [0, 1], [segmentLength, 0]);
 
 <circle r={radius} cx={center} cy={center} fill="none" stroke={color} strokeWidth={strokeWidth} strokeDasharray={`${segmentLength} ${circumference}`} strokeDashoffset={offset} transform={`rotate(-90 ${center} ${center})`} />;
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

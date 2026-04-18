@@ -185,7 +185,7 @@ exit 0
 FAKENODE
   chmod +x "$FAKE_NODE_DIR/node"
 
-  # Run WITHOUT --foreground flag — Windows should auto-detect
+  # Run WITHOUT --foreground flag  Windows should auto-detect
   captured=$(PATH="$FAKE_NODE_DIR:$PATH" bash "$START_SCRIPT" --project-dir "$TEST_DIR/session2" 2>/dev/null || true)
 
   if echo "$captured" | grep -q "FOREGROUND_MODE=true"; then

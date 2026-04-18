@@ -1,0 +1,1 @@
+/home/galyarder/projects/galyarder-framework/agents/obsidian-architect.md

@@ -173,10 +173,13 @@ Keep `test.describe()` to max 2 levels. More makes tests hard to find and mainta
 
 ## 14-20. Style Issues
 
-- No page objects for complex pages → create them
-- Inline data → use factories or fixtures
-- Missing a11y assertions → add `toHaveAttribute('role', ...)`
-- No visual regression → add `toHaveScreenshot()` for key pages
-- Not checking console errors → add `page.on('console', ...)`
-- Using `networkidle` → use specific assertions instead
-- No `test.describe()` → group related tests
+- No page objects for complex pages  create them
+- Inline data  use factories or fixtures
+- Missing a11y assertions  add `toHaveAttribute('role', ...)`
+- No visual regression  add `toHaveScreenshot()` for key pages
+- Not checking console errors  add `page.on('console', ...)`
+- Using `networkidle`  use specific assertions instead
+- No `test.describe()`  group related tests
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# bump-version.sh — bump version numbers across all declared files,
+# bump-version.sh  bump version numbers across all declared files,
 # with drift detection and repo-wide audit for missed files.
 #
 # Usage:
@@ -79,7 +79,7 @@ cmd_check() {
   local unique
   unique=$(printf '%s\n' "${versions[@]}" | sort -u | wc -l | tr -d ' ')
   if [[ "$unique" -gt 1 ]]; then
-    echo "DRIFT DETECTED — versions are not in sync:"
+    echo "DRIFT DETECTED  versions are not in sync:"
     printf '%s\n' "${versions[@]}" | sort | uniq -c | sort -rn | while read -r count ver; do
       echo "  $ver ($count files)"
     done
@@ -158,7 +158,7 @@ cmd_audit() {
     echo "No undeclared files contain the version string. All clear."
   else
     echo ""
-    echo "Review the above files — if they should be bumped, add them to .version-bump.json"
+    echo "Review the above files  if they should be bumped, add them to .version-bump.json"
     echo "If they should be skipped, add them to the audit.exclude list."
   fi
 }

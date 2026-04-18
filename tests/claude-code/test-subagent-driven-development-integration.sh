@@ -42,10 +42,10 @@ cat > package.json <<'EOF'
 }
 EOF
 
-mkdir -p src test docs/galyarder-framework/plans
+mkdir -p src test docs/plans
 
 # Create a simple implementation plan
-cat > docs/galyarder-framework/plans/implementation-plan.md <<'EOF'
+cat > docs/plans/implementation-plan.md <<'EOF'
 # Test Implementation Plan
 
 This is a minimal plan to test the subagent-driven-development workflow.
@@ -121,7 +121,7 @@ OUTPUT_FILE="$TEST_PROJECT/claude-output.txt"
 
 # Create prompt file
 cat > "$TEST_PROJECT/prompt.txt" <<'EOF'
-I want you to execute the implementation plan at docs/galyarder-framework/plans/implementation-plan.md using the subagent-driven-development skill.
+I want you to execute the implementation plan at docs/plans/implementation-plan.md using the subagent-driven-development skill.
 
 IMPORTANT: Follow the skill exactly. I will be verifying that you:
 1. Read the plan once at the beginning
@@ -136,7 +136,7 @@ EOF
 # Note: We use a longer timeout since this is integration testing
 # Use --allowed-tools to enable tool usage in headless mode
 # IMPORTANT: Run from galyarder-framework directory so local dev skills are available
-PROMPT="Change to directory $TEST_PROJECT and then execute the implementation plan at docs/galyarder-framework/plans/implementation-plan.md using the subagent-driven-development skill.
+PROMPT="Change to directory $TEST_PROJECT and then execute the implementation plan at docs/plans/implementation-plan.md using the subagent-driven-development skill.
 
 IMPORTANT: Follow the skill exactly. I will be verifying that you:
 1. Read the plan once at the beginning
@@ -296,12 +296,12 @@ if [ $FAILED -eq 0 ]; then
     echo "All verification tests passed!"
     echo ""
     echo "The subagent-driven-development skill correctly:"
-    echo "  ✓ Reads plan once at start"
-    echo "  ✓ Provides full task text to subagents"
-    echo "  ✓ Enforces self-review"
-    echo "  ✓ Runs spec compliance before code quality"
-    echo "  ✓ Spec reviewer verifies independently"
-    echo "  ✓ Produces working implementation"
+    echo "   Reads plan once at start"
+    echo "   Provides full task text to subagents"
+    echo "   Enforces self-review"
+    echo "   Runs spec compliance before code quality"
+    echo "   Spec reviewer verifies independently"
+    echo "   Produces working implementation"
     exit 0
 else
     echo "STATUS: FAILED"

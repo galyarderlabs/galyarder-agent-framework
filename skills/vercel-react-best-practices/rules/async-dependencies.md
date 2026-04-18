@@ -1,7 +1,7 @@
 ---
 title: Dependency-Based Parallelization
 impact: CRITICAL
-impactDescription: 2-10× improvement
+impactDescription: 2-10 improvement
 tags: async, parallelization, dependencies, better-all
 ---
 
@@ -49,3 +49,6 @@ const [user, config, profile] = await Promise.all([
 ```
 
 Reference: [https://github.com/shuding/better-all](https://github.com/shuding/better-all)
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

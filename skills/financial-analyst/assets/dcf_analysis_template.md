@@ -182,3 +182,6 @@
 ---
 
 *Analysis generated using Financial Analyst Skill - DCF Valuation Model*
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

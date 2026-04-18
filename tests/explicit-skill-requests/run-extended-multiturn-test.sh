@@ -12,7 +12,7 @@ OUTPUT_DIR="/tmp/galyarder-framework-tests/${TIMESTAMP}/explicit-skill-requests/
 mkdir -p "$OUTPUT_DIR"
 
 PROJECT_DIR="$OUTPUT_DIR/project"
-mkdir -p "$PROJECT_DIR/docs/galyarder-framework/plans"
+mkdir -p "$PROJECT_DIR/docs/plans"
 
 echo "=== Extended Multi-Turn Test ==="
 echo "Output dir: $OUTPUT_DIR"

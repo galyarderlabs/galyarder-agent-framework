@@ -98,7 +98,7 @@ When you find a bug:
 Bug: Empty `projectDir` caused `git init` in source code
 
 **Data flow:**
-1. Test setup → empty string
+1. Test setup  empty string
 2. `Project.create(name, '')`
 3. `WorkspaceManager.createWorkspace('')`
 4. `git init` runs in `process.cwd()`
@@ -120,3 +120,6 @@ All four layers were necessary. During testing, each layer caught bugs the other
 - Debug logging identified structural misuse
 
 **Don't stop at one validation point.** Add checks at every layer.
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

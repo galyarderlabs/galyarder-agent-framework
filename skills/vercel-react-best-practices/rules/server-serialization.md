@@ -36,3 +36,6 @@ function Profile({ name }: { name: string }) {
   return <div>{name}</div>
 }
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

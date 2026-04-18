@@ -10,11 +10,11 @@ Testing skills that involve subagents, workflows, and complex interactions requi
 
 ```
 tests/
-├── claude-code/
-│   ├── test-helpers.sh                    # Shared test utilities
-│   ├── test-subagent-driven-development-integration.sh
-│   ├── analyze-token-usage.py             # Token analysis tool
-│   └── run-skill-tests.sh                 # Test runner (if exists)
+ claude-code/
+    test-helpers.sh                    # Shared test utilities
+    test-subagent-driven-development-integration.sh
+    analyze-token-usage.py             # Token analysis tool
+    run-skill-tests.sh                 # Test runner (if exists)
 ```
 
 ## Running Tests
@@ -149,7 +149,7 @@ python3 tests/claude-code/analyze-token-usage.py ~/.claude/projects/<project-dir
 Session transcripts are stored in `~/.claude/projects/` with the working directory path encoded:
 
 ```bash
-# Example for /home/galyarder-framework/Documents/GitHub/galyarder-framework/galyarder-framework
+# Example for /home/Documents/GitHub/galyarder-framework
 SESSION_DIR="$HOME/.claude/projects/-Users-jesse-Documents-GitHub-galyarder-framework-galyarder-framework"
 
 # Find recent sessions

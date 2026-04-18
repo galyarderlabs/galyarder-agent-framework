@@ -1,10 +1,13 @@
 {
   "name": "galyarder-framework",
-  "description": "Galyarder Framework: Agentic Skills & Agent Framework for AI Assistants",
-  "version": "1.5.0",
+  "description": "Galyarder Framework: Advanced Digital Company Orchestration",
+  "version": "1.7.0",
   "contextFileName": "GEMINI.md",
   "commands": "./commands/",
   "personas": "./personas/",
   "agents": "./agents/",
-  "skills": "./skills/"
+  "skills": [
+    "./skills/",
+    "./design/"
+  ]
 }

@@ -150,3 +150,6 @@ export const Title: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

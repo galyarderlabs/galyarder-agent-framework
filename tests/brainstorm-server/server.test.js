@@ -170,7 +170,7 @@ async function runTests() {
     });
 
     await test('ignores non-html files for serving', async () => {
-      // Write a newer non-HTML file — should still serve newest .html
+      // Write a newer non-HTML file  should still serve newest .html
       fs.writeFileSync(path.join(CONTENT_DIR, 'data.json'), '{"not": "html"}');
       await sleep(300);
 
@@ -285,7 +285,7 @@ async function runTests() {
       const ws = new WebSocket(`ws://localhost:${TEST_PORT}`);
       await new Promise(resolve => ws.on('open', resolve));
 
-      // Send invalid JSON — server should not crash
+      // Send invalid JSON  server should not crash
       ws.send('not json at all {{{');
       await sleep(300);
 

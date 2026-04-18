@@ -7,7 +7,7 @@ Guide for using Galyarder Framework with OpenAI Codex via native skill discovery
 Tell Codex:
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/refs/heads/main/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/refs/heads/main/.codex/INSTALL.md
 ```
 
 ## Manual Installation
@@ -27,7 +27,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/galyarderla
 2. Create the skills symlink:
    ```bash
    mkdir -p ~/.agents/skills
-   ln -s ~/.codex/galyarder-framework/skills ~/.agents/skills/galyarder-framework
+   ln -s ~/.codex/skills ~/.agents/skills/galyarder-framework
    ```
 
 3. Restart Codex.
@@ -49,13 +49,13 @@ cmd /c mklink /J "$env:USERPROFILE\.agents\skills\galyarder-framework" "$env:USE
 
 ## How It Works
 
-Codex has native skill discovery — it scans `~/.agents/skills/` at startup, parses SKILL.md frontmatter, and loads skills on demand. Galyarder Framework skills are made visible through a single symlink:
+Codex has native skill discovery  it scans `~/.agents/skills/` at startup, parses SKILL.md frontmatter, and loads skills on demand. Galyarder Framework skills are made visible through a single symlink:
 
 ```
-~/.agents/skills/galyarder-framework/ → ~/.codex/galyarder-framework/skills/
+~/.agents/skills/  ~/.codex/skills/
 ```
 
-The `using-galyarder-framework` skill is discovered automatically and enforces skill usage discipline — no additional configuration needed.
+The `using-galyarder-framework` skill is discovered automatically and enforces skill usage discipline  no additional configuration needed.
 
 ## Usage
 
@@ -66,7 +66,7 @@ Skills are discovered automatically. Codex activates them when:
 
 ## Subagents and Agent Roles
 
-Codex and Galyarder work together in two layers:
+Codex and Galyarder Framework work together in two layers:
 
 - `skills/` are discovered natively by Codex
 - `agents/*.md` are role definitions, not a native Codex agent registry
@@ -79,7 +79,7 @@ instruction:
 2. On Codex, read the relevant `agents/*.md` file or local prompt template.
 3. Spawn a native Codex subagent with those instructions using `spawn_agent`.
 
-In other words: Codex runs native subagents, while Galyarder supplies the role
+In other words: Codex runs native subagents, while Galyarder Framework supplies the role
 prompt those subagents should follow.
 
 This adaptation layer translates runtime mechanics only. It does not weaken or
@@ -89,7 +89,7 @@ Codex adapter is responsible only for mapping those roles onto Codex-native
 subagent capabilities.
 
 For the exact Codex mapping, see
-[`skills/using-galyarder-framework/references/codex-tools.md`](../skills/using-galyarder-framework/references/codex-tools.md).
+[`skills/using-references/codex-tools.md`](../skills/using-references/codex-tools.md).
 
 ### Personal Skills
 
@@ -112,7 +112,7 @@ description: Use when [condition] - [what it does]
 [Your skill content here]
 ```
 
-The `description` field is how Codex decides when to activate a skill automatically — write it as a clear trigger condition.
+The `description` field is how Codex decides when to activate a skill automatically  write it as a clear trigger condition.
 
 ## Updating
 
@@ -140,8 +140,8 @@ Optionally delete the clone: `rm -rf ~/.codex/galyarder-framework` (Windows: `Re
 ### Skills not showing up
 
 1. Verify the symlink: `ls -la ~/.agents/skills/galyarder-framework`
-2. Check skills exist: `ls ~/.codex/galyarder-framework/skills`
-3. Restart Codex — skills are discovered at startup
+2. Check skills exist: `ls ~/.codex/skills`
+3. Restart Codex  skills are discovered at startup
 
 ### Windows junction issues
 
@@ -149,5 +149,5 @@ Junctions normally work without special permissions. If creation fails, try runn
 
 ## Getting Help
 
-- Report issues: https://github.com/galyarderlabs/galyarder-framework/issues
+- Report issues: https://github.com/galyarderlabs/issues
 - Main documentation: https://github.com/galyarderlabs/galyarder-framework

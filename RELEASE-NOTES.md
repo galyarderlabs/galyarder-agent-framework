@@ -16,4 +16,4 @@ Our core value proposition is now centered on the **100+ elite skills** that pow
 - Fixed all internal references to ensure consistency across all platforms (OpenCode, Codex, Gemini, Claude).
 
 ---
-© 2026 Galyarder Labs. The ultimate 1-Man Army framework.
+ 2026 Galyarder Labs. The ultimate 1-Man Army framework.

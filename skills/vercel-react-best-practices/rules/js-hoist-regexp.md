@@ -43,3 +43,6 @@ const regex = /foo/g
 regex.test('foo')  // true, lastIndex = 3
 regex.test('foo')  // false, lastIndex = 0
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

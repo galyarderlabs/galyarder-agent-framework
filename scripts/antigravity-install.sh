@@ -7,7 +7,7 @@ set -euo pipefail
 SKILLS_DIR="${HOME}/.gemini/antigravity/skills"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
-echo "Installing Galyarder Workforce into Antigravity..."
+echo "Installing Galyarder Framework Workforce into Antigravity..."
 
 # Find all SKILL.md files and install each skill
 installed=0
@@ -19,9 +19,9 @@ while IFS= read -r skill_md; do
 
   mkdir -p "$SKILLS_DIR"
   ln -sf "$skill_dir" "$target"
-  # echo "  ✅ installed: $skill_name"
+  # echo "   installed: $skill_name"
   installed=$((installed + 1))
 done < <(find "$REPO_DIR/skills" -name "SKILL.md" -not -path "*/.git/*")
 
 echo "Done. Installed $installed skill(s) into Antigravity."
-echo "Antigravity now has direct access to the Galyarder Workforce."
+echo "Antigravity now has direct access to the Galyarder Framework Workforce."

@@ -62,35 +62,24 @@ npm install -g @linear/mcp-server
 
 ---
 
-### 3. Obsidian (Recommended)
-**Purpose:** Strategic memory and founder reports
+### 3. Obsidian (Required for Durable Memory)
+**Purpose:** Strategic memory and durable reporting.
 
-**What gets stored:**
-- Architecture decisions
-- Progress summaries
-- Department reports
-- Knowledge base
-- Visual maps (Canvas)
+**The Obsidian Loop Mandate:**
+Every task executed by an agent MUST result in a written report in the relevant department folder. Transient chat memory is insufficient for a Digital Company.
 
 **Setup:**
 ```bash
-# 1. Create Obsidian vault
-mkdir ~/galyarder-vault
-cd ~/galyarder-vault
-
-# 2. Copy templates
-cp -r /path/to/galyarder-framework/obsidian-templates/Galyarder.Framework/* .
-
-# 3. Initialize structure
-mkdir -p {Projects,Departments,Reports,Decisions}
+# 1. Initialize digital company structure
+bash scripts/scaffold-company.sh
 ```
 
 **Workflow:**
 ```
-1. obsidian-architect maintains vault
-2. Department agents write reports
-3. Decisions logged automatically
-4. Founder reviews in Obsidian
+1. C-Suite Persona (CEO/CTO/CMO) delegates to Agent.
+2. Agent executes task via Skills.
+3. Agent writes report to docs/departments/[Department]/.
+4. C-Suite Persona reads report and summarizes for Founder.
 ```
 
 ---
@@ -136,24 +125,24 @@ rtk git status
 **Option A: Monitoring Only**
 ```
 Framework runs standalone
-  ↓
+  
 Reports metrics to Dashboard API (optional)
-  ↓
+  
 Dashboard visualizes activity
 ```
 
 **Option B: Full Orchestration**
 ```
 Dashboard manages multiple Framework instances
-  ↓
+  
 Each instance = separate company
-  ↓
+  
 Founder manages all from Dashboard UI
 ```
 
 ### Implementation (Not Yet Built)
 ```typescript
-// Future: Framework → Dashboard reporting
+// Future: Framework  Dashboard reporting
 interface DashboardReporter {
   reportTaskStart(taskId: string, agentId: string): void;
   reportTaskComplete(taskId: string, result: any): void;
@@ -197,33 +186,36 @@ interface DashboardReporter {
 ## Integration Architecture
 
 ```
-┌─────────────────────────────────────────────────┐
-│                    FOUNDER                       │
-└─────────────────┬───────────────────────────────┘
-                  │
-                  ↓
-┌─────────────────────────────────────────────────┐
-│           AI ASSISTANT (Runtime)                 │
-│  ┌───────────────────────────────────────────┐  │
-│  │      GALYARDER FRAMEWORK                  │  │
-│  │  ┌─────────────────────────────────────┐ │  │
-│  │  │    galyarder-specialist (CEO)       │ │  │
-│  │  └──────────────┬──────────────────────┘ │  │
-│  │                 │                         │  │
-│  │    ┌────────────┼────────────┐           │  │
-│  │    ↓            ↓            ↓           │  │
-│  │  [Product]  [Engineering]  [Growth]      │  │
-│  │  [Security] [Legal]  [Ops]  [Knowledge]  │  │
-│  │                                           │  │
-│  └───────────────────────────────────────────┘  │
-└─────────────────┬───────────────────────────────┘
-                  │
-        ┌─────────┼─────────┐
-        ↓         ↓         ↓
-    ┌──────┐  ┌──────┐  ┌──────────┐
-    │Linear│  │Obsidian│ │Dashboard │
-    │(Tasks)│ │(Memory)│ │(Optional)│
-    └──────┘  └──────┘  └──────────┘
+
+                    FOUNDER                       
+
+                  
+                  
+
+           AI ASSISTANT (Runtime)                 
+    
+        GALYARDER DIGITAL COMPANY              
+       
+        galyarder-ceo (Persona)             
+       
+                                              
+                   
+                                           
+    [CTO]        [CMO]      [CFO/COO]         
+                                           
+   [Agents]     [Agents]     [Agents]         
+                                           
+   [Skills]     [Skills]     [Skills]         
+                                               
+    
+
+                  
+        
+                           
+              
+    Linear           Obsidian 
+    (Tasks)          (Memory) 
+              
 ```
 
 ---

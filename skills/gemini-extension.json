@@ -1,0 +1,6 @@
+{
+  "name": "master-skills",
+  "description": "132 production-ready skills for Galyarder Framework.",
+  "version": "1.7.0",
+  "skills": "./"
+}

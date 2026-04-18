@@ -22,3 +22,6 @@ items.filter(item => allowedIds.includes(item.id))
 const allowedIds = new Set(['a', 'b', 'c', ...])
 items.filter(item => allowedIds.has(item.id))
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

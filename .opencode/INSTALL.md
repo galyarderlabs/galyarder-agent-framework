@@ -14,7 +14,7 @@ Add galyarder-framework to the `plugin` array in your `opencode.json` (global or
 }
 ```
 
-Restart OpenCode. That's it — the plugin auto-installs and registers all skills.
+Restart OpenCode. That's it  the plugin auto-installs and registers all skills.
 
 Verify by asking: "Tell me about your galyarder-framework"
 
@@ -41,7 +41,7 @@ Use OpenCode's native `skill` tool:
 
 ```
 use skill tool to list skills
-use skill tool to load galyarder-framework/brainstorming
+use skill tool to load brainstorming
 ```
 
 ## Updating
@@ -72,12 +72,12 @@ To pin a specific version:
 ### Tool mapping
 
 When skills reference Claude Code tools:
-- `TodoWrite` → `todowrite`
-- `Task` with subagents → `@mention` syntax
-- `Skill` tool → OpenCode's native `skill` tool
-- File operations → your native tools
+- `TodoWrite`  `todowrite`
+- `Task` with subagents  `@mention` syntax
+- `Skill` tool  OpenCode's native `skill` tool
+- File operations  your native tools
 
 ## Getting Help
 
-- Report issues: https://github.com/galyarderlabs/galyarder-framework/issues
-- Full documentation: https://github.com/galyarderlabs/galyarder-framework/blob/main/docs/README.opencode.md
+- Report issues: https://github.com/galyarderlabs/issues
+- Full documentation: https://github.com/galyarderlabs/blob/main/docs/README.opencode.md

@@ -17,11 +17,11 @@ await expect(page.getByTestId('result')).toBeVisible();
 **Symptom:** Assertions fail on dynamic content.
 
 ```typescript
-// BAD — checks once, no retry
+// BAD  checks once, no retry
 const text = await page.textContent('.msg');
 expect(text).toBe('Done');
 
-// GOOD — retries until timeout
+// GOOD  retries until timeout
 await expect(page.getByText('Done')).toBeVisible();
 ```
 
@@ -47,7 +47,7 @@ await expect(page.getByText('Welcome')).toBeVisible();
 // BAD
 await page.goto('http://localhost:3000/login');
 
-// GOOD — uses baseURL from config
+// GOOD  uses baseURL from config
 await page.goto('/login');
 ```
 
@@ -68,12 +68,12 @@ await page.getByRole('button', { name: 'Submit' }).click();
 **Symptom:** Tests pass alone, fail in suite.
 
 ```typescript
-// BAD — test B depends on test A
+// BAD  test B depends on test A
 let userId: string;
 test('create user', async () => { userId = '123'; });
 test('edit user', async () => { /* uses userId */ });
 
-// GOOD — each test is independent
+// GOOD  each test is independent
 test('edit user', async ({ request }) => {
   const res = await request.post('/api/users', { data: { name: 'Test' } });
   const { id } = await res.json();
@@ -86,10 +86,10 @@ test('edit user', async ({ request }) => {
 **Symptom:** Tests hang or timeout unpredictably.
 
 ```typescript
-// BAD — waits for all network activity to stop
+// BAD  waits for all network activity to stop
 await page.goto('/dashboard', { waitUntil: 'networkidle' });
 
-// GOOD — wait for specific content
+// GOOD  wait for specific content
 await page.goto('/dashboard');
 await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
 ```
@@ -99,11 +99,11 @@ await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
 **Symptom:** Assertions run on wrong page.
 
 ```typescript
-// BAD — click navigates but we don't wait
+// BAD  click navigates but we don't wait
 await page.getByRole('link', { name: 'Settings' }).click();
 await expect(page.getByRole('heading')).toHaveText('Settings');
 
-// GOOD — wait for URL change
+// GOOD  wait for URL change
 await page.getByRole('link', { name: 'Settings' }).click();
 await expect(page).toHaveURL('/settings');
 await expect(page.getByRole('heading')).toHaveText('Settings');
@@ -114,10 +114,10 @@ await expect(page.getByRole('heading')).toHaveText('Settings');
 **Symptom:** Tests break on every refactor.
 
 ```typescript
-// BAD — tests CSS class (implementation detail)
+// BAD  tests CSS class (implementation detail)
 await expect(page.locator('.btn')).toHaveClass('btn-primary active');
 
-// GOOD — tests what the user sees
+// GOOD  tests what the user sees
 await expect(page.getByRole('button', { name: 'Save' })).toBeEnabled();
 ```
 
@@ -135,3 +135,6 @@ test('should handle API error', async ({ page }) => {
   await expect(page.getByText(/error|try again/i)).toBeVisible();
 });
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

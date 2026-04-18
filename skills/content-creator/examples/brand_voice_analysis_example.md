@@ -9,7 +9,7 @@ Demonstration of brand_voice_analyzer.py input and output.
 **File: `sample_blog_post.txt`**
 
 ```
-Hey there! 👋
+Hey there! 
 
 So, like, we've been doing marketing for a really long time and we've learned SO much about what works. Today I'm gonna share some super cool tips that'll totally transform your business!
 
@@ -17,7 +17,7 @@ First things first - you gotta know your audience. Like, REALLY know them. What 
 
 Second, content is king (obviously). But here's the thing - not just any content. You need stuff that actually helps people. Don't just post to post, ya know?
 
-Anyway, hope this helps! Drop a comment if you have questions! 🚀
+Anyway, hope this helps! Drop a comment if you have questions! 
 ```
 
 ---
@@ -178,3 +178,6 @@ Tone:               Educational, Confident, Helpful
 Perspective:        First Person Plural (consistent)
 Consistency Score:  91/100
 ```
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.

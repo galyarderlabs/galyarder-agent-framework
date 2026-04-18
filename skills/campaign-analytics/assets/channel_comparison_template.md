@@ -1,7 +1,7 @@
 # Channel Performance Comparison
 
 **Period:** [Start Date] - [End Date]
-**Compared Against:** [Previous period / Industry benchmarks / Both]
+**Compared Against:** [Previous period / Industry Standards / Both]
 **Prepared By:** [Name]
 
 ---
@@ -27,10 +27,10 @@
 | **Total** | **$** | **$** | **$** | **%** | **x** | **%** | **$** | **$** | |
 
 **Grading Scale:**
-- A: Exceeds all benchmarks
-- B: Meets or exceeds target benchmarks
-- C: Between low and target benchmarks
-- D: Below low benchmark on 1+ key metrics
+- A: Exceeds all Standards
+- B: Meets or exceeds target Standards
+- C: Between low and target Standards
+- D: Below low Standard on 1+ key metrics
 - F: Underperforming on multiple metrics or unprofitable
 
 ---
@@ -41,7 +41,7 @@
 
 **Performance Summary:** [1-2 sentences]
 
-| Metric | Actual | Target | Benchmark | vs. Target | vs. Benchmark |
+| Metric | Actual | Target | Standard | vs. Target | vs. Standard |
 |--------|--------|--------|-----------|-----------|---------------|
 | Spend | $ | $ | - | % | - |
 | Revenue | $ | $ | - | % | - |
@@ -156,3 +156,6 @@ How each channel is valued under different attribution models:
 ---
 
 *Template from campaign-analytics skill. Populate with data from attribution_analyzer.py, funnel_analyzer.py, and campaign_roi_calculator.py.*
+
+---
+ 2026 Galyarder Labs. Galyarder Framework.
