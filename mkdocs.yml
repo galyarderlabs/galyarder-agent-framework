@@ -5,6 +5,8 @@ site_author: Galyarder Labs
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -33,28 +35,41 @@ theme:
     - content.code.copy
     - toc.follow
     - content.tabs.link
-  icon:
-    logo: material/robot-industrial
 
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 nav:
   - Welcome: index.md
-  - Organization: ORG_CHART.md
-  - Workflow: WORKFLOW.md
+  - Evolution:
+      - Humans 3.0 Protocol: WORKFLOW.md
+      - Global Command Architecture: ORG_CHART.md
+      - Integration Map: INTEGRATION.md
   - Inventory:
-      - Agents: agents/index.md
-      - Skills: skills/index.md
-      - Commands: commands/index.md
-      - Design Systems: design/index.md
-  - Integration: INTEGRATION.md
-  - Release Notes: RELEASE-NOTES.md
+      - Workforce (Agents): agents/index.md
+      - SOP Library (Skills): skills/index.md
+      - Command Triggers: commands/index.md
+      - Aesthetic Law (Design): design/index.md
+  - Governance:
+      - Global Conventions: CONVENTIONS.md
+      - Deployment Logic: TESTING.md
+      - Platform Specifics:
+          - Claude Code: CLAUDE.md
+          - Gemini CLI: GEMINI.md
+          - OpenAI Codex: README.codex.md
+          - OpenCode: README.opencode.md
+  - Chronicle:
+      - Changelog: CHANGELOG.md
+      - Release Notes: RELEASE-NOTES.md
 
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
