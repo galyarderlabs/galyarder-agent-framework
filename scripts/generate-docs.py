@@ -56,15 +56,13 @@ class Asset:
             h1_match = re.search(r"^# (.*)", self.content, re.MULTILINE)
             if h1_match:
                 self.title = h1_match.group(1).strip()
-                # Remove the H1 from content to avoid double headers
-                self.content = re.sub(r"^# .*", "", self.content, 1, re.MULTILINE).strip()
+                self.content = re.sub(r"^# .*", "", self.content, count=1, flags=re.MULTILINE).strip()
         
         if not self.title or self.title == "|":
             self.title = prettify(self.name)
 
         # 3. Clean Garbage Descriptions
         if self.description == "|" or not self.description:
-            # Try to grab first paragraph
             clean_content = re.sub(r"##.*", "", self.content, flags=re.DOTALL).strip()
             lines = [l for l in clean_content.split("\n") if l.strip() and not l.startswith("#") and not l.startswith(">")]
             if lines:
@@ -72,9 +70,8 @@ class Asset:
             else:
                 self.description = f"Specialized {self.category} asset for Galyarder Framework."
 
-        # 4. Filter Non-ASCII again just in case
-        self.title = "".join([c for i, c in enumerate(self.title) if ord(c) < 128])
-        self.description = "".join([c for i, c in enumerate(self.description) if ord(c) < 128])
+        self.title = "".join([c for c in self.title if ord(c) < 128])
+        self.description = "".join([c for c in self.description if ord(c) < 128])
 
     def generate_page(self, icon, label):
         return f"""---
@@ -104,6 +101,14 @@ def generate():
         target = DOCS_DIR / d
         if target.exists(): shutil.rmtree(target)
         target.mkdir(parents=True, exist_ok=True)
+
+    # 0. Sync Core Files from Root
+    core_files = ["WORKFLOW.md", "ORG_CHART.md", "RELEASE-NOTES.md", "CHANGELOG.md", "CONVENTIONS.md"]
+    for cf in core_files:
+        src = REPO_ROOT / cf
+        if src.exists():
+            print(f"[*] Syncing core file: {cf}")
+            shutil.copy(src, DOCS_DIR / cf)
 
     # Discovery
     silos = {}
@@ -154,7 +159,6 @@ def generate():
                     dest_folder.mkdir(exist_ok=True)
                     with open(dest_folder / "index.md", "w", encoding="utf-8") as out:
                         out.write(s.generate_page(info["icon"], info["label"]))
-                    # Copy assets
                     for sub in ["references", "assets", "templates"]:
                         if (skill_folder / sub).exists():
                             shutil.copytree(skill_folder / sub, dest_folder / sub, dirs_exist_ok=True)
@@ -170,7 +174,6 @@ def generate():
             info = silos[silo_name]
             idx_content += f"\n## :{info['icon']}: {silo_name} Silo\n\n"
             for title, link, desc in sorted(inventory[category][silo_name]):
-                # Links are now relative to the index.md file
                 idx_content += f"-   **[{title}]({link})**\n\n    ---\n\n    {desc}\n"
         idx_content += "\n</div>"
         with open(DOCS_DIR / category / "index.md", "w", encoding="utf-8") as f:
