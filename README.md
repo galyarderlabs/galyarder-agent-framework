@@ -18,12 +18,13 @@
 
 ## How it works
 
-Galyarder Framework bridges the gap between high-level intent and ground-level execution through a deterministic 4-stage process:
+Galyarder Framework bridges the gap between high-level intent and ground-level execution through a deterministic 5-stage process:
 
 1.  **Socratic Discovery**: The framework analyzes your intent, extracting hidden requirements and distilling them into short, digestible specifications.
 2.  **Deterministic Blueprinting**: An implementation plan is architected using **Vertical Slices**. Every step follows the iron laws of red/green TDD.
-3.  **Autonomous Orchestration**: The framework routes tasks to its specialized workforce of 40+ agents, maintaining a continuous review and validation loop.
+3.  **Autonomous Orchestration**: The framework launches a *subagent-driven-development* process, routing tasks to its specialized workforce of 40+ agents, maintaining a continuous review and validation loop.
 4.  **Continuous Evolution**: Through recursive memory integration, the system learns from every session, adapting to your specific strategic mind.
+5.  **Marketing Mode**: Once built, the framework triggers specialized skills for SEO, CRO, and Remotion (Video) to ensure what you built actually achieves market fit.
 
 ---
 
@@ -68,7 +69,7 @@ Agent: [Invokes perseus] -> Simulates attacks -> Identifies IDOR/SSRF -> Propose
 Galyarder Framework is the **brain** designed to power the next generation of autonomous entities.
 
 -   **[Galyarder Agent](https://github.com/galyarderlabs/galyarder-agent)**: The **Entity**. Digital personas with recursive memory and universal presence.
--   **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane**. Master governance for orchestrating swarms and maintaining sovereignty.
+-   **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane**. Master governance for orchestrating swarms and maintaining operational control.
 -   **Galyarder Framework**: The **Intelligence**. The specialized workforce and elite SOPs.
 
 ---
@@ -110,7 +111,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/galyarderla
 
 - **Test-Driven Development** — Logic is irrelevant until verified.
 - **Context Economy** — RTK proxy usage is mandatory.
-- **Math Over Magic** — Decisions based on data and ROI.
+- **Math Over Magic** — Base decisions on data and ROI.
 - **Code to Market** — Development is a liability until it achieves market fit.
 
 ---
@@ -143,8 +144,7 @@ Galyarder Framework is organized into **8 High-Integrity Silos**:
 
 We are currently engineering the next evolution of autonomous infrastructure, including cross-repo empire orchestration and automated revenue generation swarms.
 
-**Join the waitlist for early access:**
-👉 **[galyarderlabs.app/en#early-access](https://galyarderlabs.app/en#early-access)**
+👉 **[Join the Galyarder Early Access Waitlist](https://galyarderlabs.app/en#early-access)**
 
 ---
 
