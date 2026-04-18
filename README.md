@@ -26,7 +26,7 @@ Next up, once you say "go", it launches a *subagent-driven-orchestration* proces
 
 This is the **Humans 3.0** protocol in action: the transition from deterministic execution into **Autonomous Goal Integration (AGI)**. 
 
-In this framework, AGI doesn't mean "sentient machines"; it means a self-evolving system capable of taking high-level business goals and independently orchestrating the entire lifecycle—from requirement extraction and high-integrity implementation to operational auditing and market distribution—without human micro-management. It's the ultimate realization of the **1-Man Army**: one founder providing the vision, while the framework provides the autonomous brain.
+In this framework, AGI doesn't mean "sentient machines"; it means a self-evolving system capable of taking high-level business goals and independently orchestrating the entire lifecycle—from requirement extraction and TDD implementation to security audits and market distribution—without human micro-management. It's the ultimate realization of the **1-Man Army**: one founder providing the vision, while the framework provides the autonomous brain.
 
 ---
 
@@ -34,11 +34,51 @@ In this framework, AGI doesn't mean "sentient machines"; it means a self-evolvin
 
 Galyarder Framework bridges the gap between high-level intent and ground-level execution through a deterministic 5-stage process:
 
-1.  **Intent Extraction**: Distilling business goals into project-scoped Linear tickets and tactical specifications.
+1.  **Intent Extraction**: Distilling business goals into project-scoped Linear tickets and tactical PRDs.
 2.  **Strategic Blueprinting**: Mission design via formal verification and Vertical Slice (Tracer Bullet) implementation plans.
 3.  **Autonomous Implementation**: Clinical execution via 40+ specialized logic engines and high-fidelity institutional standards.
-4.  **Operational Auditing**: Automated live-environment verification and zero-trust security hardening.
-5.  **Autonomous Distribution**: Programmatic asset generation and behavioral-targeted market deployment.
+4.  **Operational Auditing**: Automated live-environment verification (BrowserOS) and professional security hardening.
+5.  **Autonomous Distribution**: Programmatic marketing generation (Remotion) and behavioral-targeted market deployment.
+
+---
+
+## Usage: The High-Integrity Protocol
+
+Galyarder Framework does not merely execute; it orchestrates. Every mission follows a non-negotiable sequence of high-fidelity protocols to ensure zero-slop output.
+
+### 1. Operational Sequence (Visual)
+
+```mermaid
+sequenceDiagram
+    participant Founder as Founder (You)
+    participant CE as Galyarder-CEO
+    participant ME as MCP (Think/Context7)
+    participant AG as Specialist Agent
+    participant EX as RTK (Terminal)
+    participant RP as Reporting (Linear/Obsidian)
+
+    Founder->>CE: Initiates High-Level Goal
+    CE->>RP: Checks Linear Project / Creates Project-Scoped Issue
+    CE->>ME: Invokes sequentialthinking (Deconstruction & Risk)
+    ME-->>CE: Structured Strategic Plan
+    CE->>AG: Dispatches Mission to Specialist Swarm
+    AG->>ME: Invokes context7 (Official Documentation Fetch)
+    ME-->>AG: Institutional-Grade API/Docs
+    AG->>EX: Surgical Execution via RTK Proxy
+    EX-->>AG: Verified Output
+    AG->>RP: Saves Artifact to docs/departments/ (Obsidian Loop)
+    RP-->>Founder: High-Signal Executive Report
+```
+
+### 2. The 1-Man Army Command Protocol
+
+| Phase | Category | Action | Mandatory Tool | Outcome |
+| :--- | :--- | :--- | :--- | :--- |
+| **I** | **Traceability** | Alignment with Roadmap | **Linear** | Project-scoped issue locked & tracked. |
+| **II** | **Cognition** | Socratic Deconstruction | **SequentialThinking** | 8-phase logic map with risk mitigation. |
+| **III** | **Validation** | Official Reference Fetch | **Context7** | 100% accurate API & best practice alignment. |
+| **IV** | **Execution** | Token-Efficient Actions | **RTK Proxy** | Surgical changes with verified TDD tests. |
+| **V** | **Persistence** | Durable Memory Storage | **Obsidian** | Report pushed to Dept folder & C-Suite. |
 
 ---
 
@@ -54,83 +94,39 @@ A high-integrity workforce for any autonomous mission:
 
 ---
 
-## Usage
-
-Galyarder Framework handles the heavy lifting of building and scaling:
-
-### Case 1: Automating a Mission
-```
-User: Build a secure payment infrastructure for my subscription service.
-Agent: [Invokes elite-developer] -> Extracts specs -> Architects system -> Implements verified logic -> Hardens security.
-```
-
-### Case 2: Market Dominance
-```
-User: Optimize my entire sales funnel for maximum conversion efficiency.
-Agent: [Invokes growth-strategist] -> Runs CRO audit -> Applies behavioral heuristics -> Automates marketing swarms.
-```
-
-### Case 3: Operational Control
-```
-User: Conduct a professional audit of my distributed infrastructure.
-Agent: [Invokes perseus] -> Identifies vulnerabilities -> Hardens access controls -> Proposes surgical optimizations.
-```
-
----
-
 ## The Intelligence Layer of the Galyarder Ecosystem
 
-Galyarder Framework is the **brain** designed to power the next generation of autonomous entities.
+Galyarder Framework is the underlying **brain** designed to power the next generation of autonomous entities.
 
 -   **[Galyarder Agent](https://github.com/galyarderlabs/galyarder-agent)**: The **Entity**. Digital personas with recursive long-term memory, stable visual identity, and universal presence.
--   **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane**. Master governance for orchestrating swarms, monitoring mission queues, and maintaining operational control.
+-   **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane**. Master governance for orchestrating swarms and maintaining operational control.
 -   **Galyarder Framework**: The **Intelligence**. The specialized workforce and elite SOPs.
 
 ---
 
 ## Installation
 
-Galyarder Framework is a multi-platform agent logic library. Follow the protocol for your specific environment.
-
 ### 1. Claude Code / Copilot CLI (Marketplace)
-
-Register the Galyarder Labs marketplace:
-
 ```bash
 /plugin marketplace add galyarderlabs/galyarder-framework
-```
-
-Install the Humans 3.0 Departments:
-
-```bash
-/plugin install executive-dept@galyarderlabs-marketplace    # Personas & Orchestration
-/plugin install engineering-dept@galyarderlabs-marketplace  # TDD, Arch, & Testing
-/plugin install growth-dept@galyarderlabs-marketplace       # Marketing, SEO, & Design
-/plugin install security-dept@galyarderlabs-marketplace     # Offensive/Defensive Audits
+/plugin install executive-dept@galyarderlabs-marketplace
+/plugin install engineering-dept@galyarderlabs-marketplace
+/plugin install growth-dept@galyarderlabs-marketplace
+/plugin install security-dept@galyarderlabs-marketplace
 ```
 
 ### 2. Gemini CLI (Official Extension)
-
-Install the full framework directly from the repository:
-
 ```bash
 gemini extensions install https://github.com/galyarderlabs/galyarder-framework
 ```
 
 ### 3. OpenAI Codex (Direct Instructions)
-
-Tell Codex:
-
 ```
 Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.codex/INSTALL.md
 ```
 
 ### 4. OpenCode / Windsurf (Native Plugins)
-
-Install as a native plugin for OpenCode or Windsurf:
-
 ```bash
-# OpenCode
 ./scripts/install.sh --tool <opencode>
 
 # Windsurf
@@ -138,14 +134,7 @@ Install as a native plugin for OpenCode or Windsurf:
 ```
 
 ### 5. Cross-Platform Engine (Cursor, Aider, OpenClaw, Hermes)
-
-For local/VPS deployments or tools without a central marketplace, use the conversion engine:
-
 ```bash
-# 1. Initialize digital headquarters structure
-./scripts/scaffold-company.sh
-
-# 2. Convert and install for your specific tool
 ./scripts/install.sh --tool <cursor|aider|openclaw|hermes|antigravity>
 ```
 
@@ -162,27 +151,10 @@ For local/VPS deployments or tools without a central marketplace, use the conver
 
 ## Technical Integrity: The Karpathy Principles
 
-The framework enforces rigid adherence to the Karpathy Principles to eliminate slop:
-
 - **Think Before Coding**: Mandatory `sequentialthinking` and `context7` MCP loops before any implementation.
 - **Simplicity First**: Minimum effort to solve the objective. Zero speculative abstractions.
 - **Surgical Changes**: Touch only what is necessary. Perfect alignment with existing infrastructure.
 - **Goal-Driven Execution**: Empirical verification via a mission-first methodology.
-
----
-
-## Digital Infrastructure: 8 High-Integrity Silos
-
-The workforce is organized into specialized departments:
-
-- **Executive**: Strategic oversight and master orchestration.
-- **Engineering**: Deterministic implementation and TDD factory.
-- **Growth**: Behavioral arbitrage, marketing engineering, and design systems.
-- **Security**: Professional auditing and advanced offensive security.
-- **Product**: Roadmap integrity and strategic extraction.
-- **Infrastructure**: Reliability physics and automated deployment.
-- **Legal-Finance**: Regulatory compliance and token FinOps.
-- **Knowledge**: Memory preservation and visual logic mapping.
 
 ---
 
