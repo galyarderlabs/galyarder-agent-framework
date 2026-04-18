@@ -137,3 +137,11 @@ Galyarder Framework is organized into **8 High-Integrity Silos**, each acting as
 - **Knowledge**: Memory preservation and visual logic mapping.
 
 For a full inventory of the 259 assets, visit the [Documentation Portal](https://galyarderlabs.github.io/galyarder-framework/).
+
+## Star History
+
+<p align="center">
+  <a href="https://star-history.com/#galyarderlabs/galyarder-framework&Date">
+    <img src="https://api.star-history.com/svg?repos=galyarderlabs/galyarder-framework&type=Date" alt="Star History Chart">
+  </a>
+</p>
