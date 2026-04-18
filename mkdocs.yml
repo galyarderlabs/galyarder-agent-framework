@@ -1,6 +1,6 @@
 site_name: Galyarder Framework
 site_url: https://galyarderlabs.github.io/galyarder-framework/
-site_description: Advanced Digital Company Orchestration for Solo Founders.
+site_description: Advanced Digital Enterprise Orchestration for Solo Founders.
 site_author: Galyarder Labs
 
 theme:
@@ -32,6 +32,7 @@ theme:
     - search.share
     - content.code.copy
     - toc.follow
+    - content.tabs.link
   icon:
     logo: material/robot-industrial
 
@@ -59,11 +60,7 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.mermaid_format
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
