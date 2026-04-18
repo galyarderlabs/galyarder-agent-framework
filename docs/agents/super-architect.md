@@ -1,8 +1,16 @@
 ---
-name: super-architect
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Software architecture specialist for system design, scalability, and technical decision-making. Produces ADRs, Vertical Slice plans, and enforces deep module design for the 1-Man Army pipeline. Contains the full knowledge of Architecture Patterns, Systems Design, and Planning.
+title: "super-architect | Galyarder Framework"
+description: "Software architecture specialist for system design, scalability, and technical decision-making. Produces ADRs, Vertical Slice plans, and enforces deep module design for the 1-Man Army pipeline. Contains the full knowledge of Architecture Patterns, Systems Design, and Planning."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip super-architect
+
+<p class="domain-label">Engineering Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -152,3 +160,6 @@ If YES, finalize the output and link to Linear.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

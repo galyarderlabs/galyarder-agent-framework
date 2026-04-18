@@ -1,18 +1,16 @@
 ---
-name: mapping-mitre-attack-techniques
-description: >
-  Maps observed adversary behaviors, security alerts, and detection rules to MITRE ATT&CK
-  techniques and sub-techniques to quantify detection coverage and guide control prioritization.
-  Use when building an ATT&CK-based coverage heatmap, tagging SIEM alerts with technique IDs,
-  aligning security controls to adversary playbooks, or reporting threat exposure to executives.
-  Activates for requests involving ATT&CK Navigator, Sigma rules, MITRE D3FEND, or coverage gap analysis.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags: [MITRE-ATT&CK, ATT&CK-Navigator, Sigma, D3FEND, TTP, detection-engineering, NIST-CSF]
-version: 1.0.0
-author: mahipal
-license: Apache-2.0
+title: "mapping-mitre-attack-techniques | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip mapping-mitre-attack-techniques
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -171,3 +169,6 @@ Summarize coverage by tactic category (Initial Access, Execution, Persistence, e
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

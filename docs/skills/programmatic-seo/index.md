@@ -1,10 +1,16 @@
 ---
-name: programmatic-seo
-description: Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+title: "programmatic-seo | Galyarder Framework"
+description: "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip programmatic-seo
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -390,3 +396,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

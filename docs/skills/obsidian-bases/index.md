@@ -1,7 +1,16 @@
 ---
-name: obsidian-bases
-description: Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.
+title: "obsidian-bases | Galyarder Framework"
+description: "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip obsidian-bases
+
+<p class="domain-label">Knowledge Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -536,3 +545,6 @@ formulas:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

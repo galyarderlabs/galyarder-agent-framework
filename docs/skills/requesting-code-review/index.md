@@ -1,7 +1,16 @@
 ---
-name: requesting-code-review
-description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+title: "requesting-code-review | Galyarder Framework"
+description: "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip requesting-code-review
+
+<p class="domain-label">Engineering Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -155,3 +164,6 @@ See template at: requesting-code-review/code-reviewer.md
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

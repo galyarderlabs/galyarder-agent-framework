@@ -1,8 +1,16 @@
 ---
-name: finops-manager
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Finance & Cloud Cost Specialist. Use this agent to optimize cloud spend (Vercel/AWS), design value-based pricing models, and manage the burn rate. It ensures the 1-Man Army remains profitable and financially sustainable.
+title: "finops-manager | Galyarder Framework"
+description: "Finance & Cloud Cost Specialist. Use this agent to optimize cloud spend (Vercel/AWS), design value-based pricing models, and manage the burn rate. It ensures the 1-Man Army remains profitable and financially sustainable."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip finops-manager
+
+<p class="domain-label">Legal-Finance Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -68,3 +76,6 @@ You are the Finance Lead at Galyarder Labs. Your mission is to ensure every doll
 
 ---
  2026 Galyarder Labs. Galyarder Framework. FinOps Manager.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

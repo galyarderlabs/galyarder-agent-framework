@@ -1,14 +1,16 @@
 ---
-name: "content-creator"
+title: "content-creator | Galyarder Framework"
 description: "Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or create a content calendar (routes to content-strategy). Does not handle requests directly  identifies user intent and redirects to content-production for writing/SEO/brand-voice tasks or content-strategy for planning tasks."
-license: MIT
-metadata:
-  version: 2.0.0
-  author: Alireza Rezvani
-  category: marketing
-  updated: 2026-03-06
-  status: deprecated
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip content-creator
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -99,3 +101,6 @@ This is a redirect skill. Route the user to the correct specialist  don't attemp
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

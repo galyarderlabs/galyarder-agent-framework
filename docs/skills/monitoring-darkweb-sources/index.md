@@ -1,19 +1,16 @@
 ---
-name: monitoring-darkweb-sources
-description: >
-  Monitors dark web forums, marketplaces, paste sites, and ransomware leak sites for mentions
-  of organizational assets, leaked credentials, threatened attacks, and threat actor communications
-  to provide early warning intelligence. Use when establishing dark web monitoring coverage,
-  investigating specific data breach claims, or enriching incident investigations with dark web
-  context. Activates for requests involving dark web OSINT, leak site monitoring, credential
-  exposure, Recorded Future dark web, or Tor hidden service intelligence.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags: [dark-web, OSINT, credential-monitoring, ransomware-leaks, Recorded-Future, SpiderFoot, CTI]
-version: 1.0.0
-author: team-cybersecurity
-license: Apache-2.0
+title: "monitoring-darkweb-sources | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip monitoring-darkweb-sources
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -164,3 +161,6 @@ For each dark web finding:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

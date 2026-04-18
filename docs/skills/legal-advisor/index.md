@@ -1,10 +1,16 @@
 ---
-name: legal-advisor
-description: Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+title: "legal-advisor | Galyarder Framework"
+description: "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip legal-advisor
+
+<p class="domain-label">Legal-Finance Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -107,3 +113,6 @@ Focus on comprehensiveness, clarity, and regulatory compliance while maintaining
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

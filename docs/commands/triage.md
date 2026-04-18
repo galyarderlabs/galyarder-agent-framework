@@ -1,8 +1,15 @@
 ---
-description: Triage a bug or issue. Explore the codebase to find root cause, then create a fix plan.
+title: "Triage Command | Galyarder Framework"
+description: "Triage a bug or issue. Explore the codebase to find root cause, then create a fix plan."
 ---
 
-# Triage Command
+<div class="domain-header" markdown>
+
+# material/folder-zip Triage Command
+
+<p class="domain-label">Product Command</p>
+
+</div>
 
 This command invokes the **triage-issue** agent to diagnose and plan a fix for a reported bug.
 
@@ -14,3 +21,6 @@ This command invokes the **triage-issue** agent to diagnose and plan a fix for a
 
 ---
 **Note**: This command is powered by the `galyarder-framework:triage-issue` skill.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

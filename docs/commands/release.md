@@ -1,8 +1,15 @@
 ---
-description: Orchestrate the launch process, bump versions, and generate changelogs.
+title: "Release Command | Galyarder Framework"
+description: "Orchestrate the launch process, bump versions, and generate changelogs."
 ---
 
-# Release Command
+<div class="domain-header" markdown>
+
+# material/folder-zip Release Command
+
+<p class="domain-label">Infrastructure Command</p>
+
+</div>
 
 This command invokes the **release-manager** to finalize a production-ready version.
 
@@ -14,3 +21,6 @@ This command invokes the **release-manager** to finalize a production-ready vers
 
 ---
 **Note**: Powered by the `finishing-a-development-branch` and `writing-skills` skills.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

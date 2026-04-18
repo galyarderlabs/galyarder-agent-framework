@@ -1,10 +1,16 @@
 ---
-name: ab-test-setup
+title: "ab-test-setup | Galyarder Framework"
 description: "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness."
-risk: unknown
-source: community
-date_added: "2026-02-27"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip ab-test-setup
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -277,3 +283,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

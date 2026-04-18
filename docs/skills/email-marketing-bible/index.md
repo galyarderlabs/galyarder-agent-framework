@@ -1,16 +1,16 @@
 ---
-name: email-marketing-bible
-description: >
-  Comprehensive, data-backed email marketing knowledge base. 908 sources,
-  4,798 insights. Use when reviewing email setups, building automation flows,
-  diagnosing deliverability, writing email copy, selecting platforms, or pulling
-  Standards. Covers strategy, flows, deliverability, copywriting, segmentation,
-  compliance, cold email, and 19 industry playbooks.
-license: MIT
-metadata:
-  author: george-hartley
-  version: "1.0"
+title: "email-marketing-bible | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip email-marketing-bible
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -512,3 +512,6 @@ Also covers: Agency, Healthcare, Financial, Real Estate, Travel, Education, Reta
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

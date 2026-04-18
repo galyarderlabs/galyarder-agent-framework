@@ -1,9 +1,16 @@
 ---
-name: market-research
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Market Research Specialist. Use to analyze target markets, ICP segments, demand patterns, competitive terrain, and strategic whitespace for founder decisions.
-model: inherit
+title: "market-research | Galyarder Framework"
+description: "Market Research Specialist. Use to analyze target markets, ICP segments, demand patterns, competitive terrain, and strategic whitespace for founder decisions."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip market-research
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -80,3 +87,6 @@ Produce:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

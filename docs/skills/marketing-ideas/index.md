@@ -1,10 +1,16 @@
 ---
-name: marketing-ideas
+title: "marketing-ideas | Galyarder Framework"
 description: "Provide proven marketing strategies and growth ideas for SaaS and software products, prioritized using a marketing feasibility scoring system."
-risk: unknown
-source: community
-date_added: "2026-02-27"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip marketing-ideas
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -266,3 +272,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

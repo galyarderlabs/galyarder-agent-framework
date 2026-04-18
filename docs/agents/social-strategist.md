@@ -1,9 +1,16 @@
 ---
-name: social-strategist
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: |
-  Social media and distribution specialist. Use this agent to create hype, draft Twitter/LinkedIn threads, and manage the social media distribution of new features. It focuses on the "Distribution" aspect of the 1-Man Army pipeline.
+title: "social-strategist | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip social-strategist
+
+<p class="domain-label">Growth Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -83,3 +90,6 @@ If YES, finalize the distribution plan.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

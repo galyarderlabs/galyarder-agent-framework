@@ -1,10 +1,16 @@
 ---
-name: analytics-tracking
-description: Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data.
-risk: unknown
-source: community
-date_added: '2026-02-27'
+title: "analytics-tracking | Galyarder Framework"
+description: "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip analytics-tracking
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -444,3 +450,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

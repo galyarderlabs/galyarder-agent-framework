@@ -1,10 +1,16 @@
 ---
-name: rapid-prototyper
-tools: [read_file, write_file, replace, run_shell_command, grep_search]
-description: |
-  Ultra-fast proof-of-concept and MVP specialist. Use this agent when you need to validate an idea quickly  working prototype before the meeting's over. Pragmatic, speed-focused, validation-oriented. Ships in days, not weeks.
-model: inherit
+title: "rapid-prototyper | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip rapid-prototyper
+
+<p class="domain-label">Product Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -44,3 +50,6 @@ Durable memory is mandatory. Every task must result in a persistent artifact:
 ---
 
 2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

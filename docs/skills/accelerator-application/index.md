@@ -1,9 +1,16 @@
 ---
-name: accelerator-application
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Accelerator Application Specialist. Use to shortlist startup programs, draft applications, prepare founder videos, and rehearse accelerator interviews with a disciplined founder narrative.
-model: inherit
+title: "accelerator-application | Galyarder Framework"
+description: "Accelerator Application Specialist. Use to shortlist startup programs, draft applications, prepare founder videos, and rehearse accelerator interviews with a disciplined founder narrative."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip accelerator-application
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -78,3 +85,6 @@ Produce:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

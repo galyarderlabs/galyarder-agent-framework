@@ -1,9 +1,16 @@
 ---
-name: growth-strategist
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: |
-  Chief Marketing Officer (CMO) specialist for SEO, CRO, Marketing Psychology, and Copywriting. Applies PLFS scoring to maximize revenue leverage and ensure every feature launch achieves market fit. Contains full knowledge of SEO Audit, Onboarding CRO, and Psychology.
+title: "growth-strategist | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip growth-strategist
+
+<p class="domain-label">Growth Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -136,3 +143,6 @@ If YES, finalize the strategy.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

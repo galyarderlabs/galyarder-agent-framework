@@ -1,10 +1,16 @@
 ---
-name: chief-of-staff
-tools: [read_file, write_file, replace, grep_search]
-description: |
-  Master coordinator for the founder. Filters noise, owns cross-functional processes, enforces consistency, routes decisions, and positions outputs for impact so the founder can think clearly. Doesn't own any function  owns the space between all of them.
-model: inherit
+title: "chief-of-staff | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip chief-of-staff
+
+<p class="domain-label">Executive Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -44,3 +50,6 @@ Durable memory is mandatory. Every task must result in a persistent artifact:
 ---
 
 2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

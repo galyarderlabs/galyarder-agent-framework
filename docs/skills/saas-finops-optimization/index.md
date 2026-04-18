@@ -1,7 +1,16 @@
 ---
-name: saas-finops-optimization
-description: Optimize cloud and AI costs for modern SaaS stacks (Vercel, Supabase, Neon, Stripe, and AI APIs). Covers token efficiency, serverless database scaling, edge function optimization, and burn rate monitoring. Use when planning infrastructure, investigating high bills, or auditing API usage.
+title: "saas-finops-optimization | Galyarder Framework"
+description: "Optimize cloud and AI costs for modern SaaS stacks (Vercel, Supabase, Neon, Stripe, and AI APIs). Covers token efficiency, serverless database scaling, edge function optimization, and burn rate monitoring. Use when planning infrastructure, investigating high bills, or auditing API usage."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip saas-finops-optimization
+
+<p class="domain-label">Legal-Finance Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -89,3 +98,6 @@ AI tokens are often the #1 expense for modern startups. Optimize or die.
 
 ---
  2026 Galyarder Labs. Galyarder Framework. SaaS FinOps.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

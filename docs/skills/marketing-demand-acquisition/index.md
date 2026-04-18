@@ -1,29 +1,16 @@
 ---
-name: "marketing-demand-acquisition"
-description: Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimization, lead generation, pipeline generation, or startup marketing budgets. Covers multi-channel acquisition (Google Ads, LinkedIn Ads, Meta Ads), CAC analysis, MQL/SQL workflows, attribution modeling, technical SEO, and co-marketing partnerships for hybrid PLG/Sales-Led motions in EU/US/Canada markets.
-triggers:
-  - demand gen
-  - demand generation
-  - paid ads
-  - paid media
-  - LinkedIn ads
-  - Google ads
-  - Meta ads
-  - CAC
-  - customer acquisition cost
-  - lead generation
-  - MQL
-  - SQL
-  - pipeline generation
-  - acquisition strategy
-  - HubSpot campaigns
-metadata:
-  version: 1.1.0
-  author: Alireza Rezvani
-  category: marketing
-  domain: demand-generation
-  updated: 2025-01
+title: "marketing-demand-acquisition | Galyarder Framework"
+description: "Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership programs for Series A+ startups scaling internationally. Use when planning marketing strategy, growth marketing, advertising campaigns, PPC optimization, lead generation, pipeline generation, or startup marketing budgets. Covers multi-channel acquisition (Google Ads, LinkedIn Ads, Meta Ads), CAC analysis, MQL/SQL workflows, attribution modeling, technical SEO, and co-marketing partnerships for hybrid PLG/Sales-Led motions in EU/US/Canada markets."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip marketing-demand-acquisition
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -357,3 +344,6 @@ Required:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

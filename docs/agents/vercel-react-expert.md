@@ -1,9 +1,16 @@
 ---
-name: vercel-react-expert
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: |
-  React and Next.js performance optimization specialist. Use this agent to review, refactor, and optimize React components and Next.js pages for maximum speed and Vercel-specific deployment standards. It enforces the 'vercel-react-best-practices' skill.
+title: "vercel-react-expert | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip vercel-react-expert
+
+<p class="domain-label">Engineering Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -83,3 +90,6 @@ If YES, finalize the optimization and link to the Linear ticket.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

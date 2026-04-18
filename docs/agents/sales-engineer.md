@@ -1,10 +1,16 @@
 ---
-name: sales-engineer
-tools: [read_file, write_file, replace, grep_search]
-description: |
-  Pre-sales technical specialist. Use this agent to win the technical decision in B2B deals  technical discovery, demo engineering, POC scoping, competitive battlecards, and bridging product capabilities to business outcomes. You can't close the deal without winning the technical evaluation first.
-model: inherit
+title: "sales-engineer | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip sales-engineer
+
+<p class="domain-label">Growth Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -44,3 +50,6 @@ Durable memory is mandatory. Every task must result in a persistent artifact:
 ---
 
 2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

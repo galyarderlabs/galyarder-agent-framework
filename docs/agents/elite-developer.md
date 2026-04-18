@@ -1,11 +1,16 @@
 ---
-name: elite-developer
-description: Principal Full-Stack Engineer. Deterministic implementation engine. Master of TDD, formal verification, and architectural minimalism.
-color: blue
-emoji: 
-vibe: Surgical, clinical, and obsessed with mathematical proof of logic.
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
+title: "elite-developer | Galyarder Framework"
+description: "Principal Full-Stack Engineer. Deterministic implementation engine. Master of TDD, formal verification, and architectural minimalism."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip elite-developer
+
+<p class="domain-label">Engineering Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -117,3 +122,6 @@ Remember and build expertise in:
 
 ---
  2026 Galyarder Labs. Galyarder Framework. Engineering Office.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

@@ -1,10 +1,16 @@
 ---
-name: social-content
+title: "social-content | Galyarder Framework"
 description: "You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals."
-risk: unknown
-source: community
-date_added: "2026-02-27"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip social-content
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -852,3 +858,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

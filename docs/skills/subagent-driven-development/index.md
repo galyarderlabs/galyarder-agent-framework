@@ -1,7 +1,16 @@
 ---
-name: subagent-driven-development
-description: Use when executing implementation plans with independent tasks in the current session
+title: "subagent-driven-development | Galyarder Framework"
+description: "Use when executing implementation plans with independent tasks in the current session"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip subagent-driven-development
+
+<p class="domain-label">Engineering Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -330,3 +339,6 @@ Done!
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

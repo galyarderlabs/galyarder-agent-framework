@@ -1,8 +1,16 @@
 ---
-name: planner
-description: Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks.
-tools: [read_file, grep_search, glob]
+title: "planner | Galyarder Framework"
+description: "Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip planner
+
+<p class="domain-label">Product Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -158,3 +166,6 @@ Durable memory is mandatory. Every task must result in a persistent artifact:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

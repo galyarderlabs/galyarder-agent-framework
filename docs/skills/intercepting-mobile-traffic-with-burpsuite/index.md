@@ -1,18 +1,16 @@
 ---
-name: intercepting-mobile-traffic-with-burpsuite
-description: >
-  Intercepts and analyzes HTTP/HTTPS traffic from mobile applications using Burp Suite proxy to
-  identify insecure API communications, authentication flaws, data leakage, and server-side
-  vulnerabilities. Use when performing mobile application penetration testing, assessing API security,
-  or evaluating client-server communication patterns. Activates for requests involving mobile traffic
-  interception, Burp Suite mobile proxy, API security testing, or mobile HTTPS analysis.
-domain: cybersecurity
-subdomain: mobile-security
-author: mahipal
-tags: [mobile-security, android, ios, burp-suite, traffic-interception, penetration-testing]
-version: 1.0.0
-license: Apache-2.0
+title: "intercepting-mobile-traffic-with-burpsuite | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip intercepting-mobile-traffic-with-burpsuite
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -224,3 +222,6 @@ android sslpinning disable
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

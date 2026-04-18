@@ -1,20 +1,16 @@
 ---
-name: executing-red-team-exercise
-description: >
-  Executes comprehensive red team exercises that simulate real-world adversary operations
-  against an organization's people, processes, and technology. The red team operates with
-  stealth as a primary objective, employing the full attack lifecycle from initial reconnaissance
-  through objective completion while testing the organization's detection and response
-  capabilities. This differs from penetration testing by focusing on adversary emulation
-  rather than vulnerability identification. Activates for requests involving red team exercise,
-  adversary simulation, adversary emulation, or full-scope offensive security assessment.
-domain: cybersecurity
-subdomain: penetration-testing
-tags: [red-team, adversary-emulation, MITRE-ATT&CK, Cobalt-Strike, detection-assessment]
-version: 1.0.0
-author: mahipal
-license: Apache-2.0
+title: "executing-red-team-exercise | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip executing-red-team-exercise
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -217,3 +213,6 @@ Convert red team findings into defensive improvements:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

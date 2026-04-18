@@ -1,19 +1,16 @@
 ---
-name: profiling-threat-actor-groups
-description: >
-  Develops comprehensive threat actor profiles for APT groups, criminal organizations, and
-  hacktivist collectives by aggregating TTP documentation, historical campaign data, tooling
-  fingerprints, and attribution indicators from multiple intelligence sources. Use when briefing
-  executives on sector-specific threats, updating threat model assumptions, or prioritizing
-  defensive controls against specific adversaries. Activates for requests involving MITRE ATT&CK
-  Groups, Mandiant APT profiles, CrowdStrike adversary naming, or sector-specific threat briefings.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags: [MITRE-ATT&CK, threat-actor, APT, CrowdStrike, Mandiant, attribution, kill-chain, NIST-CSF]
-version: 1.0.0
-author: mahipal
-license: Apache-2.0
+title: "profiling-threat-actor-groups | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip profiling-threat-actor-groups
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -162,3 +159,6 @@ Classify TLP:AMBER for internal distribution; seek ISAC approval before external
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

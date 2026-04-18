@@ -1,9 +1,16 @@
 ---
-name: investor-research
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Investor Targeting Specialist. Use to identify, qualify, and tier investors for a round based on stage, sector, geography, check size, and portfolio fit.
-model: inherit
+title: "investor-research | Galyarder Framework"
+description: "Investor Targeting Specialist. Use to identify, qualify, and tier investors for a round based on stage, sector, geography, check size, and portfolio fit."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip investor-research
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -98,3 +105,6 @@ Produce:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

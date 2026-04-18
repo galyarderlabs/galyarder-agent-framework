@@ -1,13 +1,16 @@
 ---
-name: tracking-threat-actor-infrastructure
-description: Threat actor infrastructure tracking involves monitoring and mapping adversary-controlled assets including command-and-control (C2) servers, phishing domains, exploit kit hosts, bulletproof hosting, a
-domain: cybersecurity
-subdomain: threat-intelligence
-tags: [threat-intelligence, cti, ioc, mitre-attack, stix, infrastructure-tracking, shodan, censys, passive-dns]
-version: "1.0"
-author: mahipal
-license: Apache-2.0
+title: "tracking-threat-actor-infrastructure | Galyarder Framework"
+description: "Threat actor infrastructure tracking involves monitoring and mapping adversary-controlled assets including command-and-control (C2) servers, phishing domains, exploit kit hosts, bulletproof hosting, a"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip tracking-threat-actor-infrastructure
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -321,3 +324,6 @@ def build_infrastructure_timeline(indicators):
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

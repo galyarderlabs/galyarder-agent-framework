@@ -1,22 +1,16 @@
 ---
-name: contract-and-proposal-writer
-description: >
-  Generate production-ready business documents including freelance contracts,
-  project proposals, SOWs, NDAs, and MSAs with jurisdiction-aware clauses.
-  Covers US (Delaware), EU (GDPR), UK, and DACH (German law) legal frameworks.
-  Includes contract templates, clause libraries, and DOCX conversion. Use when
-  starting client engagements, writing proposals, drafting partnership
-  agreements, or needing GDPR-compliant data processing addenda.
-license: MIT + Commons Clause
-metadata:
-  version: 1.0.0
-  author: borghei
-  category: business-growth
-  domain: legal-documents
-  tier: POWERFUL
-  updated: 2026-03-09
-  frameworks: contract-templates, jurisdiction-compliance, proposal-writing
+title: "contract-and-proposal-writer | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip contract-and-proposal-writer
+
+<p class="domain-label">Legal-Finance Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -501,3 +495,6 @@ python scripts/contract_comparison_analyzer.py contract_v1.json contract_v2.json
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

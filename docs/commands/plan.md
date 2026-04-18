@@ -1,8 +1,15 @@
 ---
-description: Restate requirements, assess risks, and create a step-by-step implementation plan with Vertical Slices (Tracer Bullets).
+title: "Plan Command | Galyarder Framework"
+description: "Restate requirements, assess risks, and create a step-by-step implementation plan with Vertical Slices (Tracer Bullets)."
 ---
 
-# Plan Command
+<div class="domain-header" markdown>
+
+# material/folder-zip Plan Command
+
+<p class="domain-label">Product Command</p>
+
+</div>
 
 This command invokes the **super-architect** agent to create a comprehensive implementation plan before writing any code.
 
@@ -29,3 +36,6 @@ Unlike traditional planning, `/plan` focuses on **Tracer Bullets**:
 
 ---
 **Note**: This command is powered by the `galyarder-framework:writing-plans` and `prd-to-plan` skills.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

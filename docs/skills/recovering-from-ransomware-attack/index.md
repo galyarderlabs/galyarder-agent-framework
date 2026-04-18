@@ -1,20 +1,16 @@
 ---
-name: recovering-from-ransomware-attack
-description: >
-  Executes structured recovery from a ransomware incident following NIST and CISA
-  frameworks, including environment isolation, forensic evidence preservation, clean
-  infrastructure rebuild, prioritized system restoration from verified backups,
-  credential reset, and validation against re-infection. Covers Active Directory
-  recovery, database restoration, and application stack rebuild in dependency order.
-  Activates for requests involving ransomware recovery, post-encryption restoration,
-  or disaster recovery from ransomware.
-domain: cybersecurity
-subdomain: ransomware-defense
-tags: [ransomware, recovery, incident-response, backup, defense]
-version: 1.0.0
-author: mahipal
-license: Apache-2.0
+title: "recovering-from-ransomware-attack | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip recovering-from-ransomware-attack
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -341,3 +337,6 @@ Throughout: SOC monitoring on high alert
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

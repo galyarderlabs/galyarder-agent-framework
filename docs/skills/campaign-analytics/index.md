@@ -1,16 +1,16 @@
 ---
-name: "campaign-analytics"
-description: Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.
-license: MIT
-metadata:
-  version: 1.0.0
-  author: Alireza Rezvani
-  category: marketing
-  domain: campaign-analytics
-  updated: 2026-02-06
-  python-tools: attribution_analyzer.py, funnel_analyzer.py, campaign_roi_calculator.py
-  tech-stack: marketing-analytics, attribution-modeling
+title: "campaign-analytics | Galyarder Framework"
+description: "Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip campaign-analytics
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -273,3 +273,6 @@ Calculates comprehensive ROI metrics with industry Standarding:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

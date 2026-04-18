@@ -1,17 +1,16 @@
 ---
-name: investigating-phishing-email-incident
-description: >
-  Investigates phishing email incidents from initial user report through header analysis, URL/attachment
-  detonation, impacted user identification, and containment actions using SOC tools like Splunk,
-  Microsoft Defender, and sandbox analysis platforms. Use when a reported phishing email requires
-  full incident investigation to determine scope and impact.
-domain: cybersecurity
-subdomain: soc-operations
-tags: [soc, phishing, incident-response, email-security, splunk, defender, sandbox]
-version: "1.0"
-author: mahipal
-license: Apache-2.0
+title: "investigating-phishing-email-incident | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip investigating-phishing-email-incident
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -323,3 +322,6 @@ Status:       RESOLVED  No evidence of lateral movement post-compromise
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

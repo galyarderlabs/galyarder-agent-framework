@@ -1,8 +1,16 @@
 ---
-name: security-guardian
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Security vulnerability detection and remediation specialist. Audits code for OWASP Top 10, IDOR, SSRF, and injection. Enforces zero trust and secure data handling for financial and AI platforms. Contains full knowledge of security reviewer and audit checklists.
+title: "security-guardian | Galyarder Framework"
+description: "Security vulnerability detection and remediation specialist. Audits code for OWASP Top 10, IDOR, SSRF, and injection. Enforces zero trust and secure data handling for financial and AI platforms. Contains full knowledge of security reviewer and audit checklists."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip security-guardian
+
+<p class="domain-label">Security Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -113,3 +121,6 @@ If YES, finalize the audit report and close the issue.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

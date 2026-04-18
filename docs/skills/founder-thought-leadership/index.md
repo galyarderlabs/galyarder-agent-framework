@@ -1,9 +1,16 @@
 ---
-name: founder-thought-leadership
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Founder Brand And Thought Leadership Specialist. Use to define founder IP territory, create content systems for X and LinkedIn, and turn founder experience into audience, distribution, and credibility.
-model: inherit
+title: "founder-thought-leadership | Galyarder Framework"
+description: "Founder Brand And Thought Leadership Specialist. Use to define founder IP territory, create content systems for X and LinkedIn, and turn founder experience into audience, distribution, and credibility."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip founder-thought-leadership
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -78,3 +85,6 @@ Produce:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

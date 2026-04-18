@@ -1,8 +1,15 @@
 ---
-description: Infrastructure and CI/CD specialist. Automates deployments to Vercel, Docker, or AWS.
+title: "Deploy Command | Galyarder Framework"
+description: "Infrastructure and CI/CD specialist. Automates deployments to Vercel, Docker, or AWS."
 ---
 
-# Deploy Command
+<div class="domain-header" markdown>
+
+# material/folder-zip Deploy Command
+
+<p class="domain-label">Infrastructure Command</p>
+
+</div>
 
 This command invokes the **devops-engineer** agent to productionize your application.
 
@@ -21,3 +28,6 @@ Use `/deploy` when:
 
 ---
 **Note**: This command is powered by the `galyarder-framework:devops-deployment` skill.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

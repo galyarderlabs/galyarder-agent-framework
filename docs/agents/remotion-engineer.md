@@ -1,8 +1,16 @@
 ---
-name: remotion-engineer
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Remotion specialist for programmatic video generation using React. Use PROACTIVELY when the user wants to create, debug, or optimize Remotion video projects. Specializes in frame-perfect animations, physics-based motion, and FFmpeg rendering optimization.
+title: "remotion-engineer | Galyarder Framework"
+description: "Remotion specialist for programmatic video generation using React. Use PROACTIVELY when the user wants to create, debug, or optimize Remotion video projects. Specializes in frame-perfect animations, physics-based motion, and FFmpeg rendering optimization."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip remotion-engineer
+
+<p class="domain-label">Growth Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -99,3 +107,6 @@ Use `<Sequence>` to manage the timeline. Do not hardcode frame offsets manually.
 
 ---
  2026 Galyarder Labs. Building the future of programmatic video.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

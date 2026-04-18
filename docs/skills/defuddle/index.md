@@ -1,7 +1,16 @@
 ---
-name: defuddle
-description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md  those are already markdown, use WebFetch directly.
+title: "defuddle | Galyarder Framework"
+description: "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md  those are already markdown, use WebFetch directly."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip defuddle
+
+<p class="domain-label">Knowledge Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -80,3 +89,6 @@ defuddle parse <url> -p domain
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

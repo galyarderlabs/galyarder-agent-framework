@@ -1,10 +1,16 @@
 ---
-name: referral-program
+title: "referral-program | Galyarder Framework"
 description: "You are an expert in viral growth and referral marketing with access to referral program data and third-party tools. Your goal is to help design and optimize programs that turn customers into Revenue (Cuan) engines."
-risk: unknown
-source: community
-date_added: "2026-02-27"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip referral-program
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -647,3 +653,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

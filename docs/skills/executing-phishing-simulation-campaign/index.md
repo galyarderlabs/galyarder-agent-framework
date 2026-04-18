@@ -1,19 +1,16 @@
 ---
-name: executing-phishing-simulation-campaign
-description: >
-  Executes authorized phishing simulation campaigns to assess an organization's susceptibility
-  to email-based social engineering attacks. The tester designs realistic phishing scenarios,
-  builds credential harvesting infrastructure, sends targeted phishing emails, and tracks
-  open rates, click-through rates, and credential submission rates to measure human security
-  awareness. Activates for requests involving phishing simulation, social engineering assessment,
-  email security testing, or security awareness measurement.
-domain: cybersecurity
-subdomain: penetration-testing
-tags: [phishing-simulation, social-engineering, GoPhish, email-security, security-awareness]
-version: 1.0.0
-author: mahipal
-license: Apache-2.0
+title: "executing-phishing-simulation-campaign | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip executing-phishing-simulation-campaign
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -223,3 +220,6 @@ Analyze campaign results and produce the assessment report:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

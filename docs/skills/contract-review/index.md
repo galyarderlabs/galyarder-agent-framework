@@ -1,12 +1,16 @@
 ---
-name: contract-review
-description: Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation opportunities
-license: MIT
-metadata:
-  author: ClawFu
-  version: 1.0.0
-  mcp-server: "@clawfu/mcp-skills"
+title: "contract-review | Galyarder Framework"
+description: "Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation opportunities"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip contract-review
+
+<p class="domain-label">Legal-Finance Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -337,3 +341,6 @@ Quick review - key concerns only:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

@@ -1,7 +1,16 @@
 ---
-name: accounting
+title: "accounting | Galyarder Framework"
 description: "Use this skill when the user needs to set up bookkeeping, track revenue and expenses, prepare for taxes, choose accounting software, understand SaaS revenue recognition, or manage the financial operations of their bootstrapped business. Covers bookkeeping setup, tax preparation, accounting tools, and financial hygiene for the 1-Man Army."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip accounting
+
+<p class="domain-label">Legal-Finance Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -312,3 +321,6 @@ Review quarterly. Less important at early stage, but needed for:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

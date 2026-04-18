@@ -1,8 +1,16 @@
 ---
-name: code-reviewer
-description: Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.
-tools: [read_file, grep_search, glob, run_shell_command]
+title: "code-reviewer | Galyarder Framework"
+description: "Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip code-reviewer
+
+<p class="domain-label">Engineering Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -141,3 +149,6 @@ Customize based on your project's `CLAUDE.md` or skill files.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

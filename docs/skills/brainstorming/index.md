@@ -1,7 +1,16 @@
 ---
-name: brainstorming
+title: "brainstorming | Galyarder Framework"
 description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip brainstorming
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -203,3 +212,6 @@ If they agree to the companion, read the detailed guide before proceeding:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

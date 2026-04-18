@@ -1,13 +1,16 @@
 ---
-name: testing-for-xss-vulnerabilities-with-burpsuite
-description: Identifying and validating cross-site scripting vulnerabilities using Burp Suite's scanner, intruder, and repeater tools during authorized security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags: [penetration-testing, xss, burpsuite, owasp, web-security, cross-site-scripting]
-version: "1.0"
-author: mahipal
-license: Apache-2.0
+title: "testing-for-xss-vulnerabilities-with-burpsuite | Galyarder Framework"
+description: "Identifying and validating cross-site scripting vulnerabilities using Burp Suite's scanner, intruder, and repeater tools during authorized security assessments."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip testing-for-xss-vulnerabilities-with-burpsuite
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -345,3 +348,6 @@ A WAF blocks common XSS patterns and CSP restricts inline scripts. Discover a JS
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

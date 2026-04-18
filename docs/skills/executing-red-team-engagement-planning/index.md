@@ -1,13 +1,16 @@
 ---
-name: executing-red-team-engagement-planning
-description: Red team engagement planning is the foundational phase that defines scope, objectives, rules of engagement (ROE), threat model selection, and operational timelines before any offensive testing begins.
-domain: cybersecurity
-subdomain: red-teaming
-tags: [red-team, adversary-simulation, mitre-attack, exploitation, post-exploitation, engagement-planning, rules-of-engagement]
-version: "1.0"
-author: mahipal
-license: Apache-2.0
+title: "executing-red-team-engagement-planning | Galyarder Framework"
+description: "Red team engagement planning is the foundational phase that defines scope, objectives, rules of engagement (ROE), threat model selection, and operational timelines before any offensive testing begins."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip executing-red-team-engagement-planning
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -178,3 +181,6 @@ Map organizational threats using MITRE ATT&CK Navigator to select relevant adver
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

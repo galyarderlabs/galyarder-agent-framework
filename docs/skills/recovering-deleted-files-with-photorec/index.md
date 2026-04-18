@@ -1,13 +1,16 @@
 ---
-name: recovering-deleted-files-with-photorec
-description: Recover deleted files from disk images and storage media using PhotoRec's file signature-based carving engine regardless of file system damage.
-domain: cybersecurity
-subdomain: digital-forensics
-tags: [forensics, file-recovery, photorec, file-carving, data-recovery, evidence-recovery]
-version: "1.0"
-author: mahipal
-license: Apache-2.0
+title: "recovering-deleted-files-with-photorec | Galyarder Framework"
+description: "Recover deleted files from disk images and storage media using PhotoRec's file signature-based carving engine regardless of file system damage."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip recovering-deleted-files-with-photorec
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -264,3 +267,6 @@ PhotoRec Recovery Summary:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

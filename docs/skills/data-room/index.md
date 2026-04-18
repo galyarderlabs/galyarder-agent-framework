@@ -1,9 +1,16 @@
 ---
-name: data-room
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Due Diligence Data Room Specialist. Use to prepare, audit, and organize fundraising materials for investor diligence before or after a term sheet.
-model: inherit
+title: "data-room | Galyarder Framework"
+description: "Due Diligence Data Room Specialist. Use to prepare, audit, and organize fundraising materials for investor diligence before or after a term sheet."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip data-room
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -91,3 +98,6 @@ Produce:
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

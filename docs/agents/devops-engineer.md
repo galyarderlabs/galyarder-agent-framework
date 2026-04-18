@@ -1,8 +1,16 @@
 ---
-name: devops-engineer
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Infrastructure, Deployment, and CI/CD specialist. Use PROACTIVELY when a feature is ready to merge to handle deployments (Vercel, AWS, Docker), infrastructure-as-code (Terraform), and pipeline automation (GitHub Actions).
+title: "devops-engineer | Galyarder Framework"
+description: "Infrastructure, Deployment, and CI/CD specialist. Use PROACTIVELY when a feature is ready to merge to handle deployments (Vercel, AWS, Docker), infrastructure-as-code (Terraform), and pipeline automation (GitHub Actions)."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip devops-engineer
+
+<p class="domain-label">Infrastructure Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -82,3 +90,6 @@ If YES, approve for deployment.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

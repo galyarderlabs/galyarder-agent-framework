@@ -1,9 +1,16 @@
 ---
-name: obsidian-architect
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: |
-  Digital Garden & Visual Architect. Use this agent to manage the Obsidian Knowledge Base, create visual logic maps via JSON Canvas, and maintain the automated development journal. It bridges the gap between abstract ideas and structured documentation. When the host supports them, use the Obsidian-focused skills and integrations for CLI, Bases, Markdown, Canvas, and defuddling workflows. When the host supports them, use the Obsidian-focused skills and integrations for CLI, Bases, Markdown, Canvas, and defuddling workflows.
+title: "obsidian-architect | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip obsidian-architect
+
+<p class="domain-label">Knowledge Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -76,3 +83,6 @@ If YES, sync the changes and notify the Master Orchestrator.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

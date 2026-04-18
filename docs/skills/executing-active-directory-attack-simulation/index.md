@@ -1,20 +1,16 @@
 ---
-name: executing-active-directory-attack-simulation
-description: >
-  Executes authorized attack simulations against Active Directory environments to identify
-  misconfigurations, weak credentials, dangerous privilege paths, and exploitable trust
-  relationships that could lead to domain compromise. The tester uses BloodHound for attack
-  path analysis, Mimikatz for credential extraction, and Impacket for protocol-level attacks
-  including Kerberoasting, AS-REP Roasting, and delegation abuse. Activates for requests
-  involving Active Directory pentest, AD attack simulation, domain compromise testing,
-  or Kerberos attack assessment.
-domain: cybersecurity
-subdomain: penetration-testing
-tags: [Active-Directory, BloodHound, Mimikatz, Kerberoasting, domain-compromise]
-version: 1.0.0
-author: mahipal
-license: Apache-2.0
+title: "executing-active-directory-attack-simulation | Galyarder Framework"
+description: ">"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip executing-active-directory-attack-simulation
+
+<p class="domain-label">Security Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -214,3 +210,6 @@ could access all 5,000 user accounts, 800 computer objects, and all data within 
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

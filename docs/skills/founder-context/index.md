@@ -1,9 +1,16 @@
 ---
-name: founder-context
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Founder Operating Context. Use to create or update the canonical founder/startup context document so every fundraising, growth, product, and recruiting workflow runs on concrete company facts instead of generic assumptions.
-model: inherit
+title: "founder-context | Galyarder Framework"
+description: "Founder Operating Context. Use to create or update the canonical founder/startup context document so every fundraising, growth, product, and recruiting workflow runs on concrete company facts instead of generic assumptions."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip founder-context
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -140,3 +147,6 @@ Create or update `.agents/founder-context.md` in the project root.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

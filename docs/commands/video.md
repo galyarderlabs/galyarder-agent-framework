@@ -1,8 +1,15 @@
 ---
-description: Programmatic video generation specialist using React and Remotion.
+title: "Video Command | Galyarder Framework"
+description: "Programmatic video generation specialist using React and Remotion."
 ---
 
-# Video Command
+<div class="domain-header" markdown>
+
+# material/folder-zip Video Command
+
+<p class="domain-label">Growth Command</p>
+
+</div>
 
 This command invokes the **remotion-engineer** agent to create marketing videos, changelogs, and trailers.
 
@@ -21,3 +28,6 @@ Use `/video` when:
 
 ---
 **Note**: This command is powered by the `galyarder-framework:video-generation` and `remotion-best-practices` skills.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

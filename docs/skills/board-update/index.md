@@ -1,9 +1,16 @@
 ---
-name: board-update
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Investor And Board Communication Specialist. Use to draft monthly investor updates, quarterly board decks, and high-signal stakeholder communications that surface wins, misses, risks, and asks clearly.
-model: inherit
+title: "board-update | Galyarder Framework"
+description: "Investor And Board Communication Specialist. Use to draft monthly investor updates, quarterly board decks, and high-signal stakeholder communications that surface wins, misses, risks, and asks clearly."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip board-update
+
+<p class="domain-label">Executive Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -90,3 +97,6 @@ For decks: one section per slide with headline, evidence, and board question ans
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

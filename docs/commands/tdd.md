@@ -1,8 +1,15 @@
 ---
-description: Enforce test-driven development workflow. Scaffold interfaces, generate tests FIRST, then implement minimal code to pass. Ensure 80%+ coverage.
+title: "TDD Command | Galyarder Framework"
+description: "Enforce test-driven development workflow. Scaffold interfaces, generate tests FIRST, then implement minimal code to pass. Ensure 80%+ coverage."
 ---
 
-# TDD Command
+<div class="domain-header" markdown>
+
+# material/folder-zip TDD Command
+
+<p class="domain-label">Engineering Command</p>
+
+</div>
 
 This command invokes the **elite-developer** agent to enforce test-driven development methodology.
 
@@ -32,3 +39,6 @@ User: /tdd I need a function to calculate market liquidity score
 
 ---
 **Note**: This command is powered by the `galyarder-framework:test-driven-development` skill.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

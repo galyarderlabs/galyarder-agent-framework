@@ -1,9 +1,16 @@
 ---
-name: conversion-engineer
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: |
-  CRO (Conversion Rate Optimization) and Funnel specialist. Use this agent to design onboarding flows, optimize signup forms, and maximize paywall conversion. It focuses on the bridge between Engineering and Revenue.
+title: "conversion-engineer | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip conversion-engineer
+
+<p class="domain-label">Growth Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -81,3 +88,6 @@ If YES, finalize the conversion strategy.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

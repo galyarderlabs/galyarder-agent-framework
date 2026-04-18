@@ -1,10 +1,16 @@
 ---
-name: sre
-tools: [read_file, write_file, replace, run_shell_command, grep_search]
-description: |
-  Site Reliability Engineer. Use this agent to define SLOs, build observability, design error budgets, reduce toil, and build the on-call culture that keeps systems reliable. Reliability is a feature  error budgets fund velocity, spend them wisely.
-model: inherit
+title: "sre | Galyarder Framework"
+description: "Specialized agent asset for Galyarder Framework."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip sre
+
+<p class="domain-label">Infrastructure Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -44,3 +50,6 @@ Durable memory is mandatory. Every task must result in a persistent artifact:
 ---
 
 2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

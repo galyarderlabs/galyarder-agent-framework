@@ -1,8 +1,16 @@
 ---
-name: product-manager
-tools: [read_file, grep_search, glob, run_shell_command, write_file, replace]
-description: Product Management specialist. Focuses on ROI, feature prioritization, Linear ticket management, and ensuring engineering efforts directly impact user acquisition or revenue. Use PROACTIVELY before any code is written to convert PRDs into actionable Linear Epics and Issues.
+title: "product-manager | Galyarder Framework"
+description: "Product Management specialist. Focuses on ROI, feature prioritization, Linear ticket management, and ensuring engineering efforts directly impact user acquisition or revenue. Use PROACTIVELY before any code is written to convert PRDs into actionable Linear Epics and Issues."
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip product-manager
+
+<p class="domain-label">Product Agent</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -80,3 +88,6 @@ If YES, approve the handoff.
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.

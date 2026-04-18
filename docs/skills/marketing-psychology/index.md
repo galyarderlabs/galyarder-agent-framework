@@ -1,10 +1,16 @@
 ---
-name: marketing-psychology
+title: "marketing-psychology | Galyarder Framework"
 description: "Apply behavioral science and mental models to revenue (cuan) decisions, prioritized using a psychological leverage and feasibility scoring system."
-risk: unknown
-source: community
-date_added: "2026-02-27"
 ---
+
+<div class="domain-header" markdown>
+
+# material/folder-zip marketing-psychology
+
+<p class="domain-label">Growth Skill</p>
+
+</div>
+
 ## THE 1-MAN ARMY GLOBAL PROTOCOLS (MANDATORY)
 
 ### 1. Token Economy: The RTK Prefix
@@ -300,3 +306,6 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+Copyright 2026 Galyarder Labs. Galyarder Framework.
