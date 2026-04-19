@@ -1,5 +1,20 @@
 # Release Notes - Galyarder Framework
 
+## [v1.8.11] - 2026-04-20
+### Claude Bundle Manifest Shape Fix
+This patch fixes the last Claude Code marketplace schema mismatch in the all-in-one bundle manifest.
+
+#### Highlights
+- **String Path Fields**: `.marketplace/full/.claude-plugin/plugin.json` now exports `agents`, `skills`, and `commands` as plain string paths, matching the Claude plugin validator.
+- **Marketplace Version Bump**: Root and departmental manifests are bumped to `1.8.11` so installers can pick up the corrected bundle metadata cleanly.
+
+#### Verification
+```bash
+bash scripts/smoke.sh
+```
+
+---
+
 ## [v1.8.10] - 2026-04-20
 ### Claude Manifest Repair + Persona Parity
 This patch closes the remaining host packaging gaps that were still breaking Claude marketplace installs and partially collapsing executive personas back to host defaults.

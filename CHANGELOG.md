@@ -2,6 +2,10 @@
 
 All notable changes to Galyarder Framework will be documented in this file.
 
+## [1.8.11] - 2026-04-20
+### Fixed
+- **Claude Bundle Manifest Shape**: The full marketplace bundle now exports `agents`, `skills`, and `commands` as string paths instead of arrays, matching the Claude Code plugin validator and fixing `agents: Invalid input` install failures.
+
 ## [1.8.10] - 2026-04-20
 ### Fixed
 - **Claude Marketplace Manifest Schema**: Full bundle and departmental Claude plugin manifests now use an object-shaped `author` field and no longer ship the unsupported `personas` key, fixing marketplace install validation failures.
