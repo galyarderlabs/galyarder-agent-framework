@@ -104,25 +104,42 @@ Galyarder Framework is the underlying **brain** designed to power the next gener
 
 ---
 
-## Installation: The Digital Company Setup
+## Installation: The Digital Company Protocol
 
-Transform any repository into a high-integrity Digital Company using the protocol below.
+Follow this sequence to transform any directory into a high-integrity Digital Company.
 
-### Step 0: Initialize Digital Headquarters (Mandatory)
+### Step 1: Global CLI Installation (One-Time)
 
-Before deploying agents, you must establish the "Memory" of your enterprise. This one-liner creates the 8-department hierarchy required for the **Obsidian Loop**.
+Bootstrap the framework and link the core commands to your system's PATH. This allows you to run Galyarder commands from **any project** instantly.
 
-**Execute in your project root:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/scripts/scaffold-company.sh | bash
+# 1. Clone the intelligence layer
+git clone https://github.com/galyarderlabs/galyarder-framework.git ~/galyarder-framework
+
+# 2. Link commands globally
+cd ~/galyarder-framework
+./scripts/setup-cli.sh
 ```
 
-### Step 1: Deploy Agents & Skills
+### Step 2: Initialize & Deploy (Per Project)
 
-Choose the deployment path for your specific mission environment:
+Navigate to **your specific project** (e.g., `~/projects/my-app`) and deploy the workforce.
 
-#### A. Managed Marketplace (Automatic)
-*Recommended for Claude Code, Copilot CLI, or Gemini.*
+```bash
+# 1. Initialize Digital Headquarters
+galyarder-scaffold
+
+# 2. Deploy Agents to your mission environment
+# Available: cursor, aider, windsurf, openclaw, hermes, antigravity
+galyarder-deploy --tool <name>
+```
+
+---
+
+## Managed & Autonomous Options
+
+#### A. Official Marketplaces
+*Recommended for rapid integration with cloud orchestrators.*
 
 - **Claude Code**:
   ```bash
@@ -138,19 +155,7 @@ Choose the deployment path for your specific mission environment:
   gemini extensions install https://github.com/galyarderlabs/galyarder-framework
   ```
 
-#### B. IDE Injection & Distributed Hosts (Manual)
-*For local IDEs or remote autonomous hosts. Requires cloning the framework repo first.*
-
-```bash
-# 1. Clone the intelligence engine
-git clone https://github.com/galyarderlabs/galyarder-framework.git ~/galyarder-framework
-
-# 2. Deploy to your tool
-# Available tools: cursor, aider, windsurf, openclaw, hermes, antigravity
-~/galyarder-framework/scripts/install.sh --tool <name>
-```
-
-#### C. Autonomous Directives (Codex / OpenCode)
+#### B. Autonomous Directives (Codex / OpenCode)
 *For tools that can autonomously fetch logic via direct instructions.*
 
 - **OpenAI Codex**:
@@ -162,17 +167,37 @@ git clone https://github.com/galyarderlabs/galyarder-framework.git ~/galyarder-f
 ---
 
 ## Philosophy
-...
+
+- **Verified Logic** — Output is a liability until it is systematically verified.
+- **Context Economy** — RTK proxy usage is mandatory to maintain high-signal communication.
+- **Math Over Magic** — Base decisions on empirical data, ROI, and institutional probability.
+- **Goal to Market** — A mission is not complete until it achieves market-ready status.
 
 ---
 
 ## Technical Integrity: The Karpathy Principles
-...
+
+The framework enforces rigid adherence to the Karpathy Principles to eliminate slop:
+
+- **Think Before Coding**: Mandatory `sequentialthinking` and `context7` MCP loops before any implementation.
+- **Simplicity First**: Minimum effort to solve the objective. Zero speculative abstractions.
+- **Surgical Changes**: Touch only what is necessary. Perfect alignment with existing infrastructure.
+- **Goal-Driven Execution**: Empirical verification via a mission-first methodology.
 
 ---
 
 ## Digital Infrastructure: 8 High-Integrity Silos
-...
+
+The workforce is organized into specialized departments:
+
+- **Executive**: Strategic oversight and master orchestration.
+- **Engineering**: Deterministic implementation and TDD factory.
+- **Growth**: Behavioral arbitrage, marketing engineering, and design systems.
+- **Security**: Professional auditing and advanced offensive security.
+- **Product**: Roadmap integrity and strategic extraction.
+- **Infrastructure**: Reliability physics and automated deployment.
+- **Legal-Finance**: Regulatory compliance and token FinOps.
+- **Knowledge**: Memory preservation and visual logic mapping.
 
 ---
 
