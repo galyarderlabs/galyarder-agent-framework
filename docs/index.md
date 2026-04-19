@@ -12,35 +12,35 @@ Galyarder Framework is the **Intelligence Layer** of the Galyarder Ecosystem. It
 
 ## 1. The Galyarder Triad
 
-Galyarder Framework provides the deterministic brain required to transform vision into market-ready results across three core layers:
+To automate a high-scale enterprise, you need three layers working in perfect symmetry:
 
-1.  **[Galyarder Agent](https://github.com/galyarderlabs/galyarder-agent)**: The **Entity**. Digital personas with recursive memory, stable identity, and universal presence (Telegram, Discord, custom APIs).
-2.  **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane**. Master governance for orchestrating swarms, monitoring task queues, and maintaining systemic sovereignty.
-3.  **Galyarder Framework**: The **Intelligence**. 40+ specialized agents and 130+ elite-level SOPs that execute complex missions with mathematical precision.
+1.  **[Galyarder Agent](https://github.com/galyarderlabs/galyarder-agent)**: The **Entity (Presence)**. Your persistent digital workforce that lives where you live (Telegram, WhatsApp, CLI). It possesses recursive long-term memory, stable identity, and connects directly to your Google Workspace.
+2.  **Galyarder Framework**: The **Intelligence (Logic)**. The brain of the operation. It provides the 40+ specialized agents and 130+ elite-level SOPs required to execute complex missions with mathematical precision (Humans 3.0).
+3.  **[Galyarder HQ](https://github.com/galyarderlabs/galyarder-hq)**: The **Control Plane (Governance)**. A master dashboard for solo founders to orchestrate multiple project projects, monitor mission queues, and audit departmental reports from a central web UI.
 
 ---
 
 ## 2. Humans 3.0: Autonomous Goal Integration (AGI)
 
-We define AGI not as sentient machines, but as **Autonomous Goal Integration**. It is a self-evolving system capable of taking high-level intent and independently orchestrating the entire lifecycle of a mission—from requirement extraction to final market distribution—without human micro-management.
+We define AGI as **Autonomous Goal Integration**. It is a self-evolving system capable of taking high-level intent from the **Presence layer** and independently orchestrating the entire lifecycle of a mission—from requirement extraction to final market distribution—without human micro-management.
 
 ### The AGI Mission Lifecycle:
-1.  **Socratic Discovery**: Distilling business goals into project-scoped Linear tickets and tactical specifications.
+1.  **Intent Extraction**: The **Galyarder Agent** distills your goals into project-scoped Linear tickets and tactical specifications.
 2.  **Strategic Blueprinting**: Mission design via formal verification and Vertical Slice implementation plans.
-3.  **Autonomous Implementation**: Clinical execution via 40+ specialized logic engines and high-integrity institutional standards.
-4.  **Operational Auditing**: Automated live-environment verification and zero-trust security hardening.
+3.  **Autonomous Implementation**: Clinical execution via the Framework's specialized logic engines and high-fidelity institutional standards.
+4.  **Operational Auditing**: Automated live-environment verification (BrowserOS) and professional security hardening.
 5.  **Autonomous Distribution**: Programmatic asset generation and behavioral-targeted market deployment.
 
 ---
 
 ## 3. Technical Integrity: The Karpathy Principles
 
-To eliminate AI slop and guarantee institutional-grade output, every agent within the framework enforces rigid adherence to the Karpathy Principles:
+Every agent and skill within the framework enforces rigid adherence to the Karpathy Principles to guarantee institutional-grade output:
 
--   **Think Before Coding**: Mandatory `sequentialthinking` and `context7` MCP loops to verify logic against real-time documentation before a single line is executed.
--   **Simplicity First**: Minimum code to solve the immediate objective. Rejecting speculative abstractions and unused configurability.
--   **Surgical Changes**: Touching only what is necessary. Perfect alignment with existing infrastructure and conventions.
--   **Goal-Driven Execution**: Empirical verification via a tests-first methodology. Output is a liability until it is systematically verified.
+-   **Think Before Coding**: Mandatory `sequentialthinking` and `context7` MCP loops to verify logic before execution.
+-   **Simplicity First**: Minimum code to solve the immediate objective. No speculative abstractions.
+-   **Surgical Changes**: Touching only what is necessary. Perfect alignment with existing infrastructure.
+-   **Goal-Driven Execution**: Empirical verification via a tests-first methodology. Output is a liability until verified.
 
 ---
 
@@ -48,8 +48,8 @@ To eliminate AI slop and guarantee institutional-grade output, every agent withi
 
 -   **Verified Logic** — Logic is irrelevant until it is proven via automated testing.
 -   **Context Economy** — RTK proxy is mandatory for all operations to maintain high-signal communication.
--   **Math Over Magic** — Decisions are based on empirical data, ROI, and institutional probability rather than intuition.
--   **Goal to Market** — A mission is not complete until it achieves market-ready status. Code is a liability; Market Fit is the asset.
+-   **Math Over Magic** — Decisions are based on empirical data, ROI, and institutional probability.
+-   **Goal to Market** — A mission is not complete until it achieves market-ready status.
 
 ---
 
