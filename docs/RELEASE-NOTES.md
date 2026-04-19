@@ -1,16 +1,27 @@
 # Release Notes - Galyarder Framework
 
-## [v1.8.0] - 2026-04-18
-### The Humans 3.0 Ascension
-This release marks the transition from deterministic execution (Humans 2.0) to **Autonomous Goal Integration (AGI)**.
+## [v1.8.0] - 2026-04-19
+### Summary
+Architectural guardrails to make execution provable: gated testing ladder, test-oracle defenses, operational modes, context version-truth, and tool interface boundaries.
 
 #### Highlights
-- **Galactic-Scale Orchestration**: Re-engineered C-Suite personas (CEO, CTO, CMO, CFO/COO) into self-evolving, federated intelligences.
-- **Architectural Guardrails**: Formalized 'Test Oracle' and 'Mutation Testing' mandates to ensure deterministic TDD. Introduced explicit Operational Modes: BUILD, INCIDENT, and EXPERIMENT.
-- **Context Truth**: Hardened Context7 protocol to mandate version metadata verification before trusting official documentation.
-- **Dynamic Asset Discovery**: The conversion engine and documentation portal now automatically discover and assemble silos without hardcoded mapping.
-- **Apex Documentation Portal**: Launched a high-density Material Design portal with Mermaid.js architecture and high-fidelity grid navigation.
-- **Professional Terminology**: Purged hyperbolic language in favor of a grounded, high-scale "Institutional" tone.
+- **Gating Ladder**: Enforced execution gates: **Unit → Contract → E2E**.
+- **Test Oracle Guardrails**: Mandatory negative control / mutation check to prevent “fake green” tests.
+- **Operational Modes**:
+  - `BUILD` (default): PRD-driven, full ceremony, full TDD.
+  - `INCIDENT`: hotfix bypass with mandatory post-mortem.
+  - `EXPERIMENT`: timeboxed, quarantined throwaway work.
+- **Context Truth**: `context7` fetch must verify **library version** against local dependencies before adoption.
+- **Tool Interfaces**: Standard interfaces introduced for Linear, RTK, and Obsidian.
+- **Obsidian Loop**: Mandatory durable reporting artifact output to `docs/departments/`.
+
+#### Breaking Changes
+- Removed `framework/` subdirectory; paths have changed accordingly.
+
+#### Migration
+1. Update local references from `framework/...` to repo root paths.
+2. Re-run install/conversion scripts for your tool (`./scripts/install.sh --tool <...>`).
+3. Regenerate docs via `generate-docs.py`.
 
 ---
 
@@ -19,10 +30,9 @@ This release marks the transition from deterministic execution (Humans 2.0) to *
 A maintenance release focusing on the structural hardening of the Digital Department Silos.
 
 #### Fixes & Improvements
-- **Manifest Discovery**: Standardized Claude Code sub-plugin manifests at `[Dept]/.claude-plugin/plugin.json`.
-- **Root Discovery**: Hardened root `gemini-extension.json` with explicit arrays for all department paths.
-- **Link Integrity**: Surgical fix for 404s and relative pathing in the generated documentation portal.
-- **Auto-Deployment**: Integrated GitHub Actions for seamless MkDocs portal updates.
+- **Manifest Discovery**: Standardized Claude Code sub-plugin manifests.
+- **Link Integrity**: Surgical fix for 404s and relative pathing in the portal.
+- **Auto-Deployment**: Integrated GitHub Actions for portal updates.
 
 ---
 
@@ -30,29 +40,23 @@ A maintenance release focusing on the structural hardening of the Digital Depart
 ### Humans 2.0 & Department Silos
 The foundational transformation into a high-integrity Digital Company OS.
 
-#### Added
-- **Humans 2.0 Protocol**: Initialized across the entire workforce for deterministic, mathematical precision.
-- **Digital Department Silos**: Full reorganization into Executive, Engineering, Growth, Security, Product, Infrastructure, Legal-Finance, and Knowledge silos.
-- **Thinking & Docs MCP**: Mandatory injection of `sequentialthinking` and `context7` protocols into 185 files.
-- **12-Tool Engine**: Support for Hermes Agent, OpenClaw, Codex, and 9 other platforms.
-
 ---
 
 ## [v1.6.0] - 2026-04-12
 ### Operational Expansion
-Added 5 new specialized agents: `mcp-builder`, `sre`, `chief-of-staff`, `rapid-prototyper`, and `sales-engineer`. Total: 40 agents, 132 skills.
+Added 5 new specialized agents. Total: 40 agents, 132 skills.
 
 ---
 
 ## [v1.3.1] - 2026-04-06
 ### Identity Update
-Official transition to the **Galyarder Framework** name, aligning technical power with elite agent skills.
+Official transition to the **Galyarder Framework** name.
 
 ---
 
 ## [v1.0.0] - 2026-04-04
 ### Initial Release
-Full restoration of high-rigor engineering agents (TDD, Architecture, Systematic Debugging) and the 1-Man Army C-Suite.
+Full restoration of high-rigor engineering agents and the 1-Man Army C-Suite.
 
 ---
 © 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.

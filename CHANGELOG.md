@@ -2,34 +2,43 @@
 
 All notable changes to Galyarder Framework will be documented in this file.
 
-## [1.8.0] - 2026-04-18
-
+## [1.8.0] - 2026-04-19
+### Summary
+Architectural guardrails to make execution provable: gated testing ladder, test-oracle defenses, operational modes, context version-truth, and tool interface boundaries.
 ### Added
-- **Humans 3.0 Protocol**: Initialized the distilled cognitive machinery protocol across the entire workforce, stripping emotional overhead and biological fatigue in favor of deterministic, mathematical precision.
-- **Architectural Guardrails**: Formalized 'Test Oracle' and 'Mutation Testing' mandates to ensure deterministic TDD (tests must fail for the right reason).
-- **Explicit Operational Modes**: Introduced BUILD (Heavy Ceremony), INCIDENT (Bypass Planning), and EXPERIMENT (Timeboxed Quarantine) modes.
-- **Context Truth**: Hardened Context7 protocol to mandate version metadata verification before trusting official documentation.
-- **Tool Boundaries**: Defined explicit interfaces for Issue Tracking (Linear), Execution (RTK), and Memory (Obsidian).
-- **C-Suite Executive Layer**: Implemented high-fidelity personas with real-world domain expertise:
-  - `galyarder-ceo`: Strategic hegemony, OODA loops, and 48 Laws of Power orchestration.
-  - `galyarder-cto`: Architectural determinism, formal verification (TLA+), and zero-trust engineering.
-  - `galyarder-cmo`: Behavioral heuristics, programmatic SEO topography, and memetic warfare.
-  - `galyarder-cfo-coo`: Token FinOps, regulatory arbitrage (GDPR/ISO 42001), and antifragility models.
-- **The Obsidian Loop**: Established mandatory durable reporting infrastructure. All tasks now conclude with a persistent markdown artifact in `docs/departments/`.
-- **Advanced Multi-Platform Engine**: Refactored `scripts/convert.sh` and `scripts/install.sh` to provide high-fidelity integration for 12+ tools (Cursor, Aider, Windsurf, OpenCode, Claude Code, etc.).
-- **Company Scaffolder**: Added `scripts/scaffold-company.sh` to automate the initialization of digital headquarters and seed departmental templates.
-- **Sync Suite**: Integrated high-end synchronization scripts from elite-global standards: `sync-gemini-skills.py`, `sync-codex-skills.py`, `sync-hermes-skills.py`, and `generate-docs.py`.
-
+- **Gating Ladder**: Enforced execution gates: **Unit → Contract → E2E**.
+- **Test Oracle Guardrails**: Mandatory negative control / mutation check to prevent “fake green” tests.
+- **Operational Modes**:
+  - `BUILD` (default): PRD-driven, full ceremony, full TDD.
+  - `INCIDENT`: hotfix bypass with mandatory post-mortem.
+  - `EXPERIMENT`: timeboxed, quarantined throwaway work.
+- **Context Truth**: `context7` fetch must verify **library version** against local dependencies before adoption.
+- **Tool Interfaces**: Standard interfaces introduced:
+  - `IssueTracker` (Linear adapter)
+  - `ExecutionProxy` (RTK adapter)
+  - `MemoryStore` (Obsidian adapter)
+- **Obsidian Loop**: Mandatory durable reporting artifact output to `docs/departments/`.
+- **Company Scaffolder**: `scripts/scaffold-company.sh` to initialize HQ + departmental templates.
+- **Sync Suite**: Added/updated sync + docs generation scripts (see `/scripts`).
 ### Changed
-- **Branding Normalization**: Enforced absolute distinction between **Galyarder Framework** (Product) and **Galyarder Labs** (Company) globally.
-- **Workflow Overhaul**: Updated `WORKFLOW.md` to reflect the Humans 3.0 hierarchy, deterministic phase-gating, and explicit operational modes.
-- **Folder Consolidation**: Flattened the repository structure and permanently deleted the redundant `framework/` subdirectory, migrating to 8 high-integrity silos (Executive, Engineering, Growth, Security, Product, Infrastructure, Legal-Finance, Knowledge).
-- **README Restoration**: Restored the original high-integrity structure while surgically augmenting it with multi-platform conversion and Karpathy mandates.
-
+- Repo structure flattened; removed legacy `framework/` directory.
+- `WORKFLOW.md` updated for Humans 3.0 hierarchy + gating + modes.
+- Branding standardized: “Galyarder Framework” vs “Galyarder Labs”.
 ### Fixed
-- **Emoji Purge**: Executed a truly absolute non-ASCII character removal across 500+ files to ensure zero visual slop and maximum terminal compatibility.
-- **Linear Scoping**: Hardened the "Linear is Law" protocol to mandate project-scoped operations and prevent out-of-context issue creation.
-- **Surgical Integrity**: Refactored all 40 agents and 132 skills to integrate Karpathy's principles (Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution) as a mandatory global protocol.
+- Non-ASCII purge for terminal compatibility.
+- Linear scoping hardened to enforce project-scoped operations.
+- Global Karpathy protocol integrated across agents/skills (think-first, simplicity-first, surgical changes, goal-driven execution).
+### Breaking Changes
+- Removed `framework/` subdirectory; paths have changed accordingly.
+- Any workflows/scripts referencing old paths must be updated.
+### Migration
+1. Update local references from `framework/...` to repo root paths.
+2. Re-run install/conversion scripts for your tool (`./scripts/install.sh --tool <...>`).
+3. Regenerate docs if you rely on portal output (`generate-docs.py`).
+### Verification (Smoke)
+- Run one BUILD mission and confirm gates: unit pass → contract pass → e2e pass.
+- Confirm test-oracle policy: a known-bad variant must fail before implementation proceeds.
+- Confirm `context7` outputs include version verification metadata.
 
 ## [1.6.0] - 2026-04-12
 
@@ -46,7 +55,6 @@ All notable changes to Galyarder Framework will be documented in this file.
 - All plugin configs updated to root paths (no `framework/` prefix)
 - Gemini extension paths fixed
 - FUNDING.yml removed (pending GitHub Sponsors enrollment)
-- Removed all Dashboard CI workflows (Docker, e2e, release-smoke)
 
 ### Changed
 - Separated Framework from Dashboard into independent repos
@@ -55,7 +63,9 @@ All notable changes to Galyarder Framework will be documented in this file.
 - Updated README to reflect standalone Framework positioning
 - Fixed all symlinks for Antigravity, Codex, and OpenCode
 
-... [rest of previous changelog content remains archived in git history] ...
+### Breaking Changes
+- Removed all Dashboard CI workflows (Docker, e2e, release-smoke).
+- Migrated dashboard logic to a separate repository; local hooks must be re-pointed to `@galyarderlabs/galyarder-hq`.
 
 ---
-Copyright 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
+© 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
