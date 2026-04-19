@@ -43,7 +43,7 @@ nav:
   - Welcome: index.md
   - Getting Started:
       - Quick Start Guide: QUICK_START.md
-      - HQ vs Framework: DASHBOARD_VS_FRAMEWORK.md
+      - HQ vs Framework: HQ_VS_FRAMEWORK.md
       - Unified Platform: UNIFIED_PLATFORM.md
   - Evolution (Protocols):
       - Humans 3.0 Workflow: WORKFLOW.md

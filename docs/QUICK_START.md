@@ -1,253 +1,82 @@
-# Quick Start: Unified Platform
+# Quick Start: The Galyarder Ecosystem
 
-Get Framework + Dashboard working together in 5 minutes.
+Get the Galyarder Framework (Intelligence) and Galyarder HQ (Control Plane) working together in under 5 minutes.
 
 ## Prerequisites
 
 - Node.js 20+
-- pnpm installed
-- Framework repository cloned
-
-## Step 1: Install Dependencies
-
-```bash
-cd /home/galyarder/projects/dashboard
-pnpm install
-```
-
-## Step 2: Test Framework Adapter
-
-```bash
-cd packages/adapters/galyarder-framework
-node test.js
-```
-
-Expected output:
-```
- Testing Galyarder Framework Adapter
-
- Test 1: Load single agent
- Loaded agent: galyarder-specialist
-   Role: CEO / orchestrator
-   Department: Executive
-   Skills: brainstorming, prd-to-plan, prd-to-issues...
-
- Test 2: Load all agents
- Loaded 34 agents
-   - galyarder-specialist (Executive)
-   - product-manager (Product)
-   ...
-
- All tests complete!
-```
-
-## Step 3: Start Dashboard
-
-```bash
-cd /home/galyarder/projects/dashboard
-pnpm dev
-```
-
-Dashboard will start at: http://localhost:3100
-
-## Step 4: Create Your First Company
-
-### Via Web UI:
-
-1. Open http://localhost:3100
-2. Click "Create Company"
-3. Enter goal: "Build $1M MRR SaaS in 6 months"
-4. Click "Create"
-
-### Via API:
-
-```bash
-curl -X POST http://localhost:3100/api/companies \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "My Startup",
-    "goal": "Build $1M MRR SaaS in 6 months"
-  }'
-```
-
-## Step 5: Initialize Digital Headquarters
-
-Initialize the hierarchical folder structure in your workspace:
-
-```bash
-bash scripts/scaffold-company.sh
-```
-
-## Step 5: Hire Your First Agent
-
-### Via Web UI:
-
-1. Go to company page
-2. Click "Hire Agent"
-3. Select "galyarder-specialist" from Framework agents
-4. Configure:
-   - Runtime: Claude
-   - Model: claude-sonnet-4-6
-5. Click "Hire"
-
-### Via API:
-
-```bash
-curl -X POST http://localhost:3100/api/companies/{companyId}/agents \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "galyarder-specialist",
-    "role": "CEO",
-    "adapterType": "galyarder_framework",
-    "adapterConfig": {
-      "agentName": "galyarder-specialist",
-      "runtime": "claude",
-      "model": "claude-sonnet-4-6"
-    }
-  }'
-```
-
-## Step 7: Assign a Task
-
-### Via Web UI:
-
-1. Go to company page
-2. Click "Create Task"
-3. Enter:
-   - Title: "Create product roadmap"
-   - Description: "Define Q2 2026 priorities"
-   - Assign to: galyarder-specialist
-4. Click "Create"
-
-### Via API:
-
-```bash
-curl -X POST http://localhost:3100/api/companies/{companyId}/tasks \
-  -H "Content-Type: application/json" \
-  -d '{
-    "title": "Create product roadmap",
-    "description": "Define Q2 2026 priorities",
-    "assigneeId": "{agentId}"
-  }'
-```
-
-## Step 7: Watch It Work
-
-Agent will:
-1. Pick up task on next heartbeat
-2. Load Framework skills (brainstorming, prd-to-plan, etc.)
-3. Execute via Claude
-4. Report results back
-5. Update task status
-
-Monitor in dashboard UI or via API:
-
-```bash
-curl http://localhost:3100/api/companies/{companyId}/tasks/{taskId}
-```
-
-## What's Next?
-
-### Build Your Team
-
-Hire more agents from Framework:
-
-- **elite-developer** - For implementation
-- **security-guardian** - For security review
-- **growth-strategist** - For marketing
-- **fundraising-operator** - For fundraising
-
-### Assign More Tasks
-
-Create tasks and let agents execute:
-
-- "Implement user authentication"
-- "Create pitch deck for investors"
-- "SEO audit and optimization"
-- "Security vulnerability scan"
-
-### Monitor Progress
-
-Dashboard shows:
-- Active agents
-- Task status
-- Skills being used
-- Cost tracking (coming soon)
-
-## Troubleshooting
-
-### Adapter not found
-
-Make sure you're in the dashboard directory:
-```bash
-cd /home/galyarder/projects/dashboard
-```
-
-### Can't load agents
-
-Check that agents directory exists:
-```bash
-ls ../agents/
-```
-
-### Can't load skills
-
-Check that skills directory exists:
-```bash
-ls ../skills/
-```
-
-### Dashboard won't start
-
-Install dependencies:
-```bash
-pnpm install
-```
-
-## Architecture
-
-```
-You (Founder)
-  
-Dashboard Web UI
-  
-Dashboard API
-  
-Framework Adapter
-  
-Framework Agents + Skills
-  
-Runtime (Claude/Cursor/etc.)
-```
-
-## Key Files
-
-- `dashboard/packages/adapters/` - Adapter code
-- `agents/` - Agent definitions
-- `skills/` - Skill library
-- `docs/ORG_CHART.md` - Organization structure
-- `docs/UNIFIED_PLATFORM.md` - Integration architecture
-
-## Support
-
-Issues? Check:
-- `docs/INTEGRATION.md` - Integration guide
-- `docs/DASHBOARD_VS_FRAMEWORK.md` - Concept explanation
-- `dashboard/packages/adapters/README.md` - Adapter docs
-
-## Next Steps
-
-1.  Basic integration working
-2.  Add Linear sync
-3.  Add Obsidian reports
-4.  Add cost tracking
-5.  Add org chart visualization
-6.  Add multi-company support
+- Git installed
+- A project where you want to deploy (e.g., `~/projects/my-startup`)
 
 ---
 
-**You now have a unified platform with web UI!** 
+## Phase 1: Initialize the Intelligence (Framework)
 
-Framework provides the brains (agents + skills).
-Dashboard provides the body (UI + orchestration).
-Together = Complete autonomous company platform.
+First, bootstrap your system with the global Galyarder commands.
+
+```bash
+# 1. Clone the logic library
+git clone https://github.com/galyarderlabs/galyarder-framework.git ~/galyarder-framework
+
+# 2. Setup global CLI
+cd ~/galyarder-framework
+./scripts/setup-cli.sh
+```
+
+---
+
+## Phase 2: Initialize Your Project HQ
+
+Navigate to your target project and establish its digital headquarters.
+
+```bash
+cd ~/projects/my-startup
+
+# 1. Build the Digital HQ structure
+galyarder-scaffold
+
+# 2. Deploy agents to your preferred tool (e.g., Cursor)
+galyarder-deploy --tool cursor
+```
+
+---
+
+## Phase 3: Launch the Control Plane (Galyarder HQ)
+
+If you want a visual dashboard to monitor your agents, deploy **Galyarder HQ**.
+
+```bash
+# 1. Clone the Control Plane
+git clone https://github.com/galyarderlabs/galyarder-hq.git ~/galyarder-hq
+
+# 2. Start the Dashboard
+cd ~/galyarder-hq
+npm install
+npm run dev
+```
+
+The dashboard will be available at: **http://localhost:3100**
+
+---
+
+## How to Link Them
+
+Galyarder HQ automatically discovers any project that has been initialized via `galyarder-scaffold`.
+
+1.  Open the HQ Dashboard.
+2.  Click **"Connect Project"**.
+3.  Point it to your project directory (`~/projects/my-startup`).
+4.  The dashboard will immediately index your active agents, tasks, and Obsidian reports.
+
+---
+
+## Troubleshooting
+
+### Commands not found
+Ensure `~/.local/bin` is in your PATH. Run `source ~/.zshrc` (or `.bashrc`) after running the setup script.
+
+### No agents detected
+Ensure you have run `galyarder-scaffold` inside your project directory. Galyarder HQ relies on the `docs/departments/` structure to track progress.
+
+---
+© 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
