@@ -2,8 +2,13 @@
 
 # Galyarder Framework: Company Scaffolder
 # Purpose: Initialize the hierarchical directory structure for a Digital Enterprise.
+# This script can be run from anywhere by pointing to its absolute path.
 
-echo "Initializing Galyarder Framework Digital Enterprise headquarters..."
+# Determine where the script lives to find templates
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+TEMPLATE_DIR="$SCRIPT_DIR/../docs/templates"
+
+echo "🚀 Initializing Galyarder Framework Digital Enterprise headquarters in $(pwd)..."
 
 # 1. Base Directories
 mkdir -p docs/specs
@@ -27,18 +32,19 @@ for DEPT in "${DEPARTMENTS[@]}"; do
     fi
 done
 
-# 3. Seed Templates (if available)
-if [ -d "docs/templates" ]; then
-    echo "Seeding departmental templates from docs/templates/..."
-    # Copy specific templates to their departments
-    cp docs/templates/*Founder* docs/departments/Executive/ 2>/dev/null
-    cp docs/templates/*Product* docs/departments/Product/ 2>/dev/null
-    cp docs/templates/*Engineering* docs/departments/Engineering/ 2>/dev/null
-    cp docs/templates/*Growth* docs/departments/Growth/ 2>/dev/null
-    cp docs/templates/*Security* docs/departments/Security/ 2>/dev/null
-    cp docs/templates/*Legal-Finance* docs/departments/Legal-Finance/ 2>/dev/null
-    cp docs/templates/*Knowledge* docs/departments/Knowledge/ 2>/dev/null
+# 3. Seed Templates (Logic: Look for templates relative to the script)
+if [ -d "$TEMPLATE_DIR" ]; then
+    echo "[*] Seeding departmental templates from $TEMPLATE_DIR..."
+    cp "$TEMPLATE_DIR"/*Founder* docs/departments/Executive/ 2>/dev/null || true
+    cp "$TEMPLATE_DIR"/*Product* docs/departments/Product/ 2>/dev/null || true
+    cp "$TEMPLATE_DIR"/*Engineering* docs/departments/Engineering/ 2>/dev/null || true
+    cp "$TEMPLATE_DIR"/*Growth* docs/departments/Growth/ 2>/dev/null || true
+    cp "$TEMPLATE_DIR"/*Security* docs/departments/Security/ 2>/dev/null || true
+    cp "$TEMPLATE_DIR"/*Legal-Finance* docs/departments/Legal-Finance/ 2>/dev/null || true
+    cp "$TEMPLATE_DIR"/*Knowledge* docs/departments/Knowledge/ 2>/dev/null || true
+else
+    echo "⚠️ Warning: Template source not found at $TEMPLATE_DIR. Skipping seed."
 fi
 
-echo "Company structure initialized at docs/departments/"
+echo "✅ Company structure initialized at docs/departments/"
 echo "Your Digital Headquarters is ready for Obsidian."

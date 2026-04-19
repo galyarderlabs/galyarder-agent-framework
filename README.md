@@ -104,28 +104,36 @@ Galyarder Framework is the underlying **brain** designed to power the next gener
 
 ---
 
-## Installation: The 1-Man Army Protocol
+## Installation: The Digital Company Protocol
 
-Deploying Galyarder Framework requires a two-step sequence: **Digital Company Bootstrap** and **Agent Deployment**.
+To transform any directory into a high-integrity Digital Company, follow the sequence below.
 
-### 1. Bootstrap & Initialize (Mandatory)
+### Phase 1: Bootstrap (The Intelligence Engine)
 
-Establish your Digital Headquarters by cloning the intelligence layer and initializing the 8-department memory structure required for the **Obsidian Loop**.
+First, clone the core logic library to your machine. This provides the scripts and conversion engine required to deploy the workforce.
 
 ```bash
-# Clone the repository
-git clone https://github.com/galyarderlabs/galyarder-framework.git
+git clone https://github.com/galyarderlabs/galyarder-framework.git ~/galyarder-framework
 cd galyarder-framework
-
-# Initialize digital headquarters structure
-./scripts/scaffold-company.sh
 ```
 
-### 2. Deploy Agents & Skills
+### Phase 2: Initialize Your Project (The Headquarters)
+
+Navigate to **your specific project** (e.g., `~/projects/my-app`) and use the framework to initialize its Digital Headquarters structure.
+
+```bash
+# 1. Go to your app directory
+cd ~/projects/my-app
+
+# 2. Run the scaffolder from the framework directory
+~/galyarder-framework/scripts/scaffold-company.sh
+```
+
+### Phase 3: Deploy Agents & Skills
 
 Choose the deployment path for your specific mission environment:
 
-#### A. Managed Marketplace (Cloud/CLI Orchestrators)
+#### A. Managed Marketplace (Automatic)
 *Recommended for Claude Code, Copilot CLI, or Gemini.*
 
 - **Claude Code**:
@@ -143,15 +151,15 @@ Choose the deployment path for your specific mission environment:
   ```
 
 #### B. IDE Injection & Distributed Deployment (Manual)
-*For local IDEs (Cursor, Windsurf) or remote autonomous hosts (Aider, OpenClaw, Hermes).*
+*Use this command inside your project directory to inject rules into local or remote hosts.*
 
 ```bash
-# Available tools: cursor, aider, windsurf, openclaw, hermes, antigravity
-./scripts/install.sh --tool <name>
+# Required for: Cursor, Aider, Windsurf, OpenClaw, Hermes, Antigravity
+~/galyarder-framework/scripts/install.sh --tool <name>
 ```
 
 #### C. Autonomous Directives (Codex / OpenCode)
-*For tools that can autonomously fetch logic via direct instructions.*
+*For tools that can autonomously fetch and implement logic from URLs.*
 
 - **OpenAI Codex**:
   Tell Codex: `Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.codex/INSTALL.md`
