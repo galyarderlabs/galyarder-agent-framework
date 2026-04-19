@@ -106,11 +106,26 @@ def generate():
         if target.exists(): shutil.rmtree(target)
         target.mkdir(parents=True, exist_ok=True)
 
-    # 0. Sync Core Files
+    # 0. Sync Core Files from Root and Fix Internal Links
+    print("[*] Syncing all core markdown files...")
     for f in REPO_ROOT.glob("*.md"):
-        if f.name in ["README.md", "README_GOOD.md", "README_CURRENT.md"]: continue
-        print(f"[*] Syncing: {f.name}")
-        shutil.copy(f, DOCS_DIR / f.name)
+        # Skip temporary or oversized files
+        if f.name in ["README.md", "README_GOOD.md", "README_CURRENT.md", "CONVENTIONS.md"]: continue
+        
+        with open(f, 'r', encoding='utf-8') as src:
+            content = src.read()
+        
+        # FIX: Remove "docs/" from relative links because they are now in the docs/ folder
+        content = re.sub(r'\(docs/([^)]+\.md)\)', r'(\1)', content)
+        
+        dest = DOCS_DIR / f.name
+        with open(dest, 'w', encoding='utf-8') as out:
+            out.write(content)
+        print(f"  - Synchronized and repaired: {f.name}")
+
+    # Special handling for CONVENTIONS.md (too large to re-process usually, but we sync it)
+    if (REPO_ROOT / "CONVENTIONS.md").exists():
+        shutil.copy(REPO_ROOT / "CONVENTIONS.md", DOCS_DIR / "CONVENTIONS.md")
 
     # Discovery
     silos = {}
@@ -175,7 +190,8 @@ def generate():
         
         for silo_name in sorted(inventory[category].keys()):
             info = silos[silo_name]
-            idx_content += f"## :{info['icon']}: {silo_name} Department\n\n"
+            mk_icon = f":{info['icon'].replace('/', '-')}:"
+            idx_content += f"## {mk_icon} {silo_name} Department\n\n"
             idx_content += '<div class="grid cards" markdown>\n\n'
             for title, link, desc in sorted(inventory[category][silo_name]):
                 idx_content += f"-   **[{title}]({link})**\n\n    ---\n\n    {desc}\n\n"

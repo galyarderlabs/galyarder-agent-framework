@@ -39,7 +39,7 @@ rtk npm run test:unit && rtk npm run test:contract && rtk npm run test:e2e
 - **Context Latency**: `context7` fetching adds 2-5s overhead to high-rigor tasks.
 
 #### Migration
-[View Full Migration Guide](docs/MIGRATION.md)
+[View Full Migration Guide](MIGRATION.md)
 
 ---
 © 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
