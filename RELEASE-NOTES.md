@@ -1,5 +1,22 @@
 # Release Notes - Galyarder Framework
 
+## [v1.8.8] - 2026-04-19
+### Gemini Agent Tool Mapping Fix
+This patch converts exported root/full-bundle agents to Gemini-native tool metadata so custom agents no longer ship legacy Codex-style tool arrays.
+
+#### Highlights
+- **Gemini Tool Schema**: Replaces legacy `tools: [...]` frontmatter in exported runtime agents with `allowed-tools:` lists.
+- **Root + Full Bundle Sync**: Applies the same normalization to repo root and `.marketplace/full`.
+
+#### Verification
+```bash
+python3 scripts/build_root_extension_surface.py
+python3 scripts/build_root_extension_surface.py --output-root .marketplace/full
+bash scripts/smoke.sh
+```
+
+---
+
 ## [v1.8.7] - 2026-04-19
 ### Gemini Schema + Design Skill Fix
 This patch fixes the two remaining loader issues after the root-runtime refactor: Gemini agent schema validation and missing skill frontmatter for design references.

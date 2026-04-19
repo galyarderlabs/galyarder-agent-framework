@@ -50,6 +50,14 @@ DESIGN_DIRS = [
 ]
 
 DISALLOWED_AGENT_KEYS = {"color", "emoji", "vibe"}
+TOOL_NAME_MAP = {
+    "read_file": "Read",
+    "grep_search": "Grep",
+    "glob": "Glob",
+    "run_shell_command": "Bash",
+    "write_file": "Write",
+    "replace": "Edit",
+}
 
 
 def reset_path(path: Path) -> None:
@@ -99,6 +107,37 @@ def strip_frontmatter_keys(markdown: str, disallowed_keys: set[str]) -> str:
     return "---\n" + "\n".join(kept_lines) + "\n---\n" + body
 
 
+def normalize_agent_frontmatter(markdown: str) -> str:
+    cleaned = strip_frontmatter_keys(markdown, DISALLOWED_AGENT_KEYS)
+    if not cleaned.startswith("---\n"):
+        return cleaned
+
+    end = cleaned.find("\n---\n", 4)
+    if end == -1:
+        return cleaned
+
+    frontmatter = cleaned[4:end].splitlines()
+    rewritten: list[str] = []
+    for line in frontmatter:
+        match = re.match(r"^tools:\s*\[(.*)\]\s*$", line)
+        if not match:
+            rewritten.append(line)
+            continue
+
+        raw_tools = [item.strip() for item in match.group(1).split(",") if item.strip()]
+        mapped: list[str] = []
+        for tool in raw_tools:
+            mapped_name = TOOL_NAME_MAP.get(tool)
+            if mapped_name and mapped_name not in mapped:
+                mapped.append(mapped_name)
+        rewritten.append("allowed-tools:")
+        for tool_name in mapped:
+            rewritten.append(f"  - {tool_name}")
+
+    body = cleaned[end + 5 :]
+    return "---\n" + "\n".join(rewritten) + "\n---\n" + body
+
+
 def copy_unique_agent_markdown(source_dirs: list[Path], target_dir: Path) -> None:
     seen: dict[str, Path] = {}
     target_dir.mkdir(parents=True, exist_ok=True)
@@ -110,7 +149,7 @@ def copy_unique_agent_markdown(source_dirs: list[Path], target_dir: Path) -> Non
             if src.name in seen:
                 raise SystemExit(f"Duplicate markdown asset '{src.name}': {seen[src.name]} and {src}")
             seen[src.name] = src
-            content = strip_frontmatter_keys(src.read_text(), DISALLOWED_AGENT_KEYS)
+            content = normalize_agent_frontmatter(src.read_text())
             (target_dir / src.name).write_text(content)
 
 

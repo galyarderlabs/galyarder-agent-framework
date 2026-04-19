@@ -2,6 +2,10 @@
 
 All notable changes to Galyarder Framework will be documented in this file.
 
+## [1.8.8] - 2026-04-19
+### Fixed
+- **Gemini Agent Tool Schema**: Root and full-bundle runtime agents now export Gemini-native `allowed-tools` blocks instead of legacy `tools` arrays, reducing the chance of `400 INVALID_ARGUMENT` failures when custom agents are invoked.
+
 ## [1.8.7] - 2026-04-19
 ### Fixed
 - **Gemini Agent Schema**: Root and full-bundle agent exports now strip unsupported `color`, `emoji`, and `vibe` frontmatter keys so Gemini can load executive/persona agents without validation errors.
