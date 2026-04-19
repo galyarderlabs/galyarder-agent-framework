@@ -2,6 +2,10 @@
 
 All notable changes to Galyarder Framework will be documented in this file.
 
+## [1.8.12] - 2026-04-20
+### Fixed
+- **Claude Bundle Autodiscovery**: The full Claude marketplace bundle manifest now relies on Claude Code's default `agents/`, `skills/`, and `commands/` discovery instead of explicit path override fields, avoiding the remaining `agents: Invalid input` validator failure.
+
 ## [1.8.11] - 2026-04-20
 ### Fixed
 - **Claude Bundle Manifest Shape**: The full marketplace bundle now exports `agents`, `skills`, and `commands` as string paths instead of arrays, matching the Claude Code plugin validator and fixing `agents: Invalid input` install failures.

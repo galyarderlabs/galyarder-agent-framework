@@ -1,5 +1,20 @@
 # Release Notes - Galyarder Framework
 
+## [v1.8.12] - 2026-04-20
+### Claude Bundle Autodiscovery Fix
+This patch removes the full bundle's explicit component-path overrides and lets Claude Code discover the standard root `agents/`, `skills/`, and `commands/` directories automatically.
+
+#### Highlights
+- **Minimal Claude Manifest**: `.marketplace/full/.claude-plugin/plugin.json` now contains only plugin metadata, with no explicit `agents`, `skills`, or `commands` override fields.
+- **Default Root Layout**: The bundle continues to ship `agents/`, `skills/`, and `commands/` at the plugin root, matching Claude Code's documented default plugin layout.
+
+#### Verification
+```bash
+bash scripts/smoke.sh
+```
+
+---
+
 ## [v1.8.11] - 2026-04-20
 ### Claude Bundle Manifest Shape Fix
 This patch fixes the last Claude Code marketplace schema mismatch in the all-in-one bundle manifest.
