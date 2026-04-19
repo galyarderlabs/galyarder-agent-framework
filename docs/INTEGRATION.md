@@ -2,7 +2,7 @@
 
 Galyarder Framework is a host-agnostic logic library compatible with institutional-grade AI orchestration tools.
 
-## Supported Platforms (The 12 Tools)
+## Supported Platforms (The 14 Tools)
 
 The framework is surgically converted for the following environments:
 
@@ -17,7 +17,9 @@ The framework is surgically converted for the following environments:
 9.  **OpenCode**: Specialized plugin ecosystem.
 10. **Hermes Agent**: High-integrity autonomous orchestration.
 11. **OpenClaw**: Distributed agentic logic.
-12. **Antigravity**: System-level skill injection.
+12. **Kilo Code**: Enterprise-grade coding assistant.
+13. **Augment**: Performance-optimized AI workflow.
+14. **Antigravity**: System-level skill injection.
 
 ## Command Silo Structure
 
@@ -27,18 +29,18 @@ The repository is organized into 8 departments, each acting as a self-contained 
 Silo/
 ├── agents/             # Specialized operational agents
 ├── skills/             # Strategic SOPs and task units
-├── commands/           # rapid orchestration triggers
+├── commands/           # Rapid orchestration triggers
 ├── .claude-plugin/     # Claude Code manifest
 └── gemini-extension.json # Gemini CLI manifest
 ```
 
 ## Conversion Engine
 
-To maintain parity across all 12 platforms, use the Galyarder conversion engine:
+To maintain parity across all 14 platforms, use the Galyarder conversion engine:
 
 ```bash
 # Full recursive conversion
-./scripts/convert.sh --tool all
+galyarder-deploy --tool all
 ```
 
 ---
