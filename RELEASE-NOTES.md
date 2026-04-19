@@ -1,5 +1,22 @@
 # Release Notes - Galyarder Framework
 
+## [v1.8.9] - 2026-04-20
+### Copilot Persona Identity Fix
+This patch tightens the CEO persona instructions for hosts like GitHub Copilot CLI that tend to reassert their platform identity.
+
+#### Highlights
+- **Identity Contract**: `galyarder-ceo` now explicitly answers as the Galyarder CEO persona running inside the active host runtime.
+- **Deflation Guard**: Blocks fallback answers like "I'm just Copilot" unless the user is explicitly asking about the host/platform distinction.
+
+#### Verification
+```bash
+python3 scripts/build_root_extension_surface.py
+python3 scripts/build_root_extension_surface.py --output-root .marketplace/full
+bash scripts/smoke.sh
+```
+
+---
+
 ## [v1.8.8] - 2026-04-19
 ### Gemini Agent Tool Mapping Fix
 This patch converts exported root/full-bundle agents to Gemini-native tool metadata so custom agents no longer ship legacy Codex-style tool arrays.
