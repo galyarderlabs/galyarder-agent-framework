@@ -17,7 +17,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -273,7 +275,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -831,7 +835,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -963,7 +969,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -1698,7 +1706,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -1803,7 +1813,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -1868,7 +1880,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2202,7 +2216,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2344,7 +2360,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2654,7 +2672,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2727,7 +2747,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2761,7 +2783,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2795,7 +2819,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2829,7 +2855,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2863,7 +2891,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2897,7 +2927,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2931,7 +2963,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2965,7 +2999,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -2999,7 +3035,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -3723,7 +3761,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -3954,7 +3994,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -4116,7 +4158,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -4312,7 +4356,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -4438,7 +4484,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -4579,7 +4627,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -4751,7 +4801,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -4980,7 +5032,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -5143,7 +5197,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -5298,7 +5354,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -5428,7 +5486,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -5585,7 +5645,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -5811,7 +5873,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -6055,7 +6119,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -6202,7 +6268,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -6524,7 +6592,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -6851,7 +6921,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7253,7 +7325,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7405,7 +7479,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7575,7 +7651,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7609,7 +7687,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7691,7 +7771,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7815,7 +7897,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -7926,7 +8010,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8043,7 +8129,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8157,7 +8245,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8225,7 +8315,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8305,7 +8397,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8500,7 +8594,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8581,7 +8677,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8711,7 +8809,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8779,7 +8879,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8857,7 +8959,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -8945,7 +9049,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -9012,7 +9118,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -9082,7 +9190,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -9172,7 +9282,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -9341,7 +9453,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10023,7 +10137,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10094,7 +10210,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10151,7 +10269,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10276,7 +10396,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10366,7 +10488,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10423,7 +10547,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10457,7 +10583,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10530,7 +10658,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10564,7 +10694,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10598,7 +10730,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -10632,7 +10766,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -24840,7 +24976,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -25093,7 +25231,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -25493,7 +25633,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -25741,7 +25883,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -26508,7 +26652,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -26592,7 +26738,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -26982,7 +27130,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -27247,7 +27397,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -27727,7 +27879,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -28044,7 +28198,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -28286,7 +28442,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -28560,7 +28718,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -29011,7 +29171,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -29356,7 +29518,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -29940,7 +30104,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -30292,7 +30458,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -30915,7 +31083,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -30986,7 +31156,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -31344,7 +31516,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -31836,7 +32010,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -32663,7 +32839,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -32736,7 +32914,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -32793,7 +32973,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -32827,7 +33009,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -32861,7 +33045,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -32895,7 +33081,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -33113,7 +33301,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -33385,7 +33575,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -33451,7 +33643,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -33523,7 +33717,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -33747,7 +33943,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -34022,7 +34220,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -34550,7 +34750,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -34687,7 +34889,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -34910,7 +35114,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -34969,7 +35175,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -35032,7 +35240,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -35066,7 +35276,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -35100,7 +35312,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -35395,7 +35609,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -35857,7 +36073,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -36174,7 +36392,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -36925,7 +37145,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -37110,7 +37332,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -37167,7 +37391,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -37751,7 +37977,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -38958,7 +39186,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -39054,7 +39284,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -39593,7 +39825,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -39773,7 +40007,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -39854,7 +40090,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40003,7 +40241,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40074,7 +40314,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40108,7 +40350,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40142,7 +40386,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40176,7 +40422,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40210,7 +40458,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40498,7 +40748,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40599,7 +40851,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40718,7 +40972,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40854,7 +41110,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -40969,7 +41227,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -41074,7 +41334,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -41256,7 +41518,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -41316,7 +41580,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -41413,7 +41679,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -41517,7 +41785,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -42088,7 +42358,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -42122,7 +42394,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -42491,7 +42765,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -42731,7 +43007,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -42924,7 +43202,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -43127,7 +43407,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -43291,7 +43573,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -43487,7 +43771,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -43643,7 +43929,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -43848,7 +44136,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -44153,7 +44443,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -44305,7 +44597,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -44449,7 +44743,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -44591,7 +44887,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -44841,7 +45139,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -45161,7 +45461,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -45461,7 +45763,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 
@@ -45792,7 +46096,9 @@ No cognitive labor occurs outside of a defined mode. You must operate within the
 ### 2. Cognitive & Technical Integrity (The Karpathy Principles)
 Combat slop through rigid adherence to deterministic execution:
 - **Think Before Coding**: MANDATORY `sequentialthinking` MCP loop to assess risk and deconstruct the task before any tool execution.
-- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code. You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
+- **Check the Map First**: Before performing any high-volume search (`grep_search` or `glob`), you MUST read `docs/graph.json` or the relevant department map in `docs/departments/Knowledge/World-Map/` to understand existing dependencies and "God Nodes".
+- **Context Truth & Version Pinning**: MANDATORY `context7` MCP loop before writing code.
+ You must verify the framework/library version metadata (e.g., via `package.json`) before trusting documentation. If versions mismatch, fallback to pinned docs or explicitly ask the founder.
 - **Simplicity First**: Implement the minimum code required. Zero speculative abstractions. If 200 lines could be 50, rewrite it.
 - **Surgical Changes**: Touch ONLY what is necessary. Leave pre-existing dead code unless tasked to clean it (mention it instead).
 

@@ -1,0 +1,15 @@
+---
+node_type: documentation
+silo: docs
+source_path: docs/commands/finops.md
+---
+
+# :material-folder-zip: Finops
+
+## Links Out
+
+## Linked From
+- [[Galyarder-Framework:-Commands]]
+
+---
+[View Original Source](../../../../docs/commands/finops.md)

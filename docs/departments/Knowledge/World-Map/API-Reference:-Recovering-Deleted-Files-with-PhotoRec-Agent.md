@@ -1,0 +1,14 @@
+---
+node_type: documentation
+silo: docs
+source_path: docs/skills/recovering-deleted-files-with-photorec/references/api-reference.md
+---
+
+# API Reference: Recovering Deleted Files with PhotoRec Agent
+
+## Links Out
+
+## Linked From
+
+---
+[View Original Source](../../../../docs/skills/recovering-deleted-files-with-photorec/references/api-reference.md)
