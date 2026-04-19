@@ -108,16 +108,20 @@ Galyarder Framework is the underlying **brain** designed to power the next gener
 
 Deploying Galyarder Framework requires a two-step process: **Infrastructure Initialization** and **Agent Deployment**.
 
-### Step 0: Initialize Digital Headquarters (Mandatory)
+### 1. Bootstrap & Initialize (Mandatory)
 
-Before deploying agents, you must establish the "Memory" of your enterprise. This creates the 8-department hierarchy required for the **Obsidian Loop** and persistent reporting.
+Establish your Digital Headquarters by cloning the repository and initializing the 8-department memory structure required for the **Obsidian Loop**.
 
 ```bash
-# Execute in your project root
+# 1. Clone the intelligence layer
+git clone https://github.com/galyarderlabs/galyarder-framework.git
+cd galyarder-framework
+
+# 2. Initialize departmental infrastructure
 ./scripts/scaffold-company.sh
 ```
 
-### Step 1: Deploy Agents & Skills
+### 2. Deploy Agents & Skills
 
 Choose the deployment path for your specific environment:
 
@@ -138,17 +142,23 @@ Choose the deployment path for your specific environment:
   gemini extensions install https://github.com/galyarderlabs/galyarder-framework
   ```
 
-#### B. Direct Installation (Local/VPS)
-*For specialized IDEs, Distributed hosts, and Autonomous Plugins.*
+#### B. IDE & Distributed Deployment
+*Inject Galyarder rules directly into your local or remote development environment.*
 
-- **IDE Support**: Inject Galyarder rules directly into **Cursor** or **Windsurf**.
-- **Distributed Hosts**: Deploy workforce to **OpenClaw**, **Hermes**, or **Aider**.
-- **Autonomous Plugins**: Native integration for **OpenCode** or **OpenAI Codex**.
-
-**Universal Deployment Command:**
+**Command:**
 ```bash
-./scripts/install.sh --tool <cursor|aider|windsurf|openclaw|hermes|opencode|codex>
+# Available tools: cursor, aider, windsurf, openclaw, hermes, antigravity
+./scripts/install.sh --tool <name>
 ```
+
+#### C. Autonomous Directives (Codex / OpenCode)
+*For tools that can autonomously fetch and implement logic from URLs.*
+
+- **OpenAI Codex**:
+  Tell Codex: `Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.codex/INSTALL.md`
+
+- **OpenCode**:
+  Tell OpenCode: `Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.opencode/INSTALL.md`
 
 ---
 
