@@ -1,10 +1,11 @@
 # Quick Start: The Galyarder Ecosystem
 
-Get the Galyarder Framework (Intelligence) and Galyarder HQ (Control Plane) working together in under 5 minutes.
+Get the Galyarder Framework (Intelligence), Galyarder HQ (Control Plane), and Galyarder Agent (Presence) working together in under 10 minutes.
 
 ## Prerequisites
 
-- Node.js 20+
+- Python 3.11+ (for Agent)
+- Node.js 20+ (for HQ/Dashboard)
 - Git installed
 - A project where you want to deploy (e.g., `~/projects/my-startup`)
 
@@ -12,7 +13,7 @@ Get the Galyarder Framework (Intelligence) and Galyarder HQ (Control Plane) work
 
 ## Phase 1: Initialize the Intelligence (Framework)
 
-First, bootstrap your system with the global Galyarder commands.
+Bootstrap your system with the global Galyarder commands.
 
 ```bash
 # 1. Clone the logic library
@@ -25,9 +26,24 @@ cd ~/galyarder-framework
 
 ---
 
-## Phase 2: Initialize Your Project HQ
+## Phase 2: Establish the Presence (Galyarder Agent)
 
-Navigate to your target project and establish its digital headquarters.
+Deploy your physical assistant runtime.
+
+```bash
+# 1. Install via one-liner (Debian/Ubuntu example)
+curl -fsSL https://raw.githubusercontent.com/galyarderlabs/galyarder-agent/main/deploy/debian/install.sh | bash
+
+# 2. Initialize
+g-agent onboard
+g-agent gateway
+```
+
+---
+
+## Phase 3: Initialize Your Project HQ
+
+établissement of your specific project's digital headquarters.
 
 ```bash
 cd ~/projects/my-startup
@@ -35,15 +51,15 @@ cd ~/projects/my-startup
 # 1. Build the Digital HQ structure
 galyarder-scaffold
 
-# 2. Deploy agents to your preferred tool (e.g., Cursor)
-galyarder-deploy --tool cursor
+# 2. Inject Intelligence into your Agent
+galyarder-deploy --tool galyarder-agent
 ```
 
 ---
 
-## Phase 3: Launch the Control Plane (Galyarder HQ)
+## Phase 4: Launch the Control Plane (Galyarder HQ)
 
-If you want a visual dashboard to monitor your agents, deploy **Galyarder HQ**.
+Deploy the governance dashboard to monitor your empire.
 
 ```bash
 # 1. Clone the Control Plane
@@ -59,14 +75,16 @@ The dashboard will be available at: **http://localhost:3100**
 
 ---
 
-## How to Link Them
+## How to Link the Triad
 
-Galyarder HQ automatically discovers any project that has been initialized via `galyarder-scaffold`.
+1.  **Galyarder Agent** talks to you on WhatsApp/Telegram.
+2.  **Galyarder Framework** provides the SOPs when the Agent performs tasks.
+3.  **Galyarder HQ** discovers the project and shows you the visual status.
 
-1.  Open the HQ Dashboard.
-2.  Click **"Connect Project"**.
-3.  Point it to your project directory (`~/projects/my-startup`).
-4.  The dashboard will immediately index your active agents, tasks, and Obsidian reports.
+To connect a project in the dashboard:
+1. Open http://localhost:3100
+2. Click **"Connect Project"**.
+3. Point it to your project directory (`~/projects/my-startup`).
 
 ---
 
@@ -76,7 +94,7 @@ Galyarder HQ automatically discovers any project that has been initialized via `
 Ensure `~/.local/bin` is in your PATH. Run `source ~/.zshrc` (or `.bashrc`) after running the setup script.
 
 ### No agents detected
-Ensure you have run `galyarder-scaffold` inside your project directory. Galyarder HQ relies on the `docs/departments/` structure to track progress.
+Ensure you have run `galyarder-scaffold` inside your project directory. Both Agent and HQ rely on the `docs/departments/` structure.
 
 ---
 © 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.

@@ -43,7 +43,7 @@ nav:
   - Welcome: index.md
   - Getting Started:
       - Quick Start Guide: QUICK_START.md
-      - HQ vs Framework: HQ_VS_FRAMEWORK.md
+      - Ecosystem Triad: TRIAD_OVERVIEW.md
       - Unified Platform: UNIFIED_PLATFORM.md
   - Evolution (Protocols):
       - Humans 3.0 Workflow: WORKFLOW.md
@@ -65,6 +65,7 @@ nav:
       - Platform Specifics:
           - Claude Code: CLAUDE.md
           - Gemini CLI: GEMINI.md
+          - Galyarder Agent: https://github.com/galyarderlabs/galyarder-agent/blob/main/README.md
           - OpenAI Codex: README.codex.md
           - OpenCode: README.opencode.md
           - Integration Checklist: INTEGRATION_COMPLETE.md
@@ -75,7 +76,11 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
