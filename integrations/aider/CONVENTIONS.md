@@ -33616,16 +33616,44 @@ Maintain the `03 - Activity Log.md`. For every major milestone or session end, a
 - Initialize the `00 - Dashboard.base`.
 
 ### Phase: Technical Mapping
+- Run `/graph` to rebuild the **Galyarder Neural Link** and synchronize the **Obsidian World Map**.
 - Generate `01 - Architecture.canvas` for database schemas or state machines.
 - Use `obsidian-markdown` to ensure all notes follow Galyarder Framework's aesthetic standards.
 
 ## 3. FINAL VERIFICATION
-1. Is the visual map updated to reflect the current state?
-2. Are all technical decisions documented in the Knowledge Base?
-3. Is the Activity Log updated with the latest session progress?
+1. Is the **Galyarder Neural Link** rebuilt and synchronized via `/graph`?
+2. Is the visual map updated to reflect the current state?
+3. Are all technical decisions documented in the Knowledge Base?
+4. Is the Activity Log updated with the latest session progress?
 If YES, sync the changes and notify the Master Orchestrator.
 
  2026 Galyarder Labs. Galyarder Framework.
+
+---
+
+## graph
+> Rebuild the Galyarder Knowledge Graph and Obsidian World Map. Essential for structural RAG and multi-platform synchronization.
+
+
+# Graph Command
+
+This command invokes the **obsidian-architect** to perform a repository-wide deep scan and rebuild the neural links between agents, skills, and documentation.
+
+## Objectives
+
+- **Deep Scan**: Recursively maps dependencies across all 8 Department Silos.
+- **Obsidian Sync**: Generates the high-fidelity `World-Map` with interconnected [[wikilinks]].
+- **Mermaid Generation**: Updates the high-level orchestration map in the documentation portal.
+- **RAG Optimization**: Exports `graph.json` to reduce token consumption for future missions.
+
+## Example Usage
+
+```text
+User: /graph Rebuild the neural map for the current project.
+Agent: [Scanning 8 Silos] -> [Generating [[wikilinks]]] -> [Exporting graph.json] -> Done.
+```
+
+**Protocol**: Mandatory execution after major architectural changes or repository restructuring.
 
 ---
 

@@ -62,13 +62,15 @@ Maintain the `03 - Activity Log.md`. For every major milestone or session end, a
 - Initialize the `00 - Dashboard.base`.
 
 ### Phase: Technical Mapping
+- Run `/graph` to rebuild the **Galyarder Neural Link** and synchronize the **Obsidian World Map**.
 - Generate `01 - Architecture.canvas` for database schemas or state machines.
 - Use `obsidian-markdown` to ensure all notes follow Galyarder Framework's aesthetic standards.
 
 ## 3. FINAL VERIFICATION
-1. Is the visual map updated to reflect the current state?
-2. Are all technical decisions documented in the Knowledge Base?
-3. Is the Activity Log updated with the latest session progress?
+1. Is the **Galyarder Neural Link** rebuilt and synchronized via `/graph`?
+2. Is the visual map updated to reflect the current state?
+3. Are all technical decisions documented in the Knowledge Base?
+4. Is the Activity Log updated with the latest session progress?
 If YES, sync the changes and notify the Master Orchestrator.
 
 ---
