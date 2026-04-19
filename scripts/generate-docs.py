@@ -109,8 +109,8 @@ def generate():
     # 0. Sync Core Files from Root and Fix Internal Links
     print("[*] Syncing all core markdown files...")
     for f in REPO_ROOT.glob("*.md"):
-        # Skip temporary or oversized files
-        if f.name in ["README.md", "README_GOOD.md", "README_CURRENT.md", "CONVENTIONS.md"]: continue
+        # Skip temporary, oversized, or platform-specific raw instructions
+        if f.name in ["README.md", "README_GOOD.md", "README_CURRENT.md", "CONVENTIONS.md", "CLAUDE.md", "GEMINI.md"]: continue
         
         with open(f, 'r', encoding='utf-8') as src:
             content = src.read()

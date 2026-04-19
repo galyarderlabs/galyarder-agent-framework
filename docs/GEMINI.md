@@ -1,46 +1,39 @@
-# Galyarder Framework: Executive Operating Loops
-# BOOTSTRAP: Load full company context
-@AGENTS.md
-@CLAUDE.md
+# Gemini CLI: Implementation Protocol
 
-##  SYSTEM BOOTLOADER
-- **Adapter**: @./skills/using-galyarder-framework/SKILL.md
-- **Shield**: Use the `rtk` prefix for **true shell/bash commands only**.
-- **Integrity**: Adhere to the **Karpathy Principles** (Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution).
-- **Native Tools**: ALWAYS use native tools (`read_file`, `replace`).
+This guide defines the high-integrity integration of Galyarder Framework within the **Gemini CLI** (Google) environment.
 
-- **Surgical Execution**: **DILARANG** menggunakan `rtk cat` atau `write_file` untuk mengedit file yang sudah ada. Gunakan `replace` untuk perubahan spesifik. Baca file secara bertahap menggunakan `start_line` dan `end_line` pada `read_file` untuk efisiensi context.
+## 1. Installation
 
-##  HOST-SPECIFIC REQUIREMENTS
-### Antigravity (Google)
-- **Sandbox**: Must be set to **OFF**. 
-- **Reason**: Galyarder Framework requires access to the `rtk` binary (Homebrew) and local symlinked workforce folders which are restricted by the sandbox environment.
+Install the full framework directly from the official repository:
 
-##  EXECUTIVE COMMANDS
-- /analytics: Design tracking schemas and KPIs.
-- /brainstorm: Socratic design refinement.
-- /build-fix: Systematically fix build/type errors.
-- /clean: Dead code cleanup and consolidation.
-- /cro: Conversion Rate Optimization.
-- /cybersecurity: Advanced offensive security audit.
-- /deploy: Infrastructure and CI/CD automation.
-- /docs: Documentation and codemap specialist.
-- /e2e: Playwright user journey testing.
-- /finops: Cloud cost and API optimization.
-- /legal: TOS/Privacy and license audit.
-- /linear: PRD to Linear ticket mapping.
-- /marketing: Growth, SEO, and Copywriting.
-- /plan: Vertical Slice (Tracer Bullet) planning.
-- /release: SemVer and changelog management.
-- /review: Principal-level code review.
-- /seo: Technical SEO and Schema markup.
-- /tdd: Strict Test-Driven Development.
-- /triage: Root cause analysis and fix planning.
-- /video: Remotion programmatic video.
+```bash
+gemini extensions install https://github.com/galyarderlabs/galyarder-framework
+```
 
-##  REPORTING STANDARDS
-- **Linear**: Task status & issue tracking.
-- **Obsidian**: Strategic memory & Department Reports.
+## 2. Mandatory Protocols
+
+Gemini CLI operates as a high-fidelity instance of the **Humans 3.0** protocol. The environment is configured to enforce:
+
+- **Token Economy**: Mandatory use of the `rtk` prefix for terminal efficiency.
+- **Cognitive Integrity**: Recursive internal reasoning via `sequentialthinking`.
+- **Validation**: Real-time context retrieval via `context7` for documentation accuracy.
+- **Traceability**: Hard link between AI session state and Linear project roadmap.
+
+## 3. Host Requirements
+
+To maintain peak performance and avoid sandbox restrictions, the following host configuration is required:
+
+- **Sandbox**: **OFF**
+- **Reason**: Access to the `rtk` binary and departmental local storage requires privileged file-system interaction.
+
+## 4. Operational Commands
+
+Gemini CLI provides native support for the Galyarder workforce commands:
+
+- `/tdd`: Trigger the Engineering Test-Driven Development loop.
+- `/plan`: Initiate PRD and architecture blueprinting.
+- `/marketing`: Launch growth, SEO, and conversion optimization swarms.
+- `/review`: Invoke the principal-level code reviewer.
 
 ---
- 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
+© 2026 Galyarder Labs. Galyarder Framework.
