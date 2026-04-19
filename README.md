@@ -130,7 +130,7 @@ Navigate to **your specific project** (e.g., `~/projects/my-app`) and deploy the
 galyarder-scaffold
 
 # 2. Deploy Agents to your mission environment
-# Available: cursor, aider, windsurf, openclaw, hermes, antigravity
+# Available: cursor, aider, windsurf, openclaw, hermes, antigravity, galyarder-agent
 galyarder-deploy --tool <name>
 ```
 

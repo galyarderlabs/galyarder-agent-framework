@@ -52,7 +52,7 @@ done
 info "Running Galyarder Framework conversion engine..."
 "${SCRIPT_DIR}/convert.sh" --tool "$TOOL"
 
-TOOLS="antigravity cursor aider kilocode windsurf opencode augment claude-code codex gemini openclaw hermes"
+TOOLS="antigravity cursor aider kilocode windsurf opencode augment claude-code codex gemini openclaw hermes galyarder-agent"
 [[ "$TOOL" != "all" ]] && TOOLS="$TOOL"
 
 for t in $TOOLS; do
@@ -76,6 +76,17 @@ for t in $TOOLS; do
                 cp -R "$item" "${DEST}/"
             done
             ok "Linked skills to Antigravity global directory." ;;
+        galyarder-agent)
+            DEST="${HOME}/.g-agent/skills"
+            mkdir -p "$DEST"
+            # Surgical overwrite to prevent dir-vs-file conflicts
+            for item in "${SRC_DIR}/skills/"*; do
+                [ -e "$item" ] || continue
+                name=$(basename "$item")
+                rm -rf "${DEST}/${name}"
+                cp -R "$item" "${DEST}/"
+            done
+            ok "Installed Galyarder Agent skills to ${DEST}." ;;
         cursor)
             if [ -n "$TARGET_DIR" ]; then
                 mkdir -p "${TARGET_DIR}/.cursor/rules"
