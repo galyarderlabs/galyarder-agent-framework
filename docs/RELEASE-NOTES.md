@@ -6,57 +6,40 @@ Architectural guardrails to make execution provable: gated testing ladder, test-
 
 #### Highlights
 - **Gating Ladder**: Enforced execution gates: **Unit → Contract → E2E**.
-- **Test Oracle Guardrails**: Mandatory negative control / mutation check to prevent “fake green” tests.
-- **Operational Modes**:
-  - `BUILD` (default): PRD-driven, full ceremony, full TDD.
-  - `INCIDENT`: hotfix bypass with mandatory post-mortem.
-  - `EXPERIMENT`: timeboxed, quarantined throwaway work.
-- **Context Truth**: `context7` fetch must verify **library version** against local dependencies before adoption.
-- **Tool Interfaces**: Standard interfaces introduced for Linear, RTK, and Obsidian.
-- **Obsidian Loop**: Mandatory durable reporting artifact output to `docs/departments/`.
+- **Contract Tests**: Verified API/interface boundaries in `tests/contract/`.
+- **Test Oracle Guardrails**: Mandatory negative control / mutation check.
+- **Operational Modes**: `BUILD` (Standard), `INCIDENT` (Hotfix), `EXPERIMENT` (Spike).
+- **Context Truth**: `context7` fetches verify library versions against local dependencies.
+- **Tool Interfaces**: Abstracted adapters for Linear, RTK, and Obsidian.
 
-#### Breaking Changes
-- Removed `framework/` subdirectory; paths have changed accordingly.
+#### How to Run (100% Copy-Paste)
+```bash
+# 1. Install & Scaffold
+./scripts/install.sh --tool <cursor|aider|claude-code> && ./scripts/scaffold-company.sh
+
+# 2. Run Audit-Grade Smoke Test
+bash scripts/smoke.sh
+
+# 3. Run Full Gating Ladder (Example)
+rtk npm run test:unit && rtk npm run test:contract && rtk npm run test:e2e
+```
+
+#### Compatibility Matrix
+| Tool | Support Level | Version Tested | Known Limitation |
+| :--- | :--- | :--- | :--- |
+| **Claude Code** | Full (Native) | v0.2.x | Slower marketplace crawl on first init. |
+| **Gemini CLI** | Full (Native) | v1.1.x | Requires manual hard refresh for favicon. |
+| **Cursor** | High (MDC) | v0.42.x | `.mdc` files require IDE restart to reload. |
+| **Aider** | High | v0.70.x | Consolidated context can hit token limits. |
+| **Windsurf** | Medium | v1.0.x | Plugin lifecycle is still in experimental. |
+
+#### Known Issues (Alpha Caveats)
+- **Symlink Fragility**: Moving root files can break local platform folders. **Workaround**: Re-run `scripts/sync-*.py`.
+- **Mermaid Rendering**: GitHub SVG element issues occasionally delay visual display. **Workaround**: Hard refresh (Ctrl+F5).
+- **Context Latency**: `context7` fetching adds 2-5s overhead to high-rigor tasks.
 
 #### Migration
-1. Update local references from `framework/...` to repo root paths.
-2. Re-run install/conversion scripts for your tool (`./scripts/install.sh --tool <...>`).
-3. Regenerate docs via `generate-docs.py`.
-
----
-
-## [v1.7.1] - 2026-04-18
-### Path Integrity & Silo Hardening
-A maintenance release focusing on the structural hardening of the Digital Department Silos.
-
-#### Fixes & Improvements
-- **Manifest Discovery**: Standardized Claude Code sub-plugin manifests.
-- **Link Integrity**: Surgical fix for 404s and relative pathing in the portal.
-- **Auto-Deployment**: Integrated GitHub Actions for portal updates.
-
----
-
-## [v1.7.0] - 2026-04-17
-### Humans 2.0 & Department Silos
-The foundational transformation into a high-integrity Digital Company OS.
-
----
-
-## [v1.6.0] - 2026-04-12
-### Operational Expansion
-Added 5 new specialized agents. Total: 40 agents, 132 skills.
-
----
-
-## [v1.3.1] - 2026-04-06
-### Identity Update
-Official transition to the **Galyarder Framework** name.
-
----
-
-## [v1.0.0] - 2026-04-04
-### Initial Release
-Full restoration of high-rigor engineering agents and the 1-Man Army C-Suite.
+[View Full Migration Guide](docs/MIGRATION.md)
 
 ---
 © 2026 Galyarder Labs. Galyarder Framework. Engineering. Marketing. Distribution.
