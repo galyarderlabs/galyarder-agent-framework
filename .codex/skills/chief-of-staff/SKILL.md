@@ -1,1 +1,0 @@
-/home/galyarder/projects/galyarder-framework/agents/chief-of-staff.md

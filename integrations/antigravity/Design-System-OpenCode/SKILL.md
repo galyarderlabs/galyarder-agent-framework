@@ -3,7 +3,7 @@ name: "Design System: OpenCode"
 description: "Documentation and rules for Design System: OpenCode"
 risk: low
 source: internal
-date_added: '2026-04-18'
+date_added: '2026-04-19'
 ---
 # Design System: OpenCode
 

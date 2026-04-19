@@ -3,7 +3,7 @@ name: "Design System: SpaceX"
 description: "Documentation and rules for Design System: SpaceX"
 risk: low
 source: internal
-date_added: '2026-04-18'
+date_added: '2026-04-19'
 ---
 # Design System: SpaceX
 

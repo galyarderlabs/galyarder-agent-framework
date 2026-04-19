@@ -1,1 +1,0 @@
-/home/galyarder/projects/galyarder-framework/design/design-md-composio.md

@@ -4,7 +4,7 @@ This directory contains converted Galyarder Framework assets for **Claude Code**
 
 ## Included Assets
 
-- **199** assets.
+- **201** assets.
 
 ## Format
 

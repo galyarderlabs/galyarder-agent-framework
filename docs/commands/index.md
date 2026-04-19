@@ -30,6 +30,18 @@ Discover the high-integrity workforce and protocols designed for autonomous orch
 
     End-to-end testing specialist using Playwright. Generates and runs user journey tests.
 
+-   **[/experiment](experiment.md)**
+
+    ---
+
+    EXPERIMENT MODE: Timeboxed, throwaway code for rapid validation. Bypasses TDD requirements. Code must be quarantined and cannot be merged to main.
+
+-   **[/incident](incident.md)**
+
+    ---
+
+    INCIDENT MODE: Bypass standard PRD/Planning phase for emergency hotfixes. Requires immediate execution, a post-mortem ticket, and a patch release note.
+
 -   **[/review](review.md)**
 
     ---
