@@ -1,7 +1,10 @@
 {
   "name": "galyarder-framework",
-  "description": "Galyarder Framework: Advanced Digital Enterprise OS (Humans 3.0 Edition)",
-  "version": "1.7.1",
+  "description": "Humans 3.0 Protocol: Advanced Agentic Orchestration for the 1-Man Army. Implementing Autonomous Goal Integration (AGI) to power self-evolving digital enterprises.",
+  "version": "1.8.0-alpha",
+  "author": "Galyarder Labs",
+  "homepage": "https://galyarderlabs.github.io/galyarder-framework/",
+  "repository": "https://github.com/galyarderlabs/galyarder-framework",
   "contextFileName": "GEMINI.md",
   "personas": [
     "./Executive/personas/"
