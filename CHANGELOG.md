@@ -2,6 +2,14 @@
 
 All notable changes to Galyarder Framework will be documented in this file.
 
+## [1.8.1] - 2026-04-19
+### Fixed
+- **Legacy Path Purge**: Surgically removed all hardcoded references to `.agents/`, `.claude/`, and `.gemini/` hidden directories inside logic files.
+- **Dependency Re-routing**: Updated agent memory logic to use the new `docs/departments/` structure for `founder-context.md` and `product-marketing-context.md`.
+- **OpenCode Plugin Integrity**: Fixed Silo path resolution and internal tool mapping for the OpenCode environment.
+- **Hidden Directory Eradication**: Permanently deleted `.autoresearch`, `.claude`, `.gemini`, `.github`, and `.agents` legacy folders.
+- **Asset Re-generation**: 207 assets across 14 platforms re-synced to ensure consistent path logic system-wide.
+
 ## [1.8.0] - 2026-04-19
 ### Summary
 Architectural guardrails to make execution provable: gated testing ladder, test-oracle defenses, operational modes, context version-truth, and tool interface boundaries.

@@ -1,5 +1,18 @@
 # Release Notes - Galyarder Framework
 
+## [v1.8.1] - 2026-04-19
+### Final Audit & Path Hardening
+A critical patch following the Humans 3.0 deep audit to ensure 100% logic integrity across all 14 platforms.
+
+#### Fixes & Improvements
+- **Global Path Eradication**: Removed all legacy hardcoded references to `.agents/`, `.claude/`, and `framework/` subdirectories inside agent logic files.
+- **Strategic Re-Routing**: Re-pointed all memory dependencies (Founder Context, Product Context) to the new high-integrity `docs/departments/` structure.
+- **Conversion Consistency**: Re-generated all 207 assets across 14 tools to ensure zero "ghost directory" instructions.
+- **OpenCode Repair**: Fixed Silo discovery and tool mapping in the OpenCode native plugin.
+- **Clean Registry**: Permanently purged all low-value hidden directories (`.autoresearch`, `.agents`).
+
+---
+
 ## [v1.8.0] - 2026-04-19
 ### Summary
 Architectural guardrails to make execution provable: gated testing ladder, test-oracle defenses, operational modes, context version-truth, and tool interface boundaries.
