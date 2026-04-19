@@ -104,61 +104,50 @@ Galyarder Framework is the underlying **brain** designed to power the next gener
 
 ---
 
-## Installation
+## Installation: The Digital Company Setup
 
-Galyarder Framework is a multi-platform agent logic library. Follow the protocol for your specific environment.
+Deploying Galyarder Framework requires a two-step process: **Infrastructure Initialization** and **Agent Deployment**.
 
-### 1. Claude Code / Copilot CLI (Marketplace)
+### Step 0: Initialize Digital Headquarters (Mandatory)
 
-Register the Galyarder Labs marketplace:
-
-```bash
-/plugin marketplace add galyarderlabs/galyarder-framework
-```
-
-Install the Humans 3.0 Departments:
+Before deploying agents, you must establish the "Memory" of your enterprise. This creates the 8-department hierarchy required for the **Obsidian Loop** and persistent reporting.
 
 ```bash
-/plugin install executive-dept@galyarderlabs-marketplace    # Personas & Orchestration
-/plugin install engineering-dept@galyarderlabs-marketplace  # TDD, Arch, & Testing
-/plugin install growth-dept@galyarderlabs-marketplace       # Marketing, SEO, & Design
-/plugin install security-dept@galyarderlabs-marketplace     # Offensive/Defensive Audits
-```
-
-### 2. Gemini CLI (Official Extension)
-
-Install the full framework directly from the repository:
-
-```bash
-gemini extensions install https://github.com/galyarderlabs/galyarder-framework
-```
-
-### 3. OpenAI Codex (Direct Instructions)
-
-Tell Codex:
-
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.codex/INSTALL.md
-```
-
-### 4. OpenCode (Direct Instructions)
-
-Tell OpenCode:
-
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/galyarderlabs/galyarder-framework/main/.opencode/INSTALL.md
-```
-
-### 5. Cross-Platform Engine (Cursor, Aider, Windsurf, OpenClaw, Hermes)
-
-For local/VPS deployments or tools without a central marketplace, use the conversion engine:
-
-```bash
-# 1. Initialize digital headquarters structure
+# Execute in your project root
 ./scripts/scaffold-company.sh
+```
 
-# 2. Convert and install for your specific tool
-./scripts/install.sh --tool <cursor|aider|windsurf|openclaw|hermes|antigravity>
+### Step 1: Deploy Agents & Skills
+
+Choose the deployment path for your specific environment:
+
+#### A. Managed Marketplace (Recommended)
+*For rapid integration with official AI orchestration tools.*
+
+- **Claude Code / Copilot CLI**:
+  ```bash
+  /plugin marketplace add galyarderlabs/galyarder-framework
+  /plugin install executive-dept@galyarderlabs-marketplace
+  /plugin install engineering-dept@galyarderlabs-marketplace
+  /plugin install growth-dept@galyarderlabs-marketplace
+  /plugin install security-dept@galyarderlabs-marketplace
+  ```
+
+- **Gemini CLI (Official Extension)**:
+  ```bash
+  gemini extensions install https://github.com/galyarderlabs/galyarder-framework
+  ```
+
+#### B. Direct Installation (Local/VPS)
+*For specialized IDEs, Distributed hosts, and Autonomous Plugins.*
+
+- **IDE Support**: Inject Galyarder rules directly into **Cursor** or **Windsurf**.
+- **Distributed Hosts**: Deploy workforce to **OpenClaw**, **Hermes**, or **Aider**.
+- **Autonomous Plugins**: Native integration for **OpenCode** or **OpenAI Codex**.
+
+**Universal Deployment Command:**
+```bash
+./scripts/install.sh --tool <cursor|aider|windsurf|openclaw|hermes|opencode|codex>
 ```
 
 ---
